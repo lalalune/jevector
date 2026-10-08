@@ -1,0 +1,823 @@
+{
+  "schema_version": "reciprocal-1.1",
+  "schema_hash": "ee2ce4f8319c227937a131ab2dbec9b28baed4d8e7fabf98ca38cd908f197789",
+  "dimensions": 64,
+  "provider": "clef",
+  "models": [
+    "clef-flash"
+  ],
+  "dimension_ids": [
+    "self.intent.friendship",
+    "self.intent.casual_dating",
+    "self.intent.serious_dating",
+    "self.intent.creative_collaboration",
+    "self.activity.hiking",
+    "self.activity.board_games",
+    "self.activity.cooking",
+    "self.activity.live_music",
+    "self.style.early_meetings",
+    "self.style.advance_plans",
+    "self.style.quiet_places",
+    "self.style.alcohol_free",
+    "self.style.smoke_free",
+    "self.style.low_cost",
+    "self.style.weekly_contact",
+    "self.style.pet_friendly",
+    "prefer.intent.friendship",
+    "prefer.intent.casual_dating",
+    "prefer.intent.serious_dating",
+    "prefer.intent.creative_collaboration",
+    "prefer.activity.hiking",
+    "prefer.activity.board_games",
+    "prefer.activity.cooking",
+    "prefer.activity.live_music",
+    "prefer.style.early_meetings",
+    "prefer.style.advance_plans",
+    "prefer.style.quiet_places",
+    "prefer.style.alcohol_free",
+    "prefer.style.smoke_free",
+    "prefer.style.low_cost",
+    "prefer.style.weekly_contact",
+    "prefer.style.pet_friendly",
+    "require.intent.friendship",
+    "require.intent.casual_dating",
+    "require.intent.serious_dating",
+    "require.intent.creative_collaboration",
+    "require.activity.hiking",
+    "require.activity.board_games",
+    "require.activity.cooking",
+    "require.activity.live_music",
+    "require.style.early_meetings",
+    "require.style.advance_plans",
+    "require.style.quiet_places",
+    "require.style.alcohol_free",
+    "require.style.smoke_free",
+    "require.style.low_cost",
+    "require.style.weekly_contact",
+    "require.style.pet_friendly",
+    "exclude.intent.friendship",
+    "exclude.intent.casual_dating",
+    "exclude.intent.serious_dating",
+    "exclude.intent.creative_collaboration",
+    "exclude.activity.hiking",
+    "exclude.activity.board_games",
+    "exclude.activity.cooking",
+    "exclude.activity.live_music",
+    "exclude.style.early_meetings",
+    "exclude.style.advance_plans",
+    "exclude.style.quiet_places",
+    "exclude.style.alcohol_free",
+    "exclude.style.smoke_free",
+    "exclude.style.low_cost",
+    "exclude.style.weekly_contact",
+    "exclude.style.pet_friendly"
+  ],
+  "values": [
+    0.0166511531699245,
+    0.9794944675667445,
+    0.014728366119661605,
+    0.0277262420119563,
+    0.020545860389610385,
+    0.01835095567303782,
+    0.025888637764536676,
+    0.9672106068332483,
+    0.9790482954545454,
+    0.034931789995866054,
+    0.04400661909194333,
+    0.9214785423410253,
+    0.9811732467268852,
+    0.13429776268009838,
+    0.9746369400695438,
+    0.9864851133014938,
+    0.0443,
+    0.7023,
+    0.0155,
+    0.0121,
+    0.0133,
+    0.7242,
+    0.8967,
+    0.0339,
+    0.0208,
+    0.0114,
+    0.0211,
+    0.7028,
+    0.0699,
+    0.0149,
+    0.1083,
+    0.8936,
+    0.0109,
+    0.9704,
+    0.0129,
+    0.013,
+    0.0117,
+    0.0197,
+    0.9094,
+    0.0255,
+    0.0166,
+    0.0064,
+    0.0737,
+    0.0469,
+    0.1473,
+    0.0304,
+    0.3007,
+    0.9728,
+    0.1391,
+    0.1019,
+    0.3143,
+    0.0683,
+    0.0384,
+    0.0218,
+    0.1542,
+    0.9681,
+    0.0115,
+    0.0748,
+    0.9758,
+    0.0294,
+    0.0604,
+    0.0423,
+    0.0357,
+    0.0637
+  ],
+  "known": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "answers": {
+    "self.intent.friendship": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0103,
+        "no": 0.945,
+        "mixed": 0.0116,
+        "unknown": 0.0331
+      },
+      "confidence": 0.8591
+    },
+    "self.intent.casual_dating": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9604,
+        "no": 0.0157,
+        "mixed": 0.009,
+        "unknown": 0.0149
+      },
+      "confidence": 0.8972
+    },
+    "self.intent.serious_dating": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0071,
+        "no": 0.9593,
+        "mixed": 0.0147,
+        "unknown": 0.0189
+      },
+      "confidence": 0.8945
+    },
+    "self.intent.creative_collaboration": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.008,
+        "no": 0.9244,
+        "mixed": 0.0378,
+        "unknown": 0.0298
+      },
+      "confidence": 0.8092
+    },
+    "self.activity.hiking": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0078,
+        "no": 0.9529,
+        "mixed": 0.0249,
+        "unknown": 0.0144
+      },
+      "confidence": 0.8785
+    },
+    "self.activity.board_games": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0059,
+        "no": 0.9534,
+        "mixed": 0.0243,
+        "unknown": 0.0164
+      },
+      "confidence": 0.8797
+    },
+    "self.activity.cooking": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0068,
+        "no": 0.9298,
+        "mixed": 0.0368,
+        "unknown": 0.0266
+      },
+      "confidence": 0.8221
+    },
+    "self.activity.live_music": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9393,
+        "no": 0.0231,
+        "mixed": 0.0181,
+        "unknown": 0.0195
+      },
+      "confidence": 0.8447
+    },
+    "self.style.early_meetings": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9595,
+        "no": 0.0152,
+        "mixed": 0.0109,
+        "unknown": 0.0144
+      },
+      "confidence": 0.895
+    },
+    "self.style.advance_plans": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0124,
+        "no": 0.9124,
+        "mixed": 0.0428,
+        "unknown": 0.0324
+      },
+      "confidence": 0.7807
+    },
+    "self.style.quiet_places": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0155,
+        "no": 0.8973,
+        "mixed": 0.0541,
+        "unknown": 0.0331
+      },
+      "confidence": 0.746
+    },
+    "self.style.alcohol_free": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.864,
+        "no": 0.0567,
+        "mixed": 0.037,
+        "unknown": 0.0423
+      },
+      "confidence": 0.6706
+    },
+    "self.style.smoke_free": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9626,
+        "no": 0.0144,
+        "mixed": 0.0083,
+        "unknown": 0.0147
+      },
+      "confidence": 0.9029
+    },
+    "self.style.low_cost": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0218,
+        "no": 0.6462,
+        "mixed": 0.1857,
+        "unknown": 0.1463
+      },
+      "confidence": 0.2986
+    },
+    "self.style.weekly_contact": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9467,
+        "no": 0.0185,
+        "mixed": 0.0126,
+        "unknown": 0.0222
+      },
+      "confidence": 0.8629
+    },
+    "self.style.pet_friendly": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9675,
+        "no": 0.01,
+        "mixed": 0.0066,
+        "unknown": 0.0159
+      },
+      "confidence": 0.9153
+    },
+    "prefer.intent.friendship": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0443,
+        "no": 0.9557
+      },
+      "confidence": 0.8308
+    },
+    "prefer.intent.casual_dating": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.7023,
+        "no": 0.2977
+      },
+      "confidence": 0.1637
+    },
+    "prefer.intent.serious_dating": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0155,
+        "no": 0.9845
+      },
+      "confidence": 0.939
+    },
+    "prefer.intent.creative_collaboration": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0121,
+        "no": 0.9879
+      },
+      "confidence": 0.9523
+    },
+    "prefer.activity.hiking": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0133,
+        "no": 0.9867
+      },
+      "confidence": 0.9474
+    },
+    "prefer.activity.board_games": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.7242,
+        "no": 0.2758
+      },
+      "confidence": 0.2011
+    },
+    "prefer.activity.cooking": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.8967,
+        "no": 0.1033
+      },
+      "confidence": 0.6295
+    },
+    "prefer.activity.live_music": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0339,
+        "no": 0.9661
+      },
+      "confidence": 0.8689
+    },
+    "prefer.style.early_meetings": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0208,
+        "no": 0.9792
+      },
+      "confidence": 0.9185
+    },
+    "prefer.style.advance_plans": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0114,
+        "no": 0.9886
+      },
+      "confidence": 0.9551
+    },
+    "prefer.style.quiet_places": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0211,
+        "no": 0.9789
+      },
+      "confidence": 0.9173
+    },
+    "prefer.style.alcohol_free": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.7028,
+        "no": 0.2972
+      },
+      "confidence": 0.1644
+    },
+    "prefer.style.smoke_free": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0699,
+        "no": 0.9301
+      },
+      "confidence": 0.7401
+    },
+    "prefer.style.low_cost": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0149,
+        "no": 0.9851
+      },
+      "confidence": 0.9413
+    },
+    "prefer.style.weekly_contact": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.1083,
+        "no": 0.8917
+      },
+      "confidence": 0.6136
+    },
+    "prefer.style.pet_friendly": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.8936,
+        "no": 0.1064
+      },
+      "confidence": 0.6197
+    },
+    "require.intent.friendship": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0109,
+        "no": 0.9891
+      },
+      "confidence": 0.9567
+    },
+    "require.intent.casual_dating": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9704,
+        "no": 0.0296
+      },
+      "confidence": 0.885
+    },
+    "require.intent.serious_dating": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0129,
+        "no": 0.9871
+      },
+      "confidence": 0.949
+    },
+    "require.intent.creative_collaboration": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.013,
+        "no": 0.987
+      },
+      "confidence": 0.9486
+    },
+    "require.activity.hiking": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0117,
+        "no": 0.9883
+      },
+      "confidence": 0.9537
+    },
+    "require.activity.board_games": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0197,
+        "no": 0.9803
+      },
+      "confidence": 0.9229
+    },
+    "require.activity.cooking": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9094,
+        "no": 0.0906
+      },
+      "confidence": 0.6705
+    },
+    "require.activity.live_music": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0255,
+        "no": 0.9745
+      },
+      "confidence": 0.9006
+    },
+    "require.style.early_meetings": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0166,
+        "no": 0.9834
+      },
+      "confidence": 0.9345
+    },
+    "require.style.advance_plans": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0064,
+        "no": 0.9936
+      },
+      "confidence": 0.9745
+    },
+    "require.style.quiet_places": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0737,
+        "no": 0.9263
+      },
+      "confidence": 0.7268
+    },
+    "require.style.alcohol_free": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0469,
+        "no": 0.9531
+      },
+      "confidence": 0.8212
+    },
+    "require.style.smoke_free": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.1473,
+        "no": 0.8527
+      },
+      "confidence": 0.4977
+    },
+    "require.style.low_cost": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0304,
+        "no": 0.9696
+      },
+      "confidence": 0.882
+    },
+    "require.style.weekly_contact": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.3007,
+        "no": 0.6993
+      },
+      "confidence": 0.1588
+    },
+    "require.style.pet_friendly": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9728,
+        "no": 0.0272
+      },
+      "confidence": 0.8943
+    },
+    "exclude.intent.friendship": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.1391,
+        "no": 0.8609
+      },
+      "confidence": 0.521
+    },
+    "exclude.intent.casual_dating": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.1019,
+        "no": 0.8981
+      },
+      "confidence": 0.6339
+    },
+    "exclude.intent.serious_dating": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.3143,
+        "no": 0.6857
+      },
+      "confidence": 0.1379
+    },
+    "exclude.intent.creative_collaboration": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0683,
+        "no": 0.9317
+      },
+      "confidence": 0.7453
+    },
+    "exclude.activity.hiking": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0384,
+        "no": 0.9616
+      },
+      "confidence": 0.8524
+    },
+    "exclude.activity.board_games": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0218,
+        "no": 0.9782
+      },
+      "confidence": 0.9148
+    },
+    "exclude.activity.cooking": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.1542,
+        "no": 0.8458
+      },
+      "confidence": 0.4782
+    },
+    "exclude.activity.live_music": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9681,
+        "no": 0.0319
+      },
+      "confidence": 0.8765
+    },
+    "exclude.style.early_meetings": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0115,
+        "no": 0.9885
+      },
+      "confidence": 0.9546
+    },
+    "exclude.style.advance_plans": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0748,
+        "no": 0.9252
+      },
+      "confidence": 0.7231
+    },
+    "exclude.style.quiet_places": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9758,
+        "no": 0.0242
+      },
+      "confidence": 0.9055
+    },
+    "exclude.style.alcohol_free": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0294,
+        "no": 0.9706
+      },
+      "confidence": 0.8857
+    },
+    "exclude.style.smoke_free": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0604,
+        "no": 0.9396
+      },
+      "confidence": 0.7729
+    },
+    "exclude.style.low_cost": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0423,
+        "no": 0.9577
+      },
+      "confidence": 0.838
+    },
+    "exclude.style.weekly_contact": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0357,
+        "no": 0.9643
+      },
+      "confidence": 0.8622
+    },
+    "exclude.style.pet_friendly": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0637,
+        "no": 0.9363
+      },
+      "confidence": 0.7614
+    }
+  },
+  "input_tokens": 10571,
+  "request_seconds": 0.8726627079886384,
+  "request_hashes": [
+    "3137cd949f513cef86d1c8bd0f989318f46f57d4f5c682c466f7c866e9f90c61"
+  ],
+  "input_hash": "4af0e913a816101ed6dbd944c6cc8d1cf04f6207e5cd6532ae1171ee7348fb4b"
+}

@@ -1,0 +1,3997 @@
+{
+  "schema_version": "jevector-2.0",
+  "provider": "clef",
+  "models": [
+    "clef-flash"
+  ],
+  "dimension_ids": [
+    "trait.sociability",
+    "trait.assertiveness",
+    "trait.expressiveness",
+    "trait.warmth",
+    "trait.humor",
+    "trait.leadership",
+    "trait.social_confidence",
+    "trait.attention_seeking",
+    "trait.empathy",
+    "trait.compassion",
+    "trait.generosity",
+    "trait.trust",
+    "trait.cooperativeness",
+    "trait.forgiveness",
+    "trait.humility",
+    "trait.politeness",
+    "trait.organization",
+    "trait.reliability",
+    "trait.self_discipline",
+    "trait.diligence",
+    "trait.planning",
+    "trait.punctuality",
+    "trait.attention_to_detail",
+    "trait.persistence",
+    "trait.curiosity",
+    "trait.creativity",
+    "trait.imagination",
+    "trait.open_mindedness",
+    "trait.aesthetic_appreciation",
+    "trait.intellectual_engagement",
+    "trait.experimentation",
+    "trait.reflectiveness",
+    "trait.emotional_stability",
+    "trait.patience",
+    "trait.resilience",
+    "trait.optimism",
+    "trait.self_confidence",
+    "trait.stress_tolerance",
+    "trait.impulse_control",
+    "trait.adaptability",
+    "trait.ambition",
+    "trait.initiative",
+    "trait.competitiveness",
+    "trait.decisiveness",
+    "trait.independence",
+    "trait.risk_tolerance",
+    "trait.energy",
+    "trait.adventurousness",
+    "trait.honesty",
+    "trait.fairness",
+    "trait.integrity",
+    "trait.accountability",
+    "trait.loyalty",
+    "trait.respect_for_boundaries",
+    "trait.civic_mindedness",
+    "trait.environmental_care",
+    "trait.flexibility",
+    "trait.spontaneity",
+    "trait.practicality",
+    "trait.analytical_thinking",
+    "trait.cautiousness",
+    "trait.frugality",
+    "trait.order_preference",
+    "trait.conflict_tolerance",
+    "interest.walking",
+    "interest.hiking",
+    "interest.backpacking",
+    "interest.trail_running",
+    "interest.road_cycling",
+    "interest.mountain_biking",
+    "interest.bike_touring",
+    "interest.indoor_cycling",
+    "interest.running",
+    "interest.strength_training",
+    "interest.yoga",
+    "interest.pilates",
+    "interest.meditation",
+    "interest.stretching",
+    "interest.tai_chi",
+    "interest.aerobics",
+    "interest.swimming",
+    "interest.surfing",
+    "interest.kayaking",
+    "interest.paddleboarding",
+    "interest.sailing",
+    "interest.scuba_diving",
+    "interest.snorkeling",
+    "interest.fishing",
+    "interest.tennis",
+    "interest.pickleball",
+    "interest.badminton",
+    "interest.table_tennis",
+    "interest.basketball",
+    "interest.soccer",
+    "interest.volleyball",
+    "interest.baseball",
+    "interest.golf",
+    "interest.bowling",
+    "interest.martial_arts",
+    "interest.boxing",
+    "interest.rock_climbing",
+    "interest.skiing",
+    "interest.snowboarding",
+    "interest.camping",
+    "interest.social_dancing",
+    "interest.ballroom_dancing",
+    "interest.hip_hop_dancing",
+    "interest.ballet",
+    "interest.singing",
+    "interest.guitar",
+    "interest.piano",
+    "interest.music_production",
+    "interest.live_music",
+    "interest.music_discovery",
+    "interest.vinyl_collecting",
+    "interest.djing",
+    "interest.drawing",
+    "interest.painting",
+    "interest.digital_art",
+    "interest.sculpture",
+    "interest.knitting",
+    "interest.sewing",
+    "interest.embroidery",
+    "interest.crochet",
+    "interest.pottery",
+    "interest.woodworking",
+    "interest.jewelry_making",
+    "interest.model_building",
+    "interest.photography",
+    "interest.videography",
+    "interest.podcasting",
+    "interest.animation",
+    "interest.creative_writing",
+    "interest.poetry",
+    "interest.journaling",
+    "interest.blogging",
+    "interest.fiction_reading",
+    "interest.nonfiction_reading",
+    "interest.comics",
+    "interest.book_clubs",
+    "interest.movies",
+    "interest.television_series",
+    "interest.anime",
+    "interest.documentaries",
+    "interest.video_games",
+    "interest.board_games",
+    "interest.card_games",
+    "interest.tabletop_roleplaying",
+    "interest.chess",
+    "interest.jigsaw_puzzles",
+    "interest.crosswords",
+    "interest.escape_rooms",
+    "interest.cooking",
+    "interest.baking",
+    "interest.grilling",
+    "interest.food_exploration",
+    "interest.coffee",
+    "interest.tea",
+    "interest.wine_tasting",
+    "interest.homebrewing",
+    "interest.gardening",
+    "interest.houseplants",
+    "interest.birdwatching",
+    "interest.nature_identification",
+    "interest.dog_activities",
+    "interest.cat_care",
+    "interest.horse_riding",
+    "interest.animal_volunteering",
+    "interest.museums",
+    "interest.theater",
+    "interest.standup_comedy",
+    "interest.local_history",
+    "interest.international_travel",
+    "interest.road_trips",
+    "interest.language_learning",
+    "interest.cultural_festivals",
+    "interest.science",
+    "interest.astronomy",
+    "interest.philosophy",
+    "interest.history",
+    "interest.programming",
+    "interest.electronics",
+    "interest.robotics",
+    "interest.three_d_printing",
+    "interest.volunteering",
+    "interest.community_organizing",
+    "interest.environmental_projects",
+    "interest.mentoring",
+    "interest.home_improvement",
+    "interest.interior_design",
+    "interest.antiquing",
+    "interest.collecting",
+    "relationship.platonic_friendship",
+    "relationship.activity_partners",
+    "relationship.local_community",
+    "relationship.professional_networking",
+    "relationship.creative_collaboration",
+    "relationship.travel_companions",
+    "relationship.casual_dating",
+    "relationship.serious_dating",
+    "relationship.casual_intimacy",
+    "relationship.romance_without_sex",
+    "relationship.marriage_goal",
+    "relationship.cohabitation_goal",
+    "relationship.monogamy",
+    "relationship.consensual_nonmonogamy",
+    "relationship.slow_pace",
+    "relationship.quick_meeting",
+    "relationship.long_distance",
+    "relationship.local_only",
+    "relationship.frequent_contact",
+    "relationship.autonomy",
+    "relationship.emotional_intimacy",
+    "relationship.shared_activities",
+    "relationship.shared_values",
+    "relationship.complementary_strengths",
+    "relationship.future_parenthood",
+    "relationship.childfree_future",
+    "relationship.open_to_parents",
+    "relationship.blended_family",
+    "relationship.public_first_meeting",
+    "relationship.video_before_meeting",
+    "relationship.online_friendship",
+    "relationship.not_dating",
+    "lifestyle.early_schedule",
+    "lifestyle.late_schedule",
+    "lifestyle.quiet_home",
+    "lifestyle.hosting",
+    "lifestyle.urban_living",
+    "lifestyle.rural_living",
+    "lifestyle.frequent_travel",
+    "lifestyle.rooted_location",
+    "lifestyle.active_routine",
+    "lifestyle.slow_routine",
+    "lifestyle.structured_schedule",
+    "lifestyle.flexible_schedule",
+    "lifestyle.budget_conscious",
+    "lifestyle.premium_experiences",
+    "lifestyle.minimalist_home",
+    "lifestyle.pet_friendly",
+    "lifestyle.smoke_free",
+    "lifestyle.alcohol_free",
+    "lifestyle.plant_based_food",
+    "lifestyle.food_adventure",
+    "lifestyle.digital_balance",
+    "lifestyle.remote_work",
+    "lifestyle.career_focus",
+    "lifestyle.work_life_balance",
+    "lifestyle.family_time",
+    "lifestyle.community_time",
+    "lifestyle.sustainability",
+    "lifestyle.accessibility",
+    "lifestyle.direct_communication",
+    "lifestyle.text_communication",
+    "lifestyle.voice_communication",
+    "lifestyle.advance_planning"
+  ],
+  "values": [
+    0.1449436459518147,
+    0.3954316623821766,
+    0.08774344855715305,
+    0.2589883876730683,
+    0.07942335243553009,
+    0.185854675402025,
+    0.19735996572774983,
+    0.09006629958422294,
+    0.24694420477423062,
+    0.24989442567567569,
+    0.28615929635963844,
+    0.21179401993355482,
+    0.4379490926805505,
+    0.3452194357366771,
+    0.6979166666666667,
+    0.5565812192854296,
+    0.8819647328881469,
+    0.8830662393162393,
+    0.8276030899793276,
+    0.9029445249430759,
+    0.9508429819215926,
+    0.8919129500268673,
+    0.9625177520795294,
+    0.658976452974003,
+    0.7196015633481706,
+    0.5950867052023122,
+    0.4549043522916934,
+    0.5515421180632323,
+    0.7608173076923077,
+    0.9162452265455671,
+    0.7065057326180709,
+    0.6992775079947886,
+    0.8156508039982616,
+    0.6868564283612827,
+    0.5296993842810576,
+    0.36394407652685795,
+    0.5302754024144869,
+    0.6839393939393938,
+    0.8399606299212599,
+    0.43739605607032545,
+    0.6023186140419434,
+    0.52742023825825,
+    0.2640023337222871,
+    0.4742434356920338,
+    0.8432062102740441,
+    0.23035622096024783,
+    0.42704022988505747,
+    0.18596833658642375,
+    0.8593310848791456,
+    0.6781073446327683,
+    0.8172428330522765,
+    0.8605263157894736,
+    0.48521773871354373,
+    0.6245344050186238,
+    0.3916888781196995,
+    0.43718949609652236,
+    0.44382832427636687,
+    0.1311060899505057,
+    0.8296393099843178,
+    0.9533773489080752,
+    0.8558272792387189,
+    0.3033101045296167,
+    0.869001230516817,
+    0.7053925243654279,
+    0.0055072756669361355,
+    0.004136400322841001,
+    0.003895972475207448,
+    0.004462927274571458,
+    0.5039414414414415,
+    0.2097902097902098,
+    0.224290780141844,
+    0.5745389344262295,
+    0.2978154257690593,
+    0.38703339882121807,
+    0.1583224967490247,
+    0.18901795142555436,
+    0.0981416957026713,
+    0.31537102473498235,
+    0.05951954105414128,
+    0.24475104979004197,
+    0.1982638888888889,
+    0.01187590887057683,
+    0.05068952664927321,
+    0.03814553990610329,
+    0.045372050816696916,
+    0.0252694165737644,
+    0.03962001853568119,
+    0.02944046844502277,
+    0.07267884322678841,
+    0.07161345987920621,
+    0.05808823529411765,
+    0.08140120967741936,
+    0.019028718188185856,
+    0.021182700794351278,
+    0.028414298808432624,
+    0.02678260869565217,
+    0.032931354359925794,
+    0.021119182136131284,
+    0.052362204724409445,
+    0.012925170068027212,
+    0.040777439024390245,
+    0.025616698292220116,
+    0.017880794701986752,
+    0.05686730961090788,
+    0.07175925925925927,
+    0.06586365966171194,
+    0.09489633173843699,
+    0.028424153166421207,
+    0.05186053325520071,
+    0.03916768665850673,
+    0.04712041884816754,
+    0.17620481927710843,
+    0.16817063166529944,
+    0.1978984238178634,
+    0.0686402081977879,
+    0.10832072617246595,
+    0.32401315789473684,
+    0.09680908599242834,
+    0.6754944686557156,
+    0.03972567287784679,
+    0.02593524049041182,
+    0.0314676296105236,
+    0.024811639386853726,
+    0.015692381408720653,
+    0.044900386559619386,
+    0.03632478632478632,
+    0.026308796173266008,
+    0.1475040916530278,
+    0.9921367694805195,
+    0.9956307754118119,
+    0.9950724054706357,
+    0.9904088844018173,
+    0.11831103678929765,
+    0.12453874538745388,
+    0.1015406162464986,
+    0.2091179385530228,
+    0.28097982708933716,
+    0.4479452054794521,
+    0.10996749729144094,
+    0.16536661466458658,
+    0.3306818181818182,
+    0.3161634103019538,
+    0.3686471009305655,
+    0.4801699716713881,
+    0.13113994439295645,
+    0.2051212938005391,
+    0.06982758620689657,
+    0.03366583541147132,
+    0.15848670756646216,
+    0.5555717195228397,
+    0.6014550264550265,
+    0.19224211423699916,
+    0.10872954014029619,
+    0.04479258605472197,
+    0.02762532016099524,
+    0.12709832134292565,
+    0.27198124267291907,
+    0.1800595238095238,
+    0.054293971924029724,
+    0.06540697674418605,
+    0.07505470459518598,
+    0.13811922753988246,
+    0.04220112878399179,
+    0.044733581164807926,
+    0.1050394656952034,
+    0.13269927536231885,
+    0.06869948567229979,
+    0.07831325301204821,
+    0.37653157398680487,
+    0.09551543389633083,
+    0.01592205323193916,
+    0.1087450312322544,
+    0.21012171684817424,
+    0.12553331145388907,
+    0.13489871086556168,
+    0.18602091359383596,
+    0.7929447852760736,
+    0.311046511627907,
+    0.26376440460947503,
+    0.2754683840749414,
+    0.17114978902953587,
+    0.2053985660059047,
+    0.082741328875888,
+    0.08663922155688622,
+    0.2480294272201787,
+    0.04078174423859014,
+    0.13511378002528443,
+    0.14313648807195933,
+    0.1839336301092675,
+    0.13926856298485407,
+    0.030630865484880084,
+    0.10218835482610394,
+    0.9826192400970089,
+    0.07482993197278912,
+    0.09514925373134328,
+    0.14797979797979796,
+    0.013002969181939182,
+    0.1481741573033708,
+    0.888974914834314,
+    0.19695355773327655,
+    0.9618146874367792,
+    0.2105359765051395,
+    0.45318595578673604,
+    0.2181724845995893,
+    0.009819883993080288,
+    0.5645000711136396,
+    0.28171896316507505,
+    0.014113349568297543,
+    0.9780791190864601,
+    0.0636697247706422,
+    0.2467105263157895,
+    0.5523234540797659,
+    0.006907059421025902,
+    0.3808467741935484,
+    0.3799126637554585,
+    0.1670984455958549,
+    0.9896485558473036,
+    0.043101442531409954,
+    0.46969696969696967,
+    0.45862068965517244,
+    0.013079418227477243,
+    0.16559485530546625,
+    0.4805489260143198,
+    0.390910879401928,
+    0.9889416279539487,
+    0.031389870435806835,
+    0.4755271084337349,
+    0.25837988826815644,
+    0.007179957225786741,
+    0.1746002906976744,
+    0.11512491559756922,
+    0.39177215189873416,
+    0.940314620604565,
+    0.22955486542443065,
+    0.634515570934256,
+    0.08750521485189822,
+    0.04364950901046725,
+    0.16737774860518545,
+    0.3496376811594203,
+    0.2934131736526946,
+    0.9892369883779686,
+    0.3752577319587629,
+    0.2859712230215828,
+    0.15017985611510792,
+    0.04121787352031567,
+    0.4848591549295774,
+    0.3808888888888889,
+    0.473728813559322,
+    0.986250126377515,
+    0.18553374563054587,
+    0.36228679722046747,
+    0.3407202216066482,
+    0.03655268517525994,
+    0.2972972972972973,
+    0.35004965243296926,
+    0.5984786184210527
+  ],
+  "evidence": [
+    0.9671,
+    0.9336,
+    0.9807,
+    0.4478,
+    0.5584,
+    0.8395,
+    0.9337,
+    0.8899,
+    0.6954,
+    0.2368,
+    0.4093,
+    0.9632000000000001,
+    0.8210999999999999,
+    0.19140000000000001,
+    0.8688,
+    0.7529,
+    0.9584,
+    0.9359999999999999,
+    0.9191,
+    0.9662,
+    0.9846,
+    0.9305,
+    0.9858,
+    0.7347,
+    0.9211,
+    0.865,
+    0.7789,
+    0.9046,
+    0.9359999999999999,
+    0.9689,
+    0.9507,
+    0.8443,
+    0.9204,
+    0.6798,
+    0.5522,
+    0.6795,
+    0.7952,
+    0.7424999999999999,
+    0.762,
+    0.8418,
+    0.7677,
+    0.7303,
+    0.5999,
+    0.8988,
+    0.9597,
+    0.9685,
+    0.87,
+    0.9222,
+    0.8895,
+    0.354,
+    0.8302,
+    0.95,
+    0.5005999999999999,
+    0.5101,
+    0.41269999999999996,
+    0.28180000000000005,
+    0.9017,
+    0.9294,
+    0.9565,
+    0.9845,
+    0.9773,
+    0.861,
+    0.9752,
+    0.9337,
+    0.9896,
+    0.9912,
+    0.9882,
+    0.9859,
+    0.08879999999999999,
+    0.05720000000000003,
+    0.056400000000000006,
+    0.19520000000000004,
+    0.4486,
+    0.2036,
+    0.15380000000000005,
+    0.1894,
+    0.08609999999999995,
+    0.11319999999999997,
+    0.27890000000000004,
+    0.33340000000000003,
+    0.14400000000000002,
+    0.41259999999999997,
+    0.2683,
+    0.25560000000000005,
+    0.22040000000000004,
+    0.2691,
+    0.2158,
+    0.3074,
+    0.26280000000000003,
+    0.2318,
+    0.272,
+    0.19840000000000002,
+    0.4283,
+    0.3399,
+    0.32730000000000004,
+    0.2875,
+    0.3234,
+    0.37170000000000003,
+    0.254,
+    0.5145,
+    0.39359999999999995,
+    0.4216,
+    0.45299999999999996,
+    0.6013999999999999,
+    0.19440000000000002,
+    0.19509999999999997,
+    0.3135,
+    0.3395,
+    0.3413,
+    0.3268,
+    0.22919999999999996,
+    0.26559999999999995,
+    0.12190000000000001,
+    0.11419999999999997,
+    0.15369999999999995,
+    0.3305,
+    0.3648,
+    0.3698,
+    0.5966,
+    0.38639999999999997,
+    0.3181,
+    0.3877,
+    0.3849,
+    0.4174,
+    0.3363,
+    0.351,
+    0.37629999999999997,
+    0.24439999999999995,
+    0.9856,
+    0.9956,
+    0.9944,
+    0.9905,
+    0.11960000000000004,
+    0.054200000000000026,
+    0.07140000000000002,
+    0.10089999999999999,
+    0.03469999999999995,
+    0.03649999999999998,
+    0.09230000000000005,
+    0.06410000000000005,
+    0.04400000000000004,
+    0.05630000000000002,
+    0.13970000000000005,
+    0.1059,
+    0.1079,
+    0.1855,
+    0.17400000000000004,
+    0.28069999999999995,
+    0.14669999999999997,
+    0.3437,
+    0.378,
+    0.23460000000000003,
+    0.12829999999999997,
+    0.22660000000000002,
+    0.2733,
+    0.1251,
+    0.08530000000000004,
+    0.1008,
+    0.24219999999999997,
+    0.24080000000000001,
+    0.22850000000000004,
+    0.11909999999999998,
+    0.38980000000000004,
+    0.40349999999999997,
+    0.16469999999999996,
+    0.11040000000000005,
+    0.2722,
+    0.16600000000000004,
+    0.10609999999999997,
+    0.17169999999999996,
+    0.42079999999999995,
+    0.17610000000000003,
+    0.15610000000000002,
+    0.30469999999999997,
+    0.10860000000000003,
+    0.18169999999999997,
+    0.45640000000000003,
+    0.13759999999999994,
+    0.23429999999999995,
+    0.17079999999999995,
+    0.1896,
+    0.23709999999999998,
+    0.23929999999999996,
+    0.2672,
+    0.19030000000000002,
+    0.4426,
+    0.3164,
+    0.25570000000000004,
+    0.2471,
+    0.27070000000000005,
+    0.38360000000000005,
+    0.2559,
+    0.9896,
+    0.7644,
+    0.16080000000000005,
+    0.09899999999999998,
+    0.9767,
+    0.07120000000000004,
+    0.9687,
+    0.46940000000000004,
+    0.9886,
+    0.2724,
+    0.15380000000000005,
+    0.09740000000000004,
+    0.9827,
+    0.7031000000000001,
+    0.07330000000000003,
+    0.9034,
+    0.9808,
+    0.5449999999999999,
+    0.16720000000000002,
+    0.2733,
+    0.9845,
+    0.248,
+    0.09160000000000001,
+    0.07720000000000005,
+    0.9902,
+    0.8596,
+    0.03300000000000003,
+    0.05800000000000005,
+    0.9557,
+    0.09330000000000005,
+    0.41900000000000004,
+    0.5083,
+    0.9902,
+    0.849,
+    0.13280000000000003,
+    0.0716,
+    0.9819,
+    0.2752,
+    0.1481,
+    0.15800000000000003,
+    0.9726,
+    0.38639999999999997,
+    0.3468,
+    0.4794,
+    0.9267,
+    0.30469999999999997,
+    0.138,
+    0.033399999999999985,
+    0.9895,
+    0.04849999999999999,
+    0.027800000000000047,
+    0.05559999999999998,
+    0.9377,
+    0.14200000000000002,
+    0.11250000000000004,
+    0.29500000000000004,
+    0.9891,
+    0.3719,
+    0.1583,
+    0.07220000000000004,
+    0.9329,
+    0.09989999999999999,
+    0.20140000000000002,
+    0.24319999999999997
+  ],
+  "mask": [
+    true,
+    true,
+    true,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    true,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    false,
+    false,
+    true,
+    false,
+    true,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    true,
+    false,
+    true,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    true,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    true,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+  ],
+  "answers": {
+    "trait.sociability": {
+      "type": "choice",
+      "choice": "low",
+      "probabilities": {
+        "low": 0.4631,
+        "somewhat_low": 0.4601,
+        "mixed": 0.0348,
+        "somewhat_high": 0.0054,
+        "high": 0.0037,
+        "unknown": 0.0329
+      },
+      "confidence": 0.3142
+    },
+    "trait.assertiveness": {
+      "type": "choice",
+      "choice": "mixed",
+      "probabilities": {
+        "low": 0.1714,
+        "somewhat_low": 0.2309,
+        "mixed": 0.4016,
+        "somewhat_high": 0.0762,
+        "high": 0.0535,
+        "unknown": 0.0664
+      },
+      "confidence": 0.1085
+    },
+    "trait.expressiveness": {
+      "type": "choice",
+      "choice": "low",
+      "probabilities": {
+        "low": 0.6723,
+        "somewhat_low": 0.2827,
+        "mixed": 0.019,
+        "somewhat_high": 0.0033,
+        "high": 0.0034,
+        "unknown": 0.0193
+      },
+      "confidence": 0.4392
+    },
+    "trait.warmth": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "low": 0.1176,
+        "somewhat_low": 0.227,
+        "mixed": 0.0803,
+        "somewhat_high": 0.0153,
+        "high": 0.0076,
+        "unknown": 0.5522
+      },
+      "confidence": 0.2524
+    },
+    "trait.humor": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "low": 0.3962,
+        "somewhat_low": 0.1519,
+        "mixed": 0.007,
+        "somewhat_high": 0.0017,
+        "high": 0.0016,
+        "unknown": 0.4416
+      },
+      "confidence": 0.2501
+    },
+    "trait.leadership": {
+      "type": "choice",
+      "choice": "somewhat_low",
+      "probabilities": {
+        "low": 0.3514,
+        "somewhat_low": 0.399,
+        "mixed": 0.056,
+        "somewhat_high": 0.0193,
+        "high": 0.0138,
+        "unknown": 0.1605
+      },
+      "confidence": 0.1746
+    },
+    "trait.social_confidence": {
+      "type": "choice",
+      "choice": "somewhat_low",
+      "probabilities": {
+        "low": 0.3079,
+        "somewhat_low": 0.543,
+        "mixed": 0.0636,
+        "somewhat_high": 0.0099,
+        "high": 0.0093,
+        "unknown": 0.0663
+      },
+      "confidence": 0.278
+    },
+    "trait.attention_seeking": {
+      "type": "choice",
+      "choice": "low",
+      "probabilities": {
+        "low": 0.5956,
+        "somewhat_low": 0.2757,
+        "mixed": 0.0132,
+        "somewhat_high": 0.0031,
+        "high": 0.0023,
+        "unknown": 0.1101
+      },
+      "confidence": 0.3317
+    },
+    "trait.empathy": {
+      "type": "choice",
+      "choice": "somewhat_low",
+      "probabilities": {
+        "low": 0.2143,
+        "somewhat_low": 0.3208,
+        "mixed": 0.1275,
+        "somewhat_high": 0.0201,
+        "high": 0.0127,
+        "unknown": 0.3046
+      },
+      "confidence": 0.1101
+    },
+    "trait.compassion": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "low": 0.0749,
+        "somewhat_low": 0.1059,
+        "mixed": 0.0424,
+        "somewhat_high": 0.0084,
+        "high": 0.0052,
+        "unknown": 0.7632
+      },
+      "confidence": 0.5215
+    },
+    "trait.generosity": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "low": 0.1047,
+        "somewhat_low": 0.1778,
+        "mixed": 0.0995,
+        "somewhat_high": 0.0175,
+        "high": 0.0098,
+        "unknown": 0.5907
+      },
+      "confidence": 0.2822
+    },
+    "trait.trust": {
+      "type": "choice",
+      "choice": "somewhat_low",
+      "probabilities": {
+        "low": 0.2877,
+        "somewhat_low": 0.5713,
+        "mixed": 0.0792,
+        "somewhat_high": 0.0137,
+        "high": 0.0113,
+        "unknown": 0.0368
+      },
+      "confidence": 0.3006
+    },
+    "trait.cooperativeness": {
+      "type": "choice",
+      "choice": "mixed",
+      "probabilities": {
+        "low": 0.0968,
+        "somewhat_low": 0.1617,
+        "mixed": 0.4563,
+        "somewhat_high": 0.0611,
+        "high": 0.0452,
+        "unknown": 0.1789
+      },
+      "confidence": 0.1378
+    },
+    "trait.forgiveness": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "low": 0.0469,
+        "somewhat_low": 0.0574,
+        "mixed": 0.0635,
+        "somewhat_high": 0.0145,
+        "high": 0.0091,
+        "unknown": 0.8086
+      },
+      "confidence": 0.5964
+    },
+    "trait.humility": {
+      "type": "choice",
+      "choice": "somewhat_high",
+      "probabilities": {
+        "low": 0.0482,
+        "somewhat_low": 0.0499,
+        "mixed": 0.2093,
+        "somewhat_high": 0.2887,
+        "high": 0.2727,
+        "unknown": 0.1312
+      },
+      "confidence": 0.0682
+    },
+    "trait.politeness": {
+      "type": "choice",
+      "choice": "mixed",
+      "probabilities": {
+        "low": 0.0858,
+        "somewhat_low": 0.0821,
+        "mixed": 0.2993,
+        "somewhat_high": 0.1473,
+        "high": 0.1384,
+        "unknown": 0.2471
+      },
+      "confidence": 0.0467
+    },
+    "trait.organization": {
+      "type": "choice",
+      "choice": "high",
+      "probabilities": {
+        "low": 0.0146,
+        "somewhat_low": 0.013,
+        "mixed": 0.0439,
+        "somewhat_high": 0.2673,
+        "high": 0.6196,
+        "unknown": 0.0416
+      },
+      "confidence": 0.3513
+    },
+    "trait.reliability": {
+      "type": "choice",
+      "choice": "high",
+      "probabilities": {
+        "low": 0.015,
+        "somewhat_low": 0.0134,
+        "mixed": 0.05,
+        "somewhat_high": 0.2376,
+        "high": 0.62,
+        "unknown": 0.064
+      },
+      "confidence": 0.3374
+    },
+    "trait.self_discipline": {
+      "type": "choice",
+      "choice": "high",
+      "probabilities": {
+        "low": 0.0231,
+        "somewhat_low": 0.0199,
+        "mixed": 0.0773,
+        "somewhat_high": 0.3271,
+        "high": 0.4717,
+        "unknown": 0.0809
+      },
+      "confidence": 0.2116
+    },
+    "trait.diligence": {
+      "type": "choice",
+      "choice": "high",
+      "probabilities": {
+        "low": 0.0153,
+        "somewhat_low": 0.0123,
+        "mixed": 0.0479,
+        "somewhat_high": 0.1812,
+        "high": 0.7095,
+        "unknown": 0.0338
+      },
+      "confidence": 0.448
+    },
+    "trait.planning": {
+      "type": "choice",
+      "choice": "high",
+      "probabilities": {
+        "low": 0.0092,
+        "somewhat_low": 0.0069,
+        "mixed": 0.0231,
+        "somewhat_high": 0.0899,
+        "high": 0.8555,
+        "unknown": 0.0154
+      },
+      "confidence": 0.6891
+    },
+    "trait.punctuality": {
+      "type": "choice",
+      "choice": "high",
+      "probabilities": {
+        "low": 0.0109,
+        "somewhat_low": 0.0112,
+        "mixed": 0.0464,
+        "somewhat_high": 0.2323,
+        "high": 0.6297,
+        "unknown": 0.0695
+      },
+      "confidence": 0.3493
+    },
+    "trait.attention_to_detail": {
+      "type": "choice",
+      "choice": "high",
+      "probabilities": {
+        "low": 0.0076,
+        "somewhat_low": 0.0054,
+        "mixed": 0.019,
+        "somewhat_high": 0.0632,
+        "high": 0.8906,
+        "unknown": 0.0142
+      },
+      "confidence": 0.7574
+    },
+    "trait.persistence": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "low": 0.044,
+        "somewhat_low": 0.0469,
+        "mixed": 0.2219,
+        "somewhat_high": 0.2417,
+        "high": 0.1802,
+        "unknown": 0.2653
+      },
+      "confidence": 0.0576
+    },
+    "trait.curiosity": {
+      "type": "choice",
+      "choice": "high",
+      "probabilities": {
+        "low": 0.0516,
+        "somewhat_low": 0.0479,
+        "mixed": 0.208,
+        "somewhat_high": 0.267,
+        "high": 0.3466,
+        "unknown": 0.0789
+      },
+      "confidence": 0.095
+    },
+    "trait.creativity": {
+      "type": "choice",
+      "choice": "mixed",
+      "probabilities": {
+        "low": 0.0585,
+        "somewhat_low": 0.0542,
+        "mixed": 0.3934,
+        "somewhat_high": 0.2176,
+        "high": 0.1413,
+        "unknown": 0.135
+      },
+      "confidence": 0.0959
+    },
+    "trait.imagination": {
+      "type": "choice",
+      "choice": "mixed",
+      "probabilities": {
+        "low": 0.1225,
+        "somewhat_low": 0.1543,
+        "mixed": 0.3234,
+        "somewhat_high": 0.0986,
+        "high": 0.0801,
+        "unknown": 0.2211
+      },
+      "confidence": 0.0501
+    },
+    "trait.open_mindedness": {
+      "type": "choice",
+      "choice": "mixed",
+      "probabilities": {
+        "low": 0.0826,
+        "somewhat_low": 0.1099,
+        "mixed": 0.3961,
+        "somewhat_high": 0.1704,
+        "high": 0.1456,
+        "unknown": 0.0954
+      },
+      "confidence": 0.0822
+    },
+    "trait.aesthetic_appreciation": {
+      "type": "choice",
+      "choice": "somewhat_high",
+      "probabilities": {
+        "low": 0.036,
+        "somewhat_low": 0.032,
+        "mixed": 0.1416,
+        "somewhat_high": 0.3723,
+        "high": 0.3541,
+        "unknown": 0.064
+      },
+      "confidence": 0.1486
+    },
+    "trait.intellectual_engagement": {
+      "type": "choice",
+      "choice": "high",
+      "probabilities": {
+        "low": 0.0218,
+        "somewhat_low": 0.0126,
+        "mixed": 0.0415,
+        "somewhat_high": 0.1166,
+        "high": 0.7764,
+        "unknown": 0.0311
+      },
+      "confidence": 0.5436
+    },
+    "trait.experimentation": {
+      "type": "choice",
+      "choice": "somewhat_high",
+      "probabilities": {
+        "low": 0.0421,
+        "somewhat_low": 0.0418,
+        "mixed": 0.2006,
+        "somewhat_high": 0.4211,
+        "high": 0.2451,
+        "unknown": 0.0493
+      },
+      "confidence": 0.1403
+    },
+    "trait.reflectiveness": {
+      "type": "choice",
+      "choice": "high",
+      "probabilities": {
+        "low": 0.0474,
+        "somewhat_low": 0.0573,
+        "mixed": 0.2037,
+        "somewhat_high": 0.2467,
+        "high": 0.2892,
+        "unknown": 0.1557
+      },
+      "confidence": 0.0589
+    },
+    "trait.emotional_stability": {
+      "type": "choice",
+      "choice": "high",
+      "probabilities": {
+        "low": 0.0252,
+        "somewhat_low": 0.0389,
+        "mixed": 0.0898,
+        "somewhat_high": 0.2816,
+        "high": 0.4849,
+        "unknown": 0.0796
+      },
+      "confidence": 0.1971
+    },
+    "trait.patience": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "low": 0.0384,
+        "somewhat_low": 0.0423,
+        "mixed": 0.1614,
+        "somewhat_high": 0.2482,
+        "high": 0.1895,
+        "unknown": 0.3202
+      },
+      "confidence": 0.0752
+    },
+    "trait.resilience": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "low": 0.064,
+        "somewhat_low": 0.078,
+        "mixed": 0.2196,
+        "somewhat_high": 0.1096,
+        "high": 0.081,
+        "unknown": 0.4478
+      },
+      "confidence": 0.133
+    },
+    "trait.optimism": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "low": 0.1209,
+        "somewhat_low": 0.2226,
+        "mixed": 0.2691,
+        "somewhat_high": 0.0392,
+        "high": 0.0277,
+        "unknown": 0.3205
+      },
+      "confidence": 0.0899
+    },
+    "trait.self_confidence": {
+      "type": "choice",
+      "choice": "mixed",
+      "probabilities": {
+        "low": 0.0845,
+        "somewhat_low": 0.1043,
+        "mixed": 0.3428,
+        "somewhat_high": 0.1576,
+        "high": 0.106,
+        "unknown": 0.2048
+      },
+      "confidence": 0.0562
+    },
+    "trait.stress_tolerance": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "low": 0.0478,
+        "somewhat_low": 0.0557,
+        "mixed": 0.1684,
+        "somewhat_high": 0.2436,
+        "high": 0.227,
+        "unknown": 0.2575
+      },
+      "confidence": 0.0531
+    },
+    "trait.impulse_control": {
+      "type": "choice",
+      "choice": "high",
+      "probabilities": {
+        "low": 0.0119,
+        "somewhat_low": 0.0134,
+        "mixed": 0.0772,
+        "somewhat_high": 0.2456,
+        "high": 0.4139,
+        "unknown": 0.238
+      },
+      "confidence": 0.1535
+    },
+    "trait.adaptability": {
+      "type": "choice",
+      "choice": "mixed",
+      "probabilities": {
+        "low": 0.1237,
+        "somewhat_low": 0.1845,
+        "mixed": 0.3756,
+        "somewhat_high": 0.0949,
+        "high": 0.0631,
+        "unknown": 0.1582
+      },
+      "confidence": 0.0741
+    },
+    "trait.ambition": {
+      "type": "choice",
+      "choice": "mixed",
+      "probabilities": {
+        "low": 0.0626,
+        "somewhat_low": 0.0617,
+        "mixed": 0.2864,
+        "somewhat_high": 0.2129,
+        "high": 0.1441,
+        "unknown": 0.2323
+      },
+      "confidence": 0.0518
+    },
+    "trait.initiative": {
+      "type": "choice",
+      "choice": "mixed",
+      "probabilities": {
+        "low": 0.08,
+        "somewhat_low": 0.1033,
+        "mixed": 0.3005,
+        "somewhat_high": 0.1496,
+        "high": 0.0969,
+        "unknown": 0.2697
+      },
+      "confidence": 0.0543
+    },
+    "trait.competitiveness": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "low": 0.1954,
+        "somewhat_low": 0.2436,
+        "mixed": 0.1131,
+        "somewhat_high": 0.0275,
+        "high": 0.0203,
+        "unknown": 0.4001
+      },
+      "confidence": 0.1259
+    },
+    "trait.decisiveness": {
+      "type": "choice",
+      "choice": "mixed",
+      "probabilities": {
+        "low": 0.1192,
+        "somewhat_low": 0.148,
+        "mixed": 0.4051,
+        "somewhat_high": 0.1592,
+        "high": 0.0673,
+        "unknown": 0.1012
+      },
+      "confidence": 0.0884
+    },
+    "trait.independence": {
+      "type": "choice",
+      "choice": "high",
+      "probabilities": {
+        "low": 0.0213,
+        "somewhat_low": 0.0194,
+        "mixed": 0.0735,
+        "somewhat_high": 0.3115,
+        "high": 0.534,
+        "unknown": 0.0403
+      },
+      "confidence": 0.2681
+    },
+    "trait.risk_tolerance": {
+      "type": "choice",
+      "choice": "somewhat_low",
+      "probabilities": {
+        "low": 0.287,
+        "somewhat_low": 0.5098,
+        "mixed": 0.1443,
+        "somewhat_high": 0.0156,
+        "high": 0.0118,
+        "unknown": 0.0315
+      },
+      "confidence": 0.2373
+    },
+    "trait.energy": {
+      "type": "choice",
+      "choice": "mixed",
+      "probabilities": {
+        "low": 0.1341,
+        "somewhat_low": 0.1769,
+        "mixed": 0.4261,
+        "somewhat_high": 0.0746,
+        "high": 0.0583,
+        "unknown": 0.13
+      },
+      "confidence": 0.108
+    },
+    "trait.adventurousness": {
+      "type": "choice",
+      "choice": "somewhat_low",
+      "probabilities": {
+        "low": 0.3715,
+        "somewhat_low": 0.4496,
+        "mixed": 0.0764,
+        "somewhat_high": 0.0152,
+        "high": 0.0095,
+        "unknown": 0.0778
+      },
+      "confidence": 0.2229
+    },
+    "trait.honesty": {
+      "type": "choice",
+      "choice": "high",
+      "probabilities": {
+        "low": 0.0145,
+        "somewhat_low": 0.0183,
+        "mixed": 0.0769,
+        "somewhat_high": 0.2338,
+        "high": 0.546,
+        "unknown": 0.1105
+      },
+      "confidence": 0.2458
+    },
+    "trait.fairness": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "low": 0.0194,
+        "somewhat_low": 0.0267,
+        "mixed": 0.0944,
+        "somewhat_high": 0.1093,
+        "high": 0.1042,
+        "unknown": 0.646
+      },
+      "confidence": 0.3402
+    },
+    "trait.integrity": {
+      "type": "choice",
+      "choice": "high",
+      "probabilities": {
+        "low": 0.0212,
+        "somewhat_low": 0.0224,
+        "mixed": 0.0908,
+        "somewhat_high": 0.2733,
+        "high": 0.4225,
+        "unknown": 0.1698
+      },
+      "confidence": 0.1495
+    },
+    "trait.accountability": {
+      "type": "choice",
+      "choice": "high",
+      "probabilities": {
+        "low": 0.0198,
+        "somewhat_low": 0.0217,
+        "mixed": 0.0747,
+        "somewhat_high": 0.2363,
+        "high": 0.5975,
+        "unknown": 0.05
+      },
+      "confidence": 0.3062
+    },
+    "trait.loyalty": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "low": 0.0612,
+        "somewhat_low": 0.0765,
+        "mixed": 0.2399,
+        "somewhat_high": 0.0767,
+        "high": 0.0463,
+        "unknown": 0.4994
+      },
+      "confidence": 0.1895
+    },
+    "trait.respect_for_boundaries": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "low": 0.0348,
+        "somewhat_low": 0.048,
+        "mixed": 0.1707,
+        "somewhat_high": 0.1415,
+        "high": 0.1151,
+        "unknown": 0.4899
+      },
+      "confidence": 0.1671
+    },
+    "trait.civic_mindedness": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "low": 0.0725,
+        "somewhat_low": 0.1119,
+        "mixed": 0.1712,
+        "somewhat_high": 0.0361,
+        "high": 0.021,
+        "unknown": 0.5873
+      },
+      "confidence": 0.2726
+    },
+    "trait.environmental_care": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "low": 0.0533,
+        "somewhat_low": 0.066,
+        "mixed": 0.0953,
+        "somewhat_high": 0.0326,
+        "high": 0.0346,
+        "unknown": 0.7182
+      },
+      "confidence": 0.4412
+    },
+    "trait.flexibility": {
+      "type": "choice",
+      "choice": "mixed",
+      "probabilities": {
+        "low": 0.1173,
+        "somewhat_low": 0.1899,
+        "mixed": 0.4352,
+        "somewhat_high": 0.0967,
+        "high": 0.0626,
+        "unknown": 0.0983
+      },
+      "confidence": 0.1145
+    },
+    "trait.spontaneity": {
+      "type": "choice",
+      "choice": "low",
+      "probabilities": {
+        "low": 0.4904,
+        "somewhat_low": 0.4015,
+        "mixed": 0.0296,
+        "somewhat_high": 0.0049,
+        "high": 0.003,
+        "unknown": 0.0706
+      },
+      "confidence": 0.2891
+    },
+    "trait.practicality": {
+      "type": "choice",
+      "choice": "high",
+      "probabilities": {
+        "low": 0.0325,
+        "somewhat_low": 0.028,
+        "mixed": 0.0857,
+        "somewhat_high": 0.2664,
+        "high": 0.5439,
+        "unknown": 0.0435
+      },
+      "confidence": 0.2534
+    },
+    "trait.analytical_thinking": {
+      "type": "choice",
+      "choice": "high",
+      "probabilities": {
+        "low": 0.0114,
+        "somewhat_low": 0.0067,
+        "mixed": 0.0211,
+        "somewhat_high": 0.0757,
+        "high": 0.8696,
+        "unknown": 0.0155
+      },
+      "confidence": 0.7153
+    },
+    "trait.cautiousness": {
+      "type": "choice",
+      "choice": "high",
+      "probabilities": {
+        "low": 0.0182,
+        "somewhat_low": 0.0152,
+        "mixed": 0.0657,
+        "somewhat_high": 0.3138,
+        "high": 0.5644,
+        "unknown": 0.0227
+      },
+      "confidence": 0.3069
+    },
+    "trait.frugality": {
+      "type": "choice",
+      "choice": "low",
+      "probabilities": {
+        "low": 0.3325,
+        "somewhat_low": 0.2362,
+        "mixed": 0.1404,
+        "somewhat_high": 0.08,
+        "high": 0.0719,
+        "unknown": 0.139
+      },
+      "confidence": 0.0603
+    },
+    "trait.order_preference": {
+      "type": "choice",
+      "choice": "high",
+      "probabilities": {
+        "low": 0.0241,
+        "somewhat_low": 0.0167,
+        "mixed": 0.0397,
+        "somewhat_high": 0.2851,
+        "high": 0.6096,
+        "unknown": 0.0248
+      },
+      "confidence": 0.3471
+    },
+    "trait.conflict_tolerance": {
+      "type": "choice",
+      "choice": "high",
+      "probabilities": {
+        "low": 0.054,
+        "somewhat_low": 0.0581,
+        "mixed": 0.2241,
+        "somewhat_high": 0.2618,
+        "high": 0.3357,
+        "unknown": 0.0663
+      },
+      "confidence": 0.0906
+    },
+    "interest.walking": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.003,
+        "no": 0.9817,
+        "mixed": 0.0049,
+        "unknown": 0.0104
+      },
+      "confidence": 0.9519
+    },
+    "interest.hiking": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0025,
+        "no": 0.9855,
+        "mixed": 0.0032,
+        "unknown": 0.0088
+      },
+      "confidence": 0.9619
+    },
+    "interest.backpacking": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0025,
+        "no": 0.983,
+        "mixed": 0.0027,
+        "unknown": 0.0118
+      },
+      "confidence": 0.9553
+    },
+    "interest.trail_running": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.003,
+        "no": 0.9801,
+        "mixed": 0.0028,
+        "unknown": 0.0141
+      },
+      "confidence": 0.9476
+    },
+    "interest.road_cycling": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0372,
+        "no": 0.0365,
+        "mixed": 0.0151,
+        "unknown": 0.9112
+      },
+      "confidence": 0.7775
+    },
+    "interest.mountain_biking": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0094,
+        "no": 0.0426,
+        "mixed": 0.0052,
+        "unknown": 0.9428
+      },
+      "confidence": 0.8545
+    },
+    "interest.bike_touring": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0091,
+        "no": 0.0402,
+        "mixed": 0.0071,
+        "unknown": 0.9436
+      },
+      "confidence": 0.8562
+    },
+    "interest.indoor_cycling": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0957,
+        "no": 0.0666,
+        "mixed": 0.0329,
+        "unknown": 0.8048
+      },
+      "confidence": 0.5499
+    },
+    "interest.running": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0993,
+        "no": 0.2807,
+        "mixed": 0.0686,
+        "unknown": 0.5514
+      },
+      "confidence": 0.1966
+    },
+    "interest.strength_training": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0642,
+        "no": 0.1102,
+        "mixed": 0.0292,
+        "unknown": 0.7964
+      },
+      "confidence": 0.5352
+    },
+    "interest.yoga": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0184,
+        "no": 0.1235,
+        "mixed": 0.0119,
+        "unknown": 0.8462
+      },
+      "confidence": 0.6424
+    },
+    "interest.pilates": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0298,
+        "no": 0.1476,
+        "mixed": 0.012,
+        "unknown": 0.8106
+      },
+      "confidence": 0.5733
+    },
+    "interest.meditation": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0046,
+        "no": 0.0738,
+        "mixed": 0.0077,
+        "unknown": 0.9139
+      },
+      "confidence": 0.7876
+    },
+    "interest.stretching": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0279,
+        "no": 0.0697,
+        "mixed": 0.0156,
+        "unknown": 0.8868
+      },
+      "confidence": 0.7231
+    },
+    "interest.tai_chi": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0115,
+        "no": 0.2572,
+        "mixed": 0.0102,
+        "unknown": 0.7211
+      },
+      "confidence": 0.4485
+    },
+    "interest.aerobics": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0711,
+        "no": 0.2413,
+        "mixed": 0.021,
+        "unknown": 0.6666
+      },
+      "confidence": 0.3441
+    },
+    "interest.swimming": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0234,
+        "no": 0.1103,
+        "mixed": 0.0103,
+        "unknown": 0.856
+      },
+      "confidence": 0.6608
+    },
+    "interest.surfing": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0036,
+        "no": 0.4064,
+        "mixed": 0.0026,
+        "unknown": 0.5874
+      },
+      "confidence": 0.3469
+    },
+    "interest.kayaking": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0094,
+        "no": 0.2505,
+        "mixed": 0.0084,
+        "unknown": 0.7317
+      },
+      "confidence": 0.4643
+    },
+    "interest.paddleboarding": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0069,
+        "no": 0.243,
+        "mixed": 0.0057,
+        "unknown": 0.7444
+      },
+      "confidence": 0.4843
+    },
+    "interest.sailing": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0064,
+        "no": 0.2068,
+        "mixed": 0.0072,
+        "unknown": 0.7796
+      },
+      "confidence": 0.5343
+    },
+    "interest.scuba_diving": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0046,
+        "no": 0.2601,
+        "mixed": 0.0044,
+        "unknown": 0.7309
+      },
+      "confidence": 0.4693
+    },
+    "interest.snorkeling": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0054,
+        "no": 0.2041,
+        "mixed": 0.0063,
+        "unknown": 0.7842
+      },
+      "confidence": 0.5422
+    },
+    "interest.fishing": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0055,
+        "no": 0.2948,
+        "mixed": 0.0071,
+        "unknown": 0.6926
+      },
+      "confidence": 0.4222
+    },
+    "interest.tennis": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0142,
+        "no": 0.2388,
+        "mixed": 0.0098,
+        "unknown": 0.7372
+      },
+      "confidence": 0.4677
+    },
+    "interest.pickleball": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0124,
+        "no": 0.211,
+        "mixed": 0.0084,
+        "unknown": 0.7682
+      },
+      "confidence": 0.5132
+    },
+    "interest.badminton": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0119,
+        "no": 0.2523,
+        "mixed": 0.0078,
+        "unknown": 0.728
+      },
+      "confidence": 0.4585
+    },
+    "interest.table_tennis": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0122,
+        "no": 0.1783,
+        "mixed": 0.0079,
+        "unknown": 0.8016
+      },
+      "confidence": 0.5661
+    },
+    "interest.basketball": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.006,
+        "no": 0.418,
+        "mixed": 0.0043,
+        "unknown": 0.5717
+      },
+      "confidence": 0.3356
+    },
+    "interest.soccer": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0049,
+        "no": 0.3304,
+        "mixed": 0.0046,
+        "unknown": 0.6601
+      },
+      "confidence": 0.3932
+    },
+    "interest.volleyball": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0066,
+        "no": 0.3153,
+        "mixed": 0.0054,
+        "unknown": 0.6727
+      },
+      "confidence": 0.4027
+    },
+    "interest.baseball": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0054,
+        "no": 0.2775,
+        "mixed": 0.0046,
+        "unknown": 0.7125
+      },
+      "confidence": 0.4463
+    },
+    "interest.golf": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0071,
+        "no": 0.3092,
+        "mixed": 0.0071,
+        "unknown": 0.6766
+      },
+      "confidence": 0.4047
+    },
+    "interest.bowling": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0052,
+        "no": 0.3612,
+        "mixed": 0.0053,
+        "unknown": 0.6283
+      },
+      "confidence": 0.3671
+    },
+    "interest.martial_arts": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0088,
+        "no": 0.2362,
+        "mixed": 0.009,
+        "unknown": 0.746
+      },
+      "confidence": 0.4833
+    },
+    "interest.boxing": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.005,
+        "no": 0.5062,
+        "mixed": 0.0033,
+        "unknown": 0.4855
+      },
+      "confidence": 0.3226
+    },
+    "interest.rock_climbing": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0115,
+        "no": 0.373,
+        "mixed": 0.0091,
+        "unknown": 0.6064
+      },
+      "confidence": 0.3428
+    },
+    "interest.skiing": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0074,
+        "no": 0.4074,
+        "mixed": 0.0068,
+        "unknown": 0.5784
+      },
+      "confidence": 0.3342
+    },
+    "interest.snowboarding": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0052,
+        "no": 0.442,
+        "mixed": 0.0058,
+        "unknown": 0.547
+      },
+      "confidence": 0.3261
+    },
+    "interest.camping": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0182,
+        "no": 0.5512,
+        "mixed": 0.032,
+        "unknown": 0.3986
+      },
+      "confidence": 0.2854
+    },
+    "interest.social_dancing": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0079,
+        "no": 0.1744,
+        "mixed": 0.0121,
+        "unknown": 0.8056
+      },
+      "confidence": 0.5728
+    },
+    "interest.ballroom_dancing": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0076,
+        "no": 0.177,
+        "mixed": 0.0105,
+        "unknown": 0.8049
+      },
+      "confidence": 0.5725
+    },
+    "interest.hip_hop_dancing": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0212,
+        "no": 0.2752,
+        "mixed": 0.0171,
+        "unknown": 0.6865
+      },
+      "confidence": 0.397
+    },
+    "interest.ballet": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0065,
+        "no": 0.3267,
+        "mixed": 0.0063,
+        "unknown": 0.6605
+      },
+      "confidence": 0.3908
+    },
+    "interest.singing": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0108,
+        "no": 0.3167,
+        "mixed": 0.0138,
+        "unknown": 0.6587
+      },
+      "confidence": 0.3792
+    },
+    "interest.guitar": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0083,
+        "no": 0.3095,
+        "mixed": 0.009,
+        "unknown": 0.6732
+      },
+      "confidence": 0.3988
+    },
+    "interest.piano": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0071,
+        "no": 0.2147,
+        "mixed": 0.0074,
+        "unknown": 0.7708
+      },
+      "confidence": 0.5205
+    },
+    "interest.music_production": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0296,
+        "no": 0.2016,
+        "mixed": 0.0344,
+        "unknown": 0.7344
+      },
+      "confidence": 0.4428
+    },
+    "interest.live_music": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.01,
+        "no": 0.0909,
+        "mixed": 0.021,
+        "unknown": 0.8781
+      },
+      "confidence": 0.7065
+    },
+    "interest.music_discovery": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0126,
+        "no": 0.0816,
+        "mixed": 0.02,
+        "unknown": 0.8858
+      },
+      "confidence": 0.7225
+    },
+    "interest.vinyl_collecting": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0057,
+        "no": 0.1383,
+        "mixed": 0.0097,
+        "unknown": 0.8463
+      },
+      "confidence": 0.6473
+    },
+    "interest.djing": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0238,
+        "no": 0.2827,
+        "mixed": 0.024,
+        "unknown": 0.6695
+      },
+      "confidence": 0.3723
+    },
+    "interest.drawing": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0911,
+        "no": 0.2195,
+        "mixed": 0.0542,
+        "unknown": 0.6352
+      },
+      "confidence": 0.2838
+    },
+    "interest.painting": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0252,
+        "no": 0.3234,
+        "mixed": 0.0212,
+        "unknown": 0.6302
+      },
+      "confidence": 0.3372
+    },
+    "interest.digital_art": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.3494,
+        "no": 0.14,
+        "mixed": 0.1072,
+        "unknown": 0.4034
+      },
+      "confidence": 0.0879
+    },
+    "interest.sculpture": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0098,
+        "no": 0.3655,
+        "mixed": 0.0111,
+        "unknown": 0.6136
+      },
+      "confidence": 0.347
+    },
+    "interest.knitting": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.005,
+        "no": 0.3066,
+        "mixed": 0.0065,
+        "unknown": 0.6819
+      },
+      "confidence": 0.412
+    },
+    "interest.sewing": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0073,
+        "no": 0.3706,
+        "mixed": 0.0098,
+        "unknown": 0.6123
+      },
+      "confidence": 0.3499
+    },
+    "interest.embroidery": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0056,
+        "no": 0.3714,
+        "mixed": 0.0079,
+        "unknown": 0.6151
+      },
+      "confidence": 0.3552
+    },
+    "interest.crochet": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0039,
+        "no": 0.4082,
+        "mixed": 0.0053,
+        "unknown": 0.5826
+      },
+      "confidence": 0.3415
+    },
+    "interest.pottery": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0096,
+        "no": 0.3157,
+        "mixed": 0.011,
+        "unknown": 0.6637
+      },
+      "confidence": 0.3871
+    },
+    "interest.woodworking": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.007,
+        "no": 0.3325,
+        "mixed": 0.0115,
+        "unknown": 0.649
+      },
+      "confidence": 0.3759
+    },
+    "interest.jewelry_making": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0057,
+        "no": 0.3622,
+        "mixed": 0.0084,
+        "unknown": 0.6237
+      },
+      "confidence": 0.3603
+    },
+    "interest.model_building": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0225,
+        "no": 0.1948,
+        "mixed": 0.0271,
+        "unknown": 0.7556
+      },
+      "confidence": 0.4802
+    },
+    "interest.photography": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9752,
+        "no": 0.0051,
+        "mixed": 0.0053,
+        "unknown": 0.0144
+      },
+      "confidence": 0.9351
+    },
+    "interest.videography": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9898,
+        "no": 0.0029,
+        "mixed": 0.0029,
+        "unknown": 0.0044
+      },
+      "confidence": 0.9729
+    },
+    "interest.podcasting": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9879,
+        "no": 0.0033,
+        "mixed": 0.0032,
+        "unknown": 0.0056
+      },
+      "confidence": 0.9681
+    },
+    "interest.animation": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9779,
+        "no": 0.0064,
+        "mixed": 0.0062,
+        "unknown": 0.0095
+      },
+      "confidence": 0.942
+    },
+    "interest.creative_writing": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0096,
+        "no": 0.1009,
+        "mixed": 0.0091,
+        "unknown": 0.8804
+      },
+      "confidence": 0.714
+    },
+    "interest.poetry": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.005,
+        "no": 0.0457,
+        "mixed": 0.0035,
+        "unknown": 0.9458
+      },
+      "confidence": 0.8621
+    },
+    "interest.journaling": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0048,
+        "no": 0.0617,
+        "mixed": 0.0049,
+        "unknown": 0.9286
+      },
+      "confidence": 0.8214
+    },
+    "interest.blogging": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0145,
+        "no": 0.0732,
+        "mixed": 0.0132,
+        "unknown": 0.8991
+      },
+      "confidence": 0.7521
+    },
+    "interest.fiction_reading": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0059,
+        "no": 0.0211,
+        "mixed": 0.0077,
+        "unknown": 0.9653
+      },
+      "confidence": 0.9099
+    },
+    "interest.nonfiction_reading": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0106,
+        "no": 0.0144,
+        "mixed": 0.0115,
+        "unknown": 0.9635
+      },
+      "confidence": 0.9049
+    },
+    "interest.comics": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0067,
+        "no": 0.0787,
+        "mixed": 0.0069,
+        "unknown": 0.9077
+      },
+      "confidence": 0.7736
+    },
+    "interest.book_clubs": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0054,
+        "no": 0.0483,
+        "mixed": 0.0104,
+        "unknown": 0.9359
+      },
+      "confidence": 0.8378
+    },
+    "interest.movies": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0091,
+        "no": 0.024,
+        "mixed": 0.0109,
+        "unknown": 0.956
+      },
+      "confidence": 0.8862
+    },
+    "interest.television_series": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0105,
+        "no": 0.0312,
+        "mixed": 0.0146,
+        "unknown": 0.9437
+      },
+      "confidence": 0.8557
+    },
+    "interest.anime": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0353,
+        "no": 0.072,
+        "mixed": 0.0324,
+        "unknown": 0.8603
+      },
+      "confidence": 0.6635
+    },
+    "interest.documentaries": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0366,
+        "no": 0.0408,
+        "mixed": 0.0285,
+        "unknown": 0.8941
+      },
+      "confidence": 0.7376
+    },
+    "interest.video_games": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0084,
+        "no": 0.088,
+        "mixed": 0.0115,
+        "unknown": 0.8921
+      },
+      "confidence": 0.7383
+    },
+    "interest.board_games": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0223,
+        "no": 0.1317,
+        "mixed": 0.0315,
+        "unknown": 0.8145
+      },
+      "confidence": 0.5762
+    },
+    "interest.card_games": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0079,
+        "no": 0.1576,
+        "mixed": 0.0085,
+        "unknown": 0.826
+      },
+      "confidence": 0.6096
+    },
+    "interest.tabletop_roleplaying": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0056,
+        "no": 0.2674,
+        "mixed": 0.0077,
+        "unknown": 0.7193
+      },
+      "confidence": 0.4519
+    },
+    "interest.chess": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0154,
+        "no": 0.1156,
+        "mixed": 0.0157,
+        "unknown": 0.8533
+      },
+      "confidence": 0.6559
+    },
+    "interest.jigsaw_puzzles": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.1565,
+        "no": 0.1183,
+        "mixed": 0.0689,
+        "unknown": 0.6563
+      },
+      "confidence": 0.2986
+    },
+    "interest.crosswords": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.1894,
+        "no": 0.1127,
+        "mixed": 0.0759,
+        "unknown": 0.622
+      },
+      "confidence": 0.2549
+    },
+    "interest.escape_rooms": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0287,
+        "no": 0.1731,
+        "mixed": 0.0328,
+        "unknown": 0.7654
+      },
+      "confidence": 0.4903
+    },
+    "interest.cooking": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0081,
+        "no": 0.1085,
+        "mixed": 0.0117,
+        "unknown": 0.8717
+      },
+      "confidence": 0.6958
+    },
+    "interest.baking": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0061,
+        "no": 0.2124,
+        "mixed": 0.0081,
+        "unknown": 0.7734
+      },
+      "confidence": 0.5245
+    },
+    "interest.grilling": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0047,
+        "no": 0.2629,
+        "mixed": 0.0057,
+        "unknown": 0.7267
+      },
+      "confidence": 0.463
+    },
+    "interest.food_exploration": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0087,
+        "no": 0.102,
+        "mixed": 0.0144,
+        "unknown": 0.8749
+      },
+      "confidence": 0.7015
+    },
+    "interest.coffee": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0148,
+        "no": 0.0537,
+        "mixed": 0.0168,
+        "unknown": 0.9147
+      },
+      "confidence": 0.7867
+    },
+    "interest.tea": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0102,
+        "no": 0.0747,
+        "mixed": 0.0159,
+        "unknown": 0.8992
+      },
+      "confidence": 0.7527
+    },
+    "interest.wine_tasting": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0068,
+        "no": 0.2227,
+        "mixed": 0.0127,
+        "unknown": 0.7578
+      },
+      "confidence": 0.4988
+    },
+    "interest.homebrewing": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0095,
+        "no": 0.2188,
+        "mixed": 0.0125,
+        "unknown": 0.7592
+      },
+      "confidence": 0.4993
+    },
+    "interest.gardening": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0094,
+        "no": 0.2036,
+        "mixed": 0.0155,
+        "unknown": 0.7715
+      },
+      "confidence": 0.5159
+    },
+    "interest.houseplants": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0093,
+        "no": 0.0955,
+        "mixed": 0.0143,
+        "unknown": 0.8809
+      },
+      "confidence": 0.7137
+    },
+    "interest.birdwatching": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0092,
+        "no": 0.3661,
+        "mixed": 0.0145,
+        "unknown": 0.6102
+      },
+      "confidence": 0.3422
+    },
+    "interest.nature_identification": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0101,
+        "no": 0.3775,
+        "mixed": 0.0159,
+        "unknown": 0.5965
+      },
+      "confidence": 0.3315
+    },
+    "interest.dog_activities": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0112,
+        "no": 0.1413,
+        "mixed": 0.0122,
+        "unknown": 0.8353
+      },
+      "confidence": 0.624
+    },
+    "interest.cat_care": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0094,
+        "no": 0.0905,
+        "mixed": 0.0105,
+        "unknown": 0.8896
+      },
+      "confidence": 0.733
+    },
+    "interest.horse_riding": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.014,
+        "no": 0.2488,
+        "mixed": 0.0094,
+        "unknown": 0.7278
+      },
+      "confidence": 0.4559
+    },
+    "interest.animal_volunteering": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0073,
+        "no": 0.1473,
+        "mixed": 0.0114,
+        "unknown": 0.834
+      },
+      "confidence": 0.6233
+    },
+    "interest.museums": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0255,
+        "no": 0.0517,
+        "mixed": 0.0289,
+        "unknown": 0.8939
+      },
+      "confidence": 0.7377
+    },
+    "interest.theater": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0094,
+        "no": 0.1483,
+        "mixed": 0.014,
+        "unknown": 0.8283
+      },
+      "confidence": 0.6111
+    },
+    "interest.standup_comedy": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0039,
+        "no": 0.4113,
+        "mixed": 0.0056,
+        "unknown": 0.5792
+      },
+      "confidence": 0.3395
+    },
+    "interest.local_history": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0123,
+        "no": 0.1501,
+        "mixed": 0.0137,
+        "unknown": 0.8239
+      },
+      "confidence": 0.6022
+    },
+    "interest.international_travel": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0189,
+        "no": 0.1094,
+        "mixed": 0.0278,
+        "unknown": 0.8439
+      },
+      "confidence": 0.6338
+    },
+    "interest.road_trips": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0218,
+        "no": 0.25,
+        "mixed": 0.0329,
+        "unknown": 0.6953
+      },
+      "confidence": 0.3967
+    },
+    "interest.language_learning": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0094,
+        "no": 0.0887,
+        "mixed": 0.0105,
+        "unknown": 0.8914
+      },
+      "confidence": 0.737
+    },
+    "interest.cultural_festivals": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0183,
+        "no": 0.1324,
+        "mixed": 0.031,
+        "unknown": 0.8183
+      },
+      "confidence": 0.5845
+    },
+    "interest.science": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.3311,
+        "no": 0.0637,
+        "mixed": 0.0616,
+        "unknown": 0.5436
+      },
+      "confidence": 0.2173
+    },
+    "interest.astronomy": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0322,
+        "no": 0.0842,
+        "mixed": 0.0212,
+        "unknown": 0.8624
+      },
+      "confidence": 0.6697
+    },
+    "interest.philosophy": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0359,
+        "no": 0.1466,
+        "mixed": 0.0518,
+        "unknown": 0.7657
+      },
+      "confidence": 0.4823
+    },
+    "interest.history": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0283,
+        "no": 0.105,
+        "mixed": 0.0375,
+        "unknown": 0.8292
+      },
+      "confidence": 0.601
+    },
+    "interest.programming": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.021,
+        "no": 0.1457,
+        "mixed": 0.0229,
+        "unknown": 0.8104
+      },
+      "confidence": 0.5719
+    },
+    "interest.electronics": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0315,
+        "no": 0.1712,
+        "mixed": 0.0344,
+        "unknown": 0.7629
+      },
+      "confidence": 0.4848
+    },
+    "interest.robotics": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0133,
+        "no": 0.213,
+        "mixed": 0.013,
+        "unknown": 0.7607
+      },
+      "confidence": 0.4992
+    },
+    "interest.three_d_printing": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0157,
+        "no": 0.2366,
+        "mixed": 0.0149,
+        "unknown": 0.7328
+      },
+      "confidence": 0.458
+    },
+    "interest.volunteering": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0267,
+        "no": 0.1226,
+        "mixed": 0.041,
+        "unknown": 0.8097
+      },
+      "confidence": 0.564
+    },
+    "interest.community_organizing": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0091,
+        "no": 0.4156,
+        "mixed": 0.0179,
+        "unknown": 0.5574
+      },
+      "confidence": 0.3116
+    },
+    "interest.environmental_projects": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0217,
+        "no": 0.2526,
+        "mixed": 0.0421,
+        "unknown": 0.6836
+      },
+      "confidence": 0.3778
+    },
+    "interest.mentoring": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0189,
+        "no": 0.2014,
+        "mixed": 0.0354,
+        "unknown": 0.7443
+      },
+      "confidence": 0.4615
+    },
+    "interest.home_improvement": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0264,
+        "no": 0.1826,
+        "mixed": 0.0381,
+        "unknown": 0.7529
+      },
+      "confidence": 0.4698
+    },
+    "interest.interior_design": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0209,
+        "no": 0.2162,
+        "mixed": 0.0336,
+        "unknown": 0.7293
+      },
+      "confidence": 0.4404
+    },
+    "interest.antiquing": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0073,
+        "no": 0.3674,
+        "mixed": 0.0089,
+        "unknown": 0.6164
+      },
+      "confidence": 0.3535
+    },
+    "interest.collecting": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0161,
+        "no": 0.2197,
+        "mixed": 0.0201,
+        "unknown": 0.7441
+      },
+      "confidence": 0.4701
+    },
+    "relationship.platonic_friendship": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9678,
+        "no": 0.0126,
+        "mixed": 0.0092,
+        "unknown": 0.0104
+      },
+      "confidence": 0.9159
+    },
+    "relationship.activity_partners": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0275,
+        "no": 0.6775,
+        "mixed": 0.0594,
+        "unknown": 0.2356
+      },
+      "confidence": 0.3584
+    },
+    "relationship.local_community": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0066,
+        "no": 0.1368,
+        "mixed": 0.0174,
+        "unknown": 0.8392
+      },
+      "confidence": 0.6311
+    },
+    "relationship.professional_networking": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0056,
+        "no": 0.0753,
+        "mixed": 0.0181,
+        "unknown": 0.901
+      },
+      "confidence": 0.7571
+    },
+    "relationship.creative_collaboration": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0065,
+        "no": 0.9578,
+        "mixed": 0.0124,
+        "unknown": 0.0233
+      },
+      "confidence": 0.8909
+    },
+    "relationship.travel_companions": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0059,
+        "no": 0.056,
+        "mixed": 0.0093,
+        "unknown": 0.9288
+      },
+      "confidence": 0.8212
+    },
+    "relationship.casual_dating": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.8238,
+        "no": 0.0702,
+        "mixed": 0.0747,
+        "unknown": 0.0313
+      },
+      "confidence": 0.5869
+    },
+    "relationship.serious_dating": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0316,
+        "no": 0.3161,
+        "mixed": 0.1217,
+        "unknown": 0.5306
+      },
+      "confidence": 0.1964
+    },
+    "relationship.casual_intimacy": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9354,
+        "no": 0.0223,
+        "mixed": 0.0309,
+        "unknown": 0.0114
+      },
+      "confidence": 0.8353
+    },
+    "relationship.romance_without_sex": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0237,
+        "no": 0.1814,
+        "mixed": 0.0673,
+        "unknown": 0.7276
+      },
+      "confidence": 0.4232
+    },
+    "relationship.marriage_goal": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0387,
+        "no": 0.0531,
+        "mixed": 0.062,
+        "unknown": 0.8462
+      },
+      "confidence": 0.6322
+    },
+    "relationship.cohabitation_goal": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0081,
+        "no": 0.063,
+        "mixed": 0.0263,
+        "unknown": 0.9026
+      },
+      "confidence": 0.7592
+    },
+    "relationship.monogamy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.004,
+        "no": 0.9674,
+        "mixed": 0.0113,
+        "unknown": 0.0173
+      },
+      "confidence": 0.9151
+    },
+    "relationship.consensual_nonmonogamy": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.3126,
+        "no": 0.2219,
+        "mixed": 0.1686,
+        "unknown": 0.2969
+      },
+      "confidence": 0.0181
+    },
+    "relationship.slow_pace": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0093,
+        "no": 0.0413,
+        "mixed": 0.0227,
+        "unknown": 0.9267
+      },
+      "confidence": 0.8147
+    },
+    "relationship.quick_meeting": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0059,
+        "no": 0.8838,
+        "mixed": 0.0137,
+        "unknown": 0.0966
+      },
+      "confidence": 0.7208
+    },
+    "relationship.long_distance": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9501,
+        "no": 0.0123,
+        "mixed": 0.0184,
+        "unknown": 0.0192
+      },
+      "confidence": 0.8715
+    },
+    "relationship.local_only": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0152,
+        "no": 0.4908,
+        "mixed": 0.039,
+        "unknown": 0.455
+      },
+      "confidence": 0.2661
+    },
+    "relationship.frequent_contact": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0159,
+        "no": 0.1006,
+        "mixed": 0.0507,
+        "unknown": 0.8328
+      },
+      "confidence": 0.6087
+    },
+    "relationship.autonomy": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.1,
+        "no": 0.0714,
+        "mixed": 0.1019,
+        "unknown": 0.7267
+      },
+      "confidence": 0.4047
+    },
+    "relationship.emotional_intimacy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0028,
+        "no": 0.9737,
+        "mixed": 0.008,
+        "unknown": 0.0155
+      },
+      "confidence": 0.9313
+    },
+    "relationship.shared_activities": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0525,
+        "no": 0.1116,
+        "mixed": 0.0839,
+        "unknown": 0.752
+      },
+      "confidence": 0.4503
+    },
+    "relationship.shared_values": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0188,
+        "no": 0.0408,
+        "mixed": 0.032,
+        "unknown": 0.9084
+      },
+      "confidence": 0.7709
+    },
+    "relationship.complementary_strengths": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0061,
+        "no": 0.0575,
+        "mixed": 0.0136,
+        "unknown": 0.9228
+      },
+      "confidence": 0.8068
+    },
+    "relationship.future_parenthood": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9761,
+        "no": 0.0064,
+        "mixed": 0.0077,
+        "unknown": 0.0098
+      },
+      "confidence": 0.9373
+    },
+    "relationship.childfree_future": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.02,
+        "no": 0.8055,
+        "mixed": 0.0341,
+        "unknown": 0.1404
+      },
+      "confidence": 0.5602
+    },
+    "relationship.open_to_parents": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0087,
+        "no": 0.0107,
+        "mixed": 0.0136,
+        "unknown": 0.967
+      },
+      "confidence": 0.914
+    },
+    "relationship.blended_family": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0153,
+        "no": 0.0201,
+        "mixed": 0.0226,
+        "unknown": 0.942
+      },
+      "confidence": 0.8513
+    },
+    "relationship.public_first_meeting": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.007,
+        "no": 0.9377,
+        "mixed": 0.011,
+        "unknown": 0.0443
+      },
+      "confidence": 0.8419
+    },
+    "relationship.video_before_meeting": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0077,
+        "no": 0.0701,
+        "mixed": 0.0155,
+        "unknown": 0.9067
+      },
+      "confidence": 0.7697
+    },
+    "relationship.online_friendship": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.1403,
+        "no": 0.1566,
+        "mixed": 0.1221,
+        "unknown": 0.581
+      },
+      "confidence": 0.1956
+    },
+    "relationship.not_dating": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0669,
+        "no": 0.1778,
+        "mixed": 0.2636,
+        "unknown": 0.4917
+      },
+      "confidence": 0.1297
+    },
+    "lifestyle.early_schedule": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9753,
+        "no": 0.007,
+        "mixed": 0.0079,
+        "unknown": 0.0098
+      },
+      "confidence": 0.9351
+    },
+    "lifestyle.late_schedule": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.011,
+        "no": 0.8067,
+        "mixed": 0.0313,
+        "unknown": 0.151
+      },
+      "confidence": 0.5662
+    },
+    "lifestyle.quiet_home": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0399,
+        "no": 0.0464,
+        "mixed": 0.0465,
+        "unknown": 0.8672
+      },
+      "confidence": 0.6773
+    },
+    "lifestyle.hosting": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0084,
+        "no": 0.043,
+        "mixed": 0.0202,
+        "unknown": 0.9284
+      },
+      "confidence": 0.8189
+    },
+    "lifestyle.urban_living": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0037,
+        "no": 0.9715,
+        "mixed": 0.0067,
+        "unknown": 0.0181
+      },
+      "confidence": 0.9256
+    },
+    "lifestyle.rural_living": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0237,
+        "no": 0.2028,
+        "mixed": 0.0487,
+        "unknown": 0.7248
+      },
+      "confidence": 0.4259
+    },
+    "lifestyle.frequent_travel": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0083,
+        "no": 0.1223,
+        "mixed": 0.0175,
+        "unknown": 0.8519
+      },
+      "confidence": 0.6548
+    },
+    "lifestyle.rooted_location": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0395,
+        "no": 0.0737,
+        "mixed": 0.0448,
+        "unknown": 0.842
+      },
+      "confidence": 0.6241
+    },
+    "lifestyle.active_routine": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.887,
+        "no": 0.0305,
+        "mixed": 0.0551,
+        "unknown": 0.0274
+      },
+      "confidence": 0.7219
+    },
+    "lifestyle.slow_routine": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0247,
+        "no": 0.2337,
+        "mixed": 0.128,
+        "unknown": 0.6136
+      },
+      "confidence": 0.2642
+    },
+    "lifestyle.structured_schedule": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.1717,
+        "no": 0.0784,
+        "mixed": 0.0967,
+        "unknown": 0.6532
+      },
+      "confidence": 0.2955
+    },
+    "lifestyle.flexible_schedule": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0139,
+        "no": 0.4094,
+        "mixed": 0.0561,
+        "unknown": 0.5206
+      },
+      "confidence": 0.256
+    },
+    "lifestyle.budget_conscious": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0142,
+        "no": 0.86,
+        "mixed": 0.0525,
+        "unknown": 0.0733
+      },
+      "confidence": 0.6638
+    },
+    "lifestyle.premium_experiences": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0217,
+        "no": 0.2244,
+        "mixed": 0.0586,
+        "unknown": 0.6953
+      },
+      "confidence": 0.3837
+    },
+    "lifestyle.minimalist_home": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0255,
+        "no": 0.067,
+        "mixed": 0.0455,
+        "unknown": 0.862
+      },
+      "confidence": 0.667
+    },
+    "lifestyle.pet_friendly": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0053,
+        "no": 0.0191,
+        "mixed": 0.009,
+        "unknown": 0.9666
+      },
+      "confidence": 0.9131
+    },
+    "lifestyle.smoke_free": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9754,
+        "no": 0.0072,
+        "mixed": 0.0069,
+        "unknown": 0.0105
+      },
+      "confidence": 0.9355
+    },
+    "lifestyle.alcohol_free": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.011,
+        "no": 0.0231,
+        "mixed": 0.0144,
+        "unknown": 0.9515
+      },
+      "confidence": 0.875
+    },
+    "lifestyle.plant_based_food": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0043,
+        "no": 0.0162,
+        "mixed": 0.0073,
+        "unknown": 0.9722
+      },
+      "confidence": 0.9273
+    },
+    "lifestyle.food_adventure": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.004,
+        "no": 0.0429,
+        "mixed": 0.0087,
+        "unknown": 0.9444
+      },
+      "confidence": 0.8583
+    },
+    "lifestyle.digital_balance": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0134,
+        "no": 0.8738,
+        "mixed": 0.0505,
+        "unknown": 0.0623
+      },
+      "confidence": 0.6935
+    },
+    "lifestyle.remote_work": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0436,
+        "no": 0.0479,
+        "mixed": 0.0505,
+        "unknown": 0.858
+      },
+      "confidence": 0.6571
+    },
+    "lifestyle.career_focus": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0199,
+        "no": 0.0467,
+        "mixed": 0.0459,
+        "unknown": 0.8875
+      },
+      "confidence": 0.7232
+    },
+    "lifestyle.work_life_balance": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0795,
+        "no": 0.095,
+        "mixed": 0.1205,
+        "unknown": 0.705
+      },
+      "confidence": 0.3691
+    },
+    "lifestyle.family_time": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9698,
+        "no": 0.0079,
+        "mixed": 0.0114,
+        "unknown": 0.0109
+      },
+      "confidence": 0.921
+    },
+    "lifestyle.community_time": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0248,
+        "no": 0.2587,
+        "mixed": 0.0884,
+        "unknown": 0.6281
+      },
+      "confidence": 0.2932
+    },
+    "lifestyle.sustainability": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0296,
+        "no": 0.0732,
+        "mixed": 0.0555,
+        "unknown": 0.8417
+      },
+      "confidence": 0.6236
+    },
+    "lifestyle.accessibility": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0185,
+        "no": 0.0415,
+        "mixed": 0.0122,
+        "unknown": 0.9278
+      },
+      "confidence": 0.8174
+    },
+    "lifestyle.direct_communication": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0109,
+        "no": 0.8756,
+        "mixed": 0.0464,
+        "unknown": 0.0671
+      },
+      "confidence": 0.6979
+    },
+    "lifestyle.text_communication": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0142,
+        "no": 0.0547,
+        "mixed": 0.031,
+        "unknown": 0.9001
+      },
+      "confidence": 0.7524
+    },
+    "lifestyle.voice_communication": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0387,
+        "no": 0.0991,
+        "mixed": 0.0636,
+        "unknown": 0.7986
+      },
+      "confidence": 0.5375
+    },
+    "lifestyle.advance_planning": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.1146,
+        "no": 0.0667,
+        "mixed": 0.0619,
+        "unknown": 0.7568
+      },
+      "confidence": 0.4589
+    }
+  },
+  "diagnostics": {
+    "choice_argmax_disagreements": [],
+    "probability_sum_deviations": {}
+  },
+  "request_hashes": [
+    "9e52ac28f05738c365f109fde443e445de619d3dd80bde00e5c7faaa037e75dd",
+    "941c39d6ecdf43a979236b3d60493d0dbc0ba7e9d47842f9fb78295bc3bc1a09",
+    "2aa6ca369bf03873900da7cc87648e27e50561df3c3194d69bcfe2f3165e0980",
+    "665453e330510337c307064896c2cd23ed3615cdb0ab0542d008e8bac877e6c4"
+  ],
+  "elapsed_seconds": 4.250794751016656,
+  "input_tokens": 43377
+}

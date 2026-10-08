@@ -1,0 +1,3226 @@
+{
+  "schema_version": "reciprocal-1.2",
+  "schema_hash": "2bf08def415919ee7000a28d30974fa064fc66e16eb0db3b356fff0e24e21e62",
+  "dimensions": 256,
+  "provider": "clef",
+  "models": [
+    "clef-flash"
+  ],
+  "dimension_ids": [
+    "self.intent.friendship",
+    "self.intent.casual_dating",
+    "self.intent.serious_dating",
+    "self.intent.creative_collaboration",
+    "self.activity.hiking",
+    "self.activity.board_games",
+    "self.activity.cooking",
+    "self.activity.live_music",
+    "self.style.early_meetings",
+    "self.style.advance_plans",
+    "self.style.quiet_places",
+    "self.style.alcohol_free",
+    "self.style.smoke_free",
+    "self.style.low_cost",
+    "self.style.weekly_contact",
+    "self.style.pet_friendly",
+    "self.activity.cycling",
+    "self.activity.running",
+    "self.activity.yoga",
+    "self.activity.swimming",
+    "self.activity.kayaking",
+    "self.activity.climbing",
+    "self.activity.camping",
+    "self.activity.tennis",
+    "self.activity.dancing",
+    "self.activity.singing",
+    "self.activity.guitar",
+    "self.activity.piano",
+    "self.activity.painting",
+    "self.activity.drawing",
+    "self.activity.photography",
+    "self.activity.pottery",
+    "self.activity.woodworking",
+    "self.activity.knitting",
+    "self.activity.reading",
+    "self.activity.writing",
+    "self.activity.movies",
+    "self.activity.chess",
+    "self.activity.gardening",
+    "self.activity.birdwatching",
+    "self.activity.museums",
+    "self.activity.volunteering",
+    "self.activity.programming",
+    "self.activity.astronomy",
+    "self.quality.reliable",
+    "self.quality.patient",
+    "self.quality.curious",
+    "self.quality.calm",
+    "self.quality.direct",
+    "self.quality.organized",
+    "self.quality.spontaneous",
+    "self.quality.reflective",
+    "self.quality.playful",
+    "self.quality.generous",
+    "self.quality.independent",
+    "self.quality.collaborative",
+    "self.context.local",
+    "self.context.online",
+    "self.context.video_first",
+    "self.context.public_first",
+    "self.context.weekends",
+    "self.context.evenings",
+    "self.context.short_visits",
+    "self.context.frequent_travel",
+    "prefer.intent.friendship",
+    "prefer.intent.casual_dating",
+    "prefer.intent.serious_dating",
+    "prefer.intent.creative_collaboration",
+    "prefer.activity.hiking",
+    "prefer.activity.board_games",
+    "prefer.activity.cooking",
+    "prefer.activity.live_music",
+    "prefer.style.early_meetings",
+    "prefer.style.advance_plans",
+    "prefer.style.quiet_places",
+    "prefer.style.alcohol_free",
+    "prefer.style.smoke_free",
+    "prefer.style.low_cost",
+    "prefer.style.weekly_contact",
+    "prefer.style.pet_friendly",
+    "prefer.activity.cycling",
+    "prefer.activity.running",
+    "prefer.activity.yoga",
+    "prefer.activity.swimming",
+    "prefer.activity.kayaking",
+    "prefer.activity.climbing",
+    "prefer.activity.camping",
+    "prefer.activity.tennis",
+    "prefer.activity.dancing",
+    "prefer.activity.singing",
+    "prefer.activity.guitar",
+    "prefer.activity.piano",
+    "prefer.activity.painting",
+    "prefer.activity.drawing",
+    "prefer.activity.photography",
+    "prefer.activity.pottery",
+    "prefer.activity.woodworking",
+    "prefer.activity.knitting",
+    "prefer.activity.reading",
+    "prefer.activity.writing",
+    "prefer.activity.movies",
+    "prefer.activity.chess",
+    "prefer.activity.gardening",
+    "prefer.activity.birdwatching",
+    "prefer.activity.museums",
+    "prefer.activity.volunteering",
+    "prefer.activity.programming",
+    "prefer.activity.astronomy",
+    "prefer.quality.reliable",
+    "prefer.quality.patient",
+    "prefer.quality.curious",
+    "prefer.quality.calm",
+    "prefer.quality.direct",
+    "prefer.quality.organized",
+    "prefer.quality.spontaneous",
+    "prefer.quality.reflective",
+    "prefer.quality.playful",
+    "prefer.quality.generous",
+    "prefer.quality.independent",
+    "prefer.quality.collaborative",
+    "prefer.context.local",
+    "prefer.context.online",
+    "prefer.context.video_first",
+    "prefer.context.public_first",
+    "prefer.context.weekends",
+    "prefer.context.evenings",
+    "prefer.context.short_visits",
+    "prefer.context.frequent_travel",
+    "require.intent.friendship",
+    "require.intent.casual_dating",
+    "require.intent.serious_dating",
+    "require.intent.creative_collaboration",
+    "require.activity.hiking",
+    "require.activity.board_games",
+    "require.activity.cooking",
+    "require.activity.live_music",
+    "require.style.early_meetings",
+    "require.style.advance_plans",
+    "require.style.quiet_places",
+    "require.style.alcohol_free",
+    "require.style.smoke_free",
+    "require.style.low_cost",
+    "require.style.weekly_contact",
+    "require.style.pet_friendly",
+    "require.activity.cycling",
+    "require.activity.running",
+    "require.activity.yoga",
+    "require.activity.swimming",
+    "require.activity.kayaking",
+    "require.activity.climbing",
+    "require.activity.camping",
+    "require.activity.tennis",
+    "require.activity.dancing",
+    "require.activity.singing",
+    "require.activity.guitar",
+    "require.activity.piano",
+    "require.activity.painting",
+    "require.activity.drawing",
+    "require.activity.photography",
+    "require.activity.pottery",
+    "require.activity.woodworking",
+    "require.activity.knitting",
+    "require.activity.reading",
+    "require.activity.writing",
+    "require.activity.movies",
+    "require.activity.chess",
+    "require.activity.gardening",
+    "require.activity.birdwatching",
+    "require.activity.museums",
+    "require.activity.volunteering",
+    "require.activity.programming",
+    "require.activity.astronomy",
+    "require.quality.reliable",
+    "require.quality.patient",
+    "require.quality.curious",
+    "require.quality.calm",
+    "require.quality.direct",
+    "require.quality.organized",
+    "require.quality.spontaneous",
+    "require.quality.reflective",
+    "require.quality.playful",
+    "require.quality.generous",
+    "require.quality.independent",
+    "require.quality.collaborative",
+    "require.context.local",
+    "require.context.online",
+    "require.context.video_first",
+    "require.context.public_first",
+    "require.context.weekends",
+    "require.context.evenings",
+    "require.context.short_visits",
+    "require.context.frequent_travel",
+    "exclude.intent.friendship",
+    "exclude.intent.casual_dating",
+    "exclude.intent.serious_dating",
+    "exclude.intent.creative_collaboration",
+    "exclude.activity.hiking",
+    "exclude.activity.board_games",
+    "exclude.activity.cooking",
+    "exclude.activity.live_music",
+    "exclude.style.early_meetings",
+    "exclude.style.advance_plans",
+    "exclude.style.quiet_places",
+    "exclude.style.alcohol_free",
+    "exclude.style.smoke_free",
+    "exclude.style.low_cost",
+    "exclude.style.weekly_contact",
+    "exclude.style.pet_friendly",
+    "exclude.activity.cycling",
+    "exclude.activity.running",
+    "exclude.activity.yoga",
+    "exclude.activity.swimming",
+    "exclude.activity.kayaking",
+    "exclude.activity.climbing",
+    "exclude.activity.camping",
+    "exclude.activity.tennis",
+    "exclude.activity.dancing",
+    "exclude.activity.singing",
+    "exclude.activity.guitar",
+    "exclude.activity.piano",
+    "exclude.activity.painting",
+    "exclude.activity.drawing",
+    "exclude.activity.photography",
+    "exclude.activity.pottery",
+    "exclude.activity.woodworking",
+    "exclude.activity.knitting",
+    "exclude.activity.reading",
+    "exclude.activity.writing",
+    "exclude.activity.movies",
+    "exclude.activity.chess",
+    "exclude.activity.gardening",
+    "exclude.activity.birdwatching",
+    "exclude.activity.museums",
+    "exclude.activity.volunteering",
+    "exclude.activity.programming",
+    "exclude.activity.astronomy",
+    "exclude.quality.reliable",
+    "exclude.quality.patient",
+    "exclude.quality.curious",
+    "exclude.quality.calm",
+    "exclude.quality.direct",
+    "exclude.quality.organized",
+    "exclude.quality.spontaneous",
+    "exclude.quality.reflective",
+    "exclude.quality.playful",
+    "exclude.quality.generous",
+    "exclude.quality.independent",
+    "exclude.quality.collaborative",
+    "exclude.context.local",
+    "exclude.context.online",
+    "exclude.context.video_first",
+    "exclude.context.public_first",
+    "exclude.context.weekends",
+    "exclude.context.evenings",
+    "exclude.context.short_visits",
+    "exclude.context.frequent_travel"
+  ],
+  "values": [
+    0.01686833470057424,
+    0.04710332676961343,
+    0.022685469037400367,
+    0.9862348178137651,
+    0.989147991116495,
+    0.987246963562753,
+    0.018262987012987016,
+    0.01842159277504105,
+    0.9817710977962832,
+    0.020984376595527415,
+    0.9842958459979737,
+    0.09713593766452563,
+    0.21946240217761143,
+    0.9866396761133603,
+    0.031182463723371412,
+    0.9859362307067424,
+    0.3908382066276803,
+    0.3607068607068607,
+    0.3347826086956522,
+    0.3157894736842105,
+    0.38592750533049036,
+    0.36874051593323215,
+    0.4811955661124307,
+    0.2796803652968037,
+    0.32130584192439865,
+    0.3867775138558987,
+    0.9851380042462845,
+    0.3185840707964602,
+    0.5084341767510084,
+    0.5026030368763558,
+    0.38667992047713723,
+    0.20903674280039722,
+    0.20440251572327045,
+    0.013753464025454172,
+    0.4291417165668662,
+    0.9869271148798707,
+    0.9866464339908954,
+    0.6450441609421,
+    0.9879700768297613,
+    0.4655172413793104,
+    0.5352839931153185,
+    0.5525175961017866,
+    0.2712895377128954,
+    0.3853427895981087,
+    0.5950570342205324,
+    0.16849217638691324,
+    0.6514084507042254,
+    0.009180361128017853,
+    0.5808550185873607,
+    0.014338197775283192,
+    0.6201895734597157,
+    0.9888652697641461,
+    0.45716783216783213,
+    0.9876799837761103,
+    0.027393753200204814,
+    0.03896713615023475,
+    0.5457371225577264,
+    0.20226648351648355,
+    0.15015806111696522,
+    0.590032461332824,
+    0.034013253261544835,
+    0.3071479122434536,
+    0.4384039900249377,
+    0.4004329004329004,
+    0.1356,
+    0.0226,
+    0.035,
+    0.9795,
+    0.9784,
+    0.0088,
+    0.0111,
+    0.1265,
+    0.0064,
+    0.01,
+    0.0813,
+    0.9788,
+    0.0551,
+    0.0425,
+    0.0099,
+    0.8615,
+    0.0219,
+    0.0261,
+    0.0132,
+    0.0104,
+    0.0091,
+    0.0136,
+    0.0721,
+    0.9715,
+    0.069,
+    0.1198,
+    0.967,
+    0.976,
+    0.0422,
+    0.0251,
+    0.0285,
+    0.0169,
+    0.0088,
+    0.0085,
+    0.0094,
+    0.0936,
+    0.0091,
+    0.0075,
+    0.0597,
+    0.9825,
+    0.011,
+    0.0211,
+    0.009,
+    0.0107,
+    0.0098,
+    0.0082,
+    0.0729,
+    0.0142,
+    0.0291,
+    0.0105,
+    0.0394,
+    0.0101,
+    0.0174,
+    0.0106,
+    0.0921,
+    0.2502,
+    0.0164,
+    0.0246,
+    0.008,
+    0.0152,
+    0.0274,
+    0.0261,
+    0.0166,
+    0.0146,
+    0.1239,
+    0.024,
+    0.0343,
+    0.9829,
+    0.0097,
+    0.9742,
+    0.0103,
+    0.0083,
+    0.0063,
+    0.0102,
+    0.0307,
+    0.0188,
+    0.0121,
+    0.0535,
+    0.0149,
+    0.9533,
+    0.0116,
+    0.0093,
+    0.0088,
+    0.0076,
+    0.0074,
+    0.0079,
+    0.0187,
+    0.0134,
+    0.0099,
+    0.0095,
+    0.0216,
+    0.0165,
+    0.0805,
+    0.0678,
+    0.0182,
+    0.0368,
+    0.0227,
+    0.0164,
+    0.0173,
+    0.136,
+    0.0133,
+    0.2832,
+    0.0286,
+    0.0373,
+    0.0128,
+    0.0461,
+    0.0194,
+    0.0083,
+    0.0138,
+    0.0105,
+    0.1148,
+    0.013,
+    0.0252,
+    0.0123,
+    0.0391,
+    0.0101,
+    0.0856,
+    0.0141,
+    0.0578,
+    0.3078,
+    0.0178,
+    0.0339,
+    0.0083,
+    0.0145,
+    0.028,
+    0.0231,
+    0.0166,
+    0.0108,
+    0.0199,
+    0.0119,
+    0.016,
+    0.0221,
+    0.9636,
+    0.008,
+    0.0072,
+    0.9822,
+    0.9765,
+    0.0151,
+    0.0329,
+    0.0171,
+    0.0084,
+    0.0207,
+    0.0094,
+    0.0086,
+    0.0188,
+    0.0201,
+    0.009,
+    0.0077,
+    0.0094,
+    0.023,
+    0.0783,
+    0.0082,
+    0.1543,
+    0.0631,
+    0.0644,
+    0.0172,
+    0.0069,
+    0.006,
+    0.0103,
+    0.0065,
+    0.0067,
+    0.0066,
+    0.0104,
+    0.0088,
+    0.018,
+    0.0082,
+    0.0162,
+    0.0238,
+    0.0138,
+    0.0111,
+    0.0074,
+    0.0107,
+    0.0086,
+    0.0086,
+    0.0193,
+    0.0116,
+    0.0386,
+    0.017,
+    0.0659,
+    0.0087,
+    0.0143,
+    0.0068,
+    0.0439,
+    0.0324,
+    0.0556,
+    0.0346,
+    0.0199,
+    0.0575,
+    0.0441,
+    0.1495,
+    0.0239,
+    0.0144
+  ],
+  "known": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    true,
+    true,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    true,
+    false,
+    true,
+    false,
+    true,
+    false,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "answers": {
+    "self.intent.friendship": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.01,
+        "no": 0.9523,
+        "mixed": 0.0129,
+        "unknown": 0.0248
+      },
+      "confidence": 0.877
+    },
+    "self.intent.casual_dating": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0118,
+        "no": 0.8858,
+        "mixed": 0.0673,
+        "unknown": 0.0351
+      },
+      "confidence": 0.7208
+    },
+    "self.intent.serious_dating": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0114,
+        "no": 0.9456,
+        "mixed": 0.0216,
+        "unknown": 0.0214
+      },
+      "confidence": 0.8602
+    },
+    "self.intent.creative_collaboration": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9701,
+        "no": 0.0093,
+        "mixed": 0.0086,
+        "unknown": 0.012
+      },
+      "confidence": 0.9219
+    },
+    "self.activity.hiking": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9768,
+        "no": 0.0077,
+        "mixed": 0.0061,
+        "unknown": 0.0094
+      },
+      "confidence": 0.9392
+    },
+    "self.activity.board_games": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9712,
+        "no": 0.0084,
+        "mixed": 0.0084,
+        "unknown": 0.012
+      },
+      "confidence": 0.9248
+    },
+    "self.activity.cooking": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0069,
+        "no": 0.9565,
+        "mixed": 0.0222,
+        "unknown": 0.0144
+      },
+      "confidence": 0.8875
+    },
+    "self.activity.live_music": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0078,
+        "no": 0.9463,
+        "mixed": 0.0203,
+        "unknown": 0.0256
+      },
+      "confidence": 0.8622
+    },
+    "self.style.early_meetings": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9612,
+        "no": 0.0124,
+        "mixed": 0.0111,
+        "unknown": 0.0153
+      },
+      "confidence": 0.8992
+    },
+    "self.style.advance_plans": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.008,
+        "no": 0.9462,
+        "mixed": 0.0251,
+        "unknown": 0.0207
+      },
+      "confidence": 0.862
+    },
+    "self.style.quiet_places": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9669,
+        "no": 0.0109,
+        "mixed": 0.0092,
+        "unknown": 0.013
+      },
+      "confidence": 0.9136
+    },
+    "self.style.alcohol_free": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0208,
+        "no": 0.786,
+        "mixed": 0.1429,
+        "unknown": 0.0503
+      },
+      "confidence": 0.5217
+    },
+    "self.style.smoke_free": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0849,
+        "no": 0.5796,
+        "mixed": 0.2172,
+        "unknown": 0.1183
+      },
+      "confidence": 0.2058
+    },
+    "self.style.low_cost": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.971,
+        "no": 0.0094,
+        "mixed": 0.0076,
+        "unknown": 0.012
+      },
+      "confidence": 0.9241
+    },
+    "self.style.weekly_contact": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0095,
+        "no": 0.9206,
+        "mixed": 0.0416,
+        "unknown": 0.0283
+      },
+      "confidence": 0.8003
+    },
+    "self.style.pet_friendly": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9665,
+        "no": 0.0094,
+        "mixed": 0.0089,
+        "unknown": 0.0152
+      },
+      "confidence": 0.9128
+    },
+    "self.activity.cycling": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0122,
+        "no": 0.0234,
+        "mixed": 0.0157,
+        "unknown": 0.9487
+      },
+      "confidence": 0.8679
+    },
+    "self.activity.running": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0094,
+        "no": 0.0228,
+        "mixed": 0.0159,
+        "unknown": 0.9519
+      },
+      "confidence": 0.876
+    },
+    "self.activity.yoga": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0065,
+        "no": 0.0179,
+        "mixed": 0.0101,
+        "unknown": 0.9655
+      },
+      "confidence": 0.9102
+    },
+    "self.activity.swimming": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0059,
+        "no": 0.0164,
+        "mixed": 0.0062,
+        "unknown": 0.9715
+      },
+      "confidence": 0.9255
+    },
+    "self.activity.kayaking": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0113,
+        "no": 0.022,
+        "mixed": 0.0136,
+        "unknown": 0.9531
+      },
+      "confidence": 0.879
+    },
+    "self.activity.climbing": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0136,
+        "no": 0.0309,
+        "mixed": 0.0214,
+        "unknown": 0.9341
+      },
+      "confidence": 0.8323
+    },
+    "self.activity.camping": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0701,
+        "no": 0.0796,
+        "mixed": 0.1029,
+        "unknown": 0.7474
+      },
+      "confidence": 0.4405
+    },
+    "self.activity.tennis": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0075,
+        "no": 0.0268,
+        "mixed": 0.0095,
+        "unknown": 0.9562
+      },
+      "confidence": 0.8868
+    },
+    "self.activity.dancing": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0094,
+        "no": 0.0302,
+        "mixed": 0.0186,
+        "unknown": 0.9418
+      },
+      "confidence": 0.851
+    },
+    "self.activity.singing": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0502,
+        "no": 0.1074,
+        "mixed": 0.095,
+        "unknown": 0.7474
+      },
+      "confidence": 0.4421
+    },
+    "self.activity.guitar": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9704,
+        "no": 0.0107,
+        "mixed": 0.008,
+        "unknown": 0.0109
+      },
+      "confidence": 0.9228
+    },
+    "self.activity.piano": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0139,
+        "no": 0.0385,
+        "mixed": 0.0154,
+        "unknown": 0.9322
+      },
+      "confidence": 0.828
+    },
+    "self.activity.painting": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0941,
+        "no": 0.0895,
+        "mixed": 0.0891,
+        "unknown": 0.7273
+      },
+      "confidence": 0.405
+    },
+    "self.activity.drawing": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0752,
+        "no": 0.074,
+        "mixed": 0.0813,
+        "unknown": 0.7695
+      },
+      "confidence": 0.4798
+    },
+    "self.activity.photography": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0122,
+        "no": 0.0236,
+        "mixed": 0.0145,
+        "unknown": 0.9497
+      },
+      "confidence": 0.8704
+    },
+    "self.activity.pottery": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.012,
+        "no": 0.0706,
+        "mixed": 0.0181,
+        "unknown": 0.8993
+      },
+      "confidence": 0.7523
+    },
+    "self.activity.woodworking": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0096,
+        "no": 0.0566,
+        "mixed": 0.0133,
+        "unknown": 0.9205
+      },
+      "confidence": 0.8011
+    },
+    "self.activity.knitting": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.006,
+        "no": 0.9535,
+        "mixed": 0.0148,
+        "unknown": 0.0257
+      },
+      "confidence": 0.8801
+    },
+    "self.activity.reading": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0134,
+        "no": 0.0205,
+        "mixed": 0.0162,
+        "unknown": 0.9499
+      },
+      "confidence": 0.8709
+    },
+    "self.activity.writing": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9742,
+        "no": 0.0095,
+        "mixed": 0.0069,
+        "unknown": 0.0094
+      },
+      "confidence": 0.9324
+    },
+    "self.activity.movies": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9713,
+        "no": 0.0092,
+        "mixed": 0.008,
+        "unknown": 0.0115
+      },
+      "confidence": 0.9249
+    },
+    "self.activity.chess": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.2614,
+        "no": 0.1136,
+        "mixed": 0.1345,
+        "unknown": 0.4905
+      },
+      "confidence": 0.1199
+    },
+    "self.activity.gardening": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9738,
+        "no": 0.0084,
+        "mixed": 0.007,
+        "unknown": 0.0108
+      },
+      "confidence": 0.9314
+    },
+    "self.activity.birdwatching": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0218,
+        "no": 0.0264,
+        "mixed": 0.0185,
+        "unknown": 0.9333
+      },
+      "confidence": 0.8302
+    },
+    "self.activity.museums": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.084,
+        "no": 0.0676,
+        "mixed": 0.0808,
+        "unknown": 0.7676
+      },
+      "confidence": 0.4765
+    },
+    "self.activity.volunteering": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0693,
+        "no": 0.0499,
+        "mixed": 0.0655,
+        "unknown": 0.8153
+      },
+      "confidence": 0.5683
+    },
+    "self.activity.programming": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0067,
+        "no": 0.0255,
+        "mixed": 0.0089,
+        "unknown": 0.9589
+      },
+      "confidence": 0.8936
+    },
+    "self.activity.astronomy": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0101,
+        "no": 0.0198,
+        "mixed": 0.0124,
+        "unknown": 0.9577
+      },
+      "confidence": 0.8905
+    },
+    "self.quality.reliable": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0706,
+        "no": 0.0406,
+        "mixed": 0.0466,
+        "unknown": 0.8422
+      },
+      "confidence": 0.6242
+    },
+    "self.quality.patient": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.04,
+        "no": 0.5061,
+        "mixed": 0.1569,
+        "unknown": 0.297
+      },
+      "confidence": 0.1608
+    },
+    "self.quality.curious": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.1454,
+        "no": 0.0637,
+        "mixed": 0.0607,
+        "unknown": 0.7302
+      },
+      "confidence": 0.4161
+    },
+    "self.quality.calm": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0053,
+        "no": 0.973,
+        "mixed": 0.0075,
+        "unknown": 0.0142
+      },
+      "confidence": 0.9294
+    },
+    "self.quality.direct": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0767,
+        "no": 0.0506,
+        "mixed": 0.0341,
+        "unknown": 0.8386
+      },
+      "confidence": 0.6172
+    },
+    "self.quality.organized": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0067,
+        "no": 0.9585,
+        "mixed": 0.0147,
+        "unknown": 0.0201
+      },
+      "confidence": 0.8924
+    },
+    "self.quality.spontaneous": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.2534,
+        "no": 0.1266,
+        "mixed": 0.1475,
+        "unknown": 0.4725
+      },
+      "confidence": 0.1003
+    },
+    "self.quality.reflective": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9737,
+        "no": 0.0078,
+        "mixed": 0.0064,
+        "unknown": 0.0121
+      },
+      "confidence": 0.931
+    },
+    "self.quality.playful": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0177,
+        "no": 0.0226,
+        "mixed": 0.0169,
+        "unknown": 0.9428
+      },
+      "confidence": 0.8532
+    },
+    "self.quality.generous": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9703,
+        "no": 0.0084,
+        "mixed": 0.0075,
+        "unknown": 0.0138
+      },
+      "confidence": 0.9224
+    },
+    "self.quality.independent": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0097,
+        "no": 0.9327,
+        "mixed": 0.0341,
+        "unknown": 0.0235
+      },
+      "confidence": 0.8289
+    },
+    "self.quality.collaborative": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0148,
+        "no": 0.8986,
+        "mixed": 0.0451,
+        "unknown": 0.0415
+      },
+      "confidence": 0.7486
+    },
+    "self.context.local": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0449,
+        "no": 0.0346,
+        "mixed": 0.0331,
+        "unknown": 0.8874
+      },
+      "confidence": 0.7223
+    },
+    "self.context.online": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0088,
+        "no": 0.0955,
+        "mixed": 0.0413,
+        "unknown": 0.8544
+      },
+      "confidence": 0.6546
+    },
+    "self.context.video_first": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0064,
+        "no": 0.0728,
+        "mixed": 0.0157,
+        "unknown": 0.9051
+      },
+      "confidence": 0.7665
+    },
+    "self.context.public_first": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.2417,
+        "no": 0.1474,
+        "mixed": 0.1346,
+        "unknown": 0.4763
+      },
+      "confidence": 0.1002
+    },
+    "self.context.weekends": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0164,
+        "no": 0.9165,
+        "mixed": 0.0329,
+        "unknown": 0.0342
+      },
+      "confidence": 0.7898
+    },
+    "self.context.evenings": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0311,
+        "no": 0.1401,
+        "mixed": 0.1114,
+        "unknown": 0.7174
+      },
+      "confidence": 0.397
+    },
+    "self.context.short_visits": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0522,
+        "no": 0.0769,
+        "mixed": 0.0714,
+        "unknown": 0.7995
+      },
+      "confidence": 0.5373
+    },
+    "self.context.frequent_travel": {
+      "type": "choice",
+      "choice": "unknown",
+      "probabilities": {
+        "yes": 0.0165,
+        "no": 0.0303,
+        "mixed": 0.0225,
+        "unknown": 0.9307
+      },
+      "confidence": 0.8239
+    },
+    "prefer.intent.friendship": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.1356,
+        "no": 0.8644
+      },
+      "confidence": 0.5311
+    },
+    "prefer.intent.casual_dating": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0226,
+        "no": 0.9774
+      },
+      "confidence": 0.9115
+    },
+    "prefer.intent.serious_dating": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.035,
+        "no": 0.965
+      },
+      "confidence": 0.8649
+    },
+    "prefer.intent.creative_collaboration": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9795,
+        "no": 0.0205
+      },
+      "confidence": 0.9199
+    },
+    "prefer.activity.hiking": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9784,
+        "no": 0.0216
+      },
+      "confidence": 0.9156
+    },
+    "prefer.activity.board_games": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0088,
+        "no": 0.9912
+      },
+      "confidence": 0.9649
+    },
+    "prefer.activity.cooking": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0111,
+        "no": 0.9889
+      },
+      "confidence": 0.9562
+    },
+    "prefer.activity.live_music": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.1265,
+        "no": 0.8735
+      },
+      "confidence": 0.5581
+    },
+    "prefer.style.early_meetings": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0064,
+        "no": 0.9936
+      },
+      "confidence": 0.9746
+    },
+    "prefer.style.advance_plans": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.01,
+        "no": 0.99
+      },
+      "confidence": 0.9603
+    },
+    "prefer.style.quiet_places": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0813,
+        "no": 0.9187
+      },
+      "confidence": 0.7013
+    },
+    "prefer.style.alcohol_free": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9788,
+        "no": 0.0212
+      },
+      "confidence": 0.9169
+    },
+    "prefer.style.smoke_free": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0551,
+        "no": 0.9449
+      },
+      "confidence": 0.7917
+    },
+    "prefer.style.low_cost": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0425,
+        "no": 0.9575
+      },
+      "confidence": 0.8371
+    },
+    "prefer.style.weekly_contact": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0099,
+        "no": 0.9901
+      },
+      "confidence": 0.9608
+    },
+    "prefer.style.pet_friendly": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.8615,
+        "no": 0.1385
+      },
+      "confidence": 0.5229
+    },
+    "prefer.activity.cycling": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0219,
+        "no": 0.9781
+      },
+      "confidence": 0.9143
+    },
+    "prefer.activity.running": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0261,
+        "no": 0.9739
+      },
+      "confidence": 0.8982
+    },
+    "prefer.activity.yoga": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0132,
+        "no": 0.9868
+      },
+      "confidence": 0.9479
+    },
+    "prefer.activity.swimming": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0104,
+        "no": 0.9896
+      },
+      "confidence": 0.959
+    },
+    "prefer.activity.kayaking": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0091,
+        "no": 0.9909
+      },
+      "confidence": 0.9638
+    },
+    "prefer.activity.climbing": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0136,
+        "no": 0.9864
+      },
+      "confidence": 0.9464
+    },
+    "prefer.activity.camping": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0721,
+        "no": 0.9279
+      },
+      "confidence": 0.7323
+    },
+    "prefer.activity.tennis": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9715,
+        "no": 0.0285
+      },
+      "confidence": 0.8894
+    },
+    "prefer.activity.dancing": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.069,
+        "no": 0.931
+      },
+      "confidence": 0.743
+    },
+    "prefer.activity.singing": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.1198,
+        "no": 0.8802
+      },
+      "confidence": 0.5783
+    },
+    "prefer.activity.guitar": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.967,
+        "no": 0.033
+      },
+      "confidence": 0.8722
+    },
+    "prefer.activity.piano": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.976,
+        "no": 0.024
+      },
+      "confidence": 0.9065
+    },
+    "prefer.activity.painting": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0422,
+        "no": 0.9578
+      },
+      "confidence": 0.8382
+    },
+    "prefer.activity.drawing": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0251,
+        "no": 0.9749
+      },
+      "confidence": 0.9021
+    },
+    "prefer.activity.photography": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0285,
+        "no": 0.9715
+      },
+      "confidence": 0.8892
+    },
+    "prefer.activity.pottery": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0169,
+        "no": 0.9831
+      },
+      "confidence": 0.9335
+    },
+    "prefer.activity.woodworking": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0088,
+        "no": 0.9912
+      },
+      "confidence": 0.9651
+    },
+    "prefer.activity.knitting": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0085,
+        "no": 0.9915
+      },
+      "confidence": 0.9664
+    },
+    "prefer.activity.reading": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0094,
+        "no": 0.9906
+      },
+      "confidence": 0.9629
+    },
+    "prefer.activity.writing": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0936,
+        "no": 0.9064
+      },
+      "confidence": 0.6607
+    },
+    "prefer.activity.movies": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0091,
+        "no": 0.9909
+      },
+      "confidence": 0.9639
+    },
+    "prefer.activity.chess": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0075,
+        "no": 0.9925
+      },
+      "confidence": 0.9701
+    },
+    "prefer.activity.gardening": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0597,
+        "no": 0.9403
+      },
+      "confidence": 0.7756
+    },
+    "prefer.activity.birdwatching": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9825,
+        "no": 0.0175
+      },
+      "confidence": 0.9313
+    },
+    "prefer.activity.museums": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.011,
+        "no": 0.989
+      },
+      "confidence": 0.9564
+    },
+    "prefer.activity.volunteering": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0211,
+        "no": 0.9789
+      },
+      "confidence": 0.9175
+    },
+    "prefer.activity.programming": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.009,
+        "no": 0.991
+      },
+      "confidence": 0.9645
+    },
+    "prefer.activity.astronomy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0107,
+        "no": 0.9893
+      },
+      "confidence": 0.9578
+    },
+    "prefer.quality.reliable": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0098,
+        "no": 0.9902
+      },
+      "confidence": 0.9614
+    },
+    "prefer.quality.patient": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0082,
+        "no": 0.9918
+      },
+      "confidence": 0.9673
+    },
+    "prefer.quality.curious": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0729,
+        "no": 0.9271
+      },
+      "confidence": 0.7297
+    },
+    "prefer.quality.calm": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0142,
+        "no": 0.9858
+      },
+      "confidence": 0.9438
+    },
+    "prefer.quality.direct": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0291,
+        "no": 0.9709
+      },
+      "confidence": 0.8869
+    },
+    "prefer.quality.organized": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0105,
+        "no": 0.9895
+      },
+      "confidence": 0.9584
+    },
+    "prefer.quality.spontaneous": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0394,
+        "no": 0.9606
+      },
+      "confidence": 0.8487
+    },
+    "prefer.quality.reflective": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0101,
+        "no": 0.9899
+      },
+      "confidence": 0.9599
+    },
+    "prefer.quality.playful": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0174,
+        "no": 0.9826
+      },
+      "confidence": 0.9315
+    },
+    "prefer.quality.generous": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0106,
+        "no": 0.9894
+      },
+      "confidence": 0.958
+    },
+    "prefer.quality.independent": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0921,
+        "no": 0.9079
+      },
+      "confidence": 0.6655
+    },
+    "prefer.quality.collaborative": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.2502,
+        "no": 0.7498
+      },
+      "confidence": 0.2496
+    },
+    "prefer.context.local": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0164,
+        "no": 0.9836
+      },
+      "confidence": 0.9355
+    },
+    "prefer.context.online": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0246,
+        "no": 0.9754
+      },
+      "confidence": 0.904
+    },
+    "prefer.context.video_first": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.008,
+        "no": 0.992
+      },
+      "confidence": 0.9684
+    },
+    "prefer.context.public_first": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0152,
+        "no": 0.9848
+      },
+      "confidence": 0.9402
+    },
+    "prefer.context.weekends": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0274,
+        "no": 0.9726
+      },
+      "confidence": 0.8934
+    },
+    "prefer.context.evenings": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0261,
+        "no": 0.9739
+      },
+      "confidence": 0.8984
+    },
+    "prefer.context.short_visits": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0166,
+        "no": 0.9834
+      },
+      "confidence": 0.9346
+    },
+    "prefer.context.frequent_travel": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0146,
+        "no": 0.9854
+      },
+      "confidence": 0.9424
+    },
+    "require.intent.friendship": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.1239,
+        "no": 0.8761
+      },
+      "confidence": 0.5657
+    },
+    "require.intent.casual_dating": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.024,
+        "no": 0.976
+      },
+      "confidence": 0.9063
+    },
+    "require.intent.serious_dating": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0343,
+        "no": 0.9657
+      },
+      "confidence": 0.8674
+    },
+    "require.intent.creative_collaboration": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9829,
+        "no": 0.0171
+      },
+      "confidence": 0.9328
+    },
+    "require.activity.hiking": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0097,
+        "no": 0.9903
+      },
+      "confidence": 0.9615
+    },
+    "require.activity.board_games": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9742,
+        "no": 0.0258
+      },
+      "confidence": 0.8996
+    },
+    "require.activity.cooking": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0103,
+        "no": 0.9897
+      },
+      "confidence": 0.9593
+    },
+    "require.activity.live_music": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0083,
+        "no": 0.9917
+      },
+      "confidence": 0.9669
+    },
+    "require.style.early_meetings": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0063,
+        "no": 0.9937
+      },
+      "confidence": 0.9748
+    },
+    "require.style.advance_plans": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0102,
+        "no": 0.9898
+      },
+      "confidence": 0.9597
+    },
+    "require.style.quiet_places": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0307,
+        "no": 0.9693
+      },
+      "confidence": 0.8808
+    },
+    "require.style.alcohol_free": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0188,
+        "no": 0.9812
+      },
+      "confidence": 0.9263
+    },
+    "require.style.smoke_free": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0121,
+        "no": 0.9879
+      },
+      "confidence": 0.9523
+    },
+    "require.style.low_cost": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0535,
+        "no": 0.9465
+      },
+      "confidence": 0.7973
+    },
+    "require.style.weekly_contact": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0149,
+        "no": 0.9851
+      },
+      "confidence": 0.9412
+    },
+    "require.style.pet_friendly": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9533,
+        "no": 0.0467
+      },
+      "confidence": 0.822
+    },
+    "require.activity.cycling": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0116,
+        "no": 0.9884
+      },
+      "confidence": 0.9541
+    },
+    "require.activity.running": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0093,
+        "no": 0.9907
+      },
+      "confidence": 0.963
+    },
+    "require.activity.yoga": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0088,
+        "no": 0.9912
+      },
+      "confidence": 0.9651
+    },
+    "require.activity.swimming": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0076,
+        "no": 0.9924
+      },
+      "confidence": 0.9697
+    },
+    "require.activity.kayaking": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0074,
+        "no": 0.9926
+      },
+      "confidence": 0.9705
+    },
+    "require.activity.climbing": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0079,
+        "no": 0.9921
+      },
+      "confidence": 0.9687
+    },
+    "require.activity.camping": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0187,
+        "no": 0.9813
+      },
+      "confidence": 0.9266
+    },
+    "require.activity.tennis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0134,
+        "no": 0.9866
+      },
+      "confidence": 0.9472
+    },
+    "require.activity.dancing": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0099,
+        "no": 0.9901
+      },
+      "confidence": 0.9608
+    },
+    "require.activity.singing": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0095,
+        "no": 0.9905
+      },
+      "confidence": 0.9626
+    },
+    "require.activity.guitar": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0216,
+        "no": 0.9784
+      },
+      "confidence": 0.9156
+    },
+    "require.activity.piano": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0165,
+        "no": 0.9835
+      },
+      "confidence": 0.9351
+    },
+    "require.activity.painting": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0805,
+        "no": 0.9195
+      },
+      "confidence": 0.7038
+    },
+    "require.activity.drawing": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0678,
+        "no": 0.9322
+      },
+      "confidence": 0.7471
+    },
+    "require.activity.photography": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0182,
+        "no": 0.9818
+      },
+      "confidence": 0.9286
+    },
+    "require.activity.pottery": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0368,
+        "no": 0.9632
+      },
+      "confidence": 0.8583
+    },
+    "require.activity.woodworking": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0227,
+        "no": 0.9773
+      },
+      "confidence": 0.9114
+    },
+    "require.activity.knitting": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0164,
+        "no": 0.9836
+      },
+      "confidence": 0.9354
+    },
+    "require.activity.reading": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0173,
+        "no": 0.9827
+      },
+      "confidence": 0.9321
+    },
+    "require.activity.writing": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.136,
+        "no": 0.864
+      },
+      "confidence": 0.5301
+    },
+    "require.activity.movies": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0133,
+        "no": 0.9867
+      },
+      "confidence": 0.9474
+    },
+    "require.activity.chess": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.2832,
+        "no": 0.7168
+      },
+      "confidence": 0.188
+    },
+    "require.activity.gardening": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0286,
+        "no": 0.9714
+      },
+      "confidence": 0.8891
+    },
+    "require.activity.birdwatching": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0373,
+        "no": 0.9627
+      },
+      "confidence": 0.8565
+    },
+    "require.activity.museums": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0128,
+        "no": 0.9872
+      },
+      "confidence": 0.9495
+    },
+    "require.activity.volunteering": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0461,
+        "no": 0.9539
+      },
+      "confidence": 0.8242
+    },
+    "require.activity.programming": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0194,
+        "no": 0.9806
+      },
+      "confidence": 0.9239
+    },
+    "require.activity.astronomy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0083,
+        "no": 0.9917
+      },
+      "confidence": 0.967
+    },
+    "require.quality.reliable": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0138,
+        "no": 0.9862
+      },
+      "confidence": 0.9457
+    },
+    "require.quality.patient": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0105,
+        "no": 0.9895
+      },
+      "confidence": 0.9585
+    },
+    "require.quality.curious": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.1148,
+        "no": 0.8852
+      },
+      "confidence": 0.5934
+    },
+    "require.quality.calm": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.013,
+        "no": 0.987
+      },
+      "confidence": 0.9489
+    },
+    "require.quality.direct": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0252,
+        "no": 0.9748
+      },
+      "confidence": 0.9018
+    },
+    "require.quality.organized": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0123,
+        "no": 0.9877
+      },
+      "confidence": 0.9513
+    },
+    "require.quality.spontaneous": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0391,
+        "no": 0.9609
+      },
+      "confidence": 0.8498
+    },
+    "require.quality.reflective": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0101,
+        "no": 0.9899
+      },
+      "confidence": 0.9601
+    },
+    "require.quality.playful": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0856,
+        "no": 0.9144
+      },
+      "confidence": 0.687
+    },
+    "require.quality.generous": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0141,
+        "no": 0.9859
+      },
+      "confidence": 0.9443
+    },
+    "require.quality.independent": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0578,
+        "no": 0.9422
+      },
+      "confidence": 0.7823
+    },
+    "require.quality.collaborative": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.3078,
+        "no": 0.6922
+      },
+      "confidence": 0.1477
+    },
+    "require.context.local": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0178,
+        "no": 0.9822
+      },
+      "confidence": 0.9301
+    },
+    "require.context.online": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0339,
+        "no": 0.9661
+      },
+      "confidence": 0.869
+    },
+    "require.context.video_first": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0083,
+        "no": 0.9917
+      },
+      "confidence": 0.9672
+    },
+    "require.context.public_first": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0145,
+        "no": 0.9855
+      },
+      "confidence": 0.9428
+    },
+    "require.context.weekends": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.028,
+        "no": 0.972
+      },
+      "confidence": 0.8912
+    },
+    "require.context.evenings": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0231,
+        "no": 0.9769
+      },
+      "confidence": 0.9098
+    },
+    "require.context.short_visits": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0166,
+        "no": 0.9834
+      },
+      "confidence": 0.9346
+    },
+    "require.context.frequent_travel": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0108,
+        "no": 0.9892
+      },
+      "confidence": 0.9572
+    },
+    "exclude.intent.friendship": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0199,
+        "no": 0.9801
+      },
+      "confidence": 0.9221
+    },
+    "exclude.intent.casual_dating": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0119,
+        "no": 0.9881
+      },
+      "confidence": 0.9529
+    },
+    "exclude.intent.serious_dating": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.016,
+        "no": 0.984
+      },
+      "confidence": 0.937
+    },
+    "exclude.intent.creative_collaboration": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0221,
+        "no": 0.9779
+      },
+      "confidence": 0.9135
+    },
+    "exclude.activity.hiking": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9636,
+        "no": 0.0364
+      },
+      "confidence": 0.8599
+    },
+    "exclude.activity.board_games": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.008,
+        "no": 0.992
+      },
+      "confidence": 0.9682
+    },
+    "exclude.activity.cooking": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0072,
+        "no": 0.9928
+      },
+      "confidence": 0.9715
+    },
+    "exclude.activity.live_music": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9822,
+        "no": 0.0178
+      },
+      "confidence": 0.93
+    },
+    "exclude.style.early_meetings": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9765,
+        "no": 0.0235
+      },
+      "confidence": 0.9081
+    },
+    "exclude.style.advance_plans": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0151,
+        "no": 0.9849
+      },
+      "confidence": 0.9404
+    },
+    "exclude.style.quiet_places": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0329,
+        "no": 0.9671
+      },
+      "confidence": 0.8729
+    },
+    "exclude.style.alcohol_free": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0171,
+        "no": 0.9829
+      },
+      "confidence": 0.9328
+    },
+    "exclude.style.smoke_free": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0084,
+        "no": 0.9916
+      },
+      "confidence": 0.9665
+    },
+    "exclude.style.low_cost": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0207,
+        "no": 0.9793
+      },
+      "confidence": 0.9188
+    },
+    "exclude.style.weekly_contact": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0094,
+        "no": 0.9906
+      },
+      "confidence": 0.9628
+    },
+    "exclude.style.pet_friendly": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0086,
+        "no": 0.9914
+      },
+      "confidence": 0.9659
+    },
+    "exclude.activity.cycling": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0188,
+        "no": 0.9812
+      },
+      "confidence": 0.9261
+    },
+    "exclude.activity.running": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0201,
+        "no": 0.9799
+      },
+      "confidence": 0.9212
+    },
+    "exclude.activity.yoga": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.009,
+        "no": 0.991
+      },
+      "confidence": 0.9644
+    },
+    "exclude.activity.swimming": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0077,
+        "no": 0.9923
+      },
+      "confidence": 0.9696
+    },
+    "exclude.activity.kayaking": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0094,
+        "no": 0.9906
+      },
+      "confidence": 0.9627
+    },
+    "exclude.activity.climbing": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.023,
+        "no": 0.977
+      },
+      "confidence": 0.9101
+    },
+    "exclude.activity.camping": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0783,
+        "no": 0.9217
+      },
+      "confidence": 0.7112
+    },
+    "exclude.activity.tennis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0082,
+        "no": 0.9918
+      },
+      "confidence": 0.9675
+    },
+    "exclude.activity.dancing": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.1543,
+        "no": 0.8457
+      },
+      "confidence": 0.4781
+    },
+    "exclude.activity.singing": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0631,
+        "no": 0.9369
+      },
+      "confidence": 0.7637
+    },
+    "exclude.activity.guitar": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0644,
+        "no": 0.9356
+      },
+      "confidence": 0.7589
+    },
+    "exclude.activity.piano": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0172,
+        "no": 0.9828
+      },
+      "confidence": 0.9323
+    },
+    "exclude.activity.painting": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0069,
+        "no": 0.9931
+      },
+      "confidence": 0.9726
+    },
+    "exclude.activity.drawing": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.006,
+        "no": 0.994
+      },
+      "confidence": 0.9763
+    },
+    "exclude.activity.photography": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0103,
+        "no": 0.9897
+      },
+      "confidence": 0.9591
+    },
+    "exclude.activity.pottery": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0065,
+        "no": 0.9935
+      },
+      "confidence": 0.9744
+    },
+    "exclude.activity.woodworking": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0067,
+        "no": 0.9933
+      },
+      "confidence": 0.9733
+    },
+    "exclude.activity.knitting": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0066,
+        "no": 0.9934
+      },
+      "confidence": 0.9739
+    },
+    "exclude.activity.reading": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0104,
+        "no": 0.9896
+      },
+      "confidence": 0.9589
+    },
+    "exclude.activity.writing": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0088,
+        "no": 0.9912
+      },
+      "confidence": 0.9652
+    },
+    "exclude.activity.movies": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.018,
+        "no": 0.982
+      },
+      "confidence": 0.9292
+    },
+    "exclude.activity.chess": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0082,
+        "no": 0.9918
+      },
+      "confidence": 0.9673
+    },
+    "exclude.activity.gardening": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0162,
+        "no": 0.9838
+      },
+      "confidence": 0.9364
+    },
+    "exclude.activity.birdwatching": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0238,
+        "no": 0.9762
+      },
+      "confidence": 0.9071
+    },
+    "exclude.activity.museums": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0138,
+        "no": 0.9862
+      },
+      "confidence": 0.9455
+    },
+    "exclude.activity.volunteering": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0111,
+        "no": 0.9889
+      },
+      "confidence": 0.9561
+    },
+    "exclude.activity.programming": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0074,
+        "no": 0.9926
+      },
+      "confidence": 0.9707
+    },
+    "exclude.activity.astronomy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0107,
+        "no": 0.9893
+      },
+      "confidence": 0.9577
+    },
+    "exclude.quality.reliable": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0086,
+        "no": 0.9914
+      },
+      "confidence": 0.9659
+    },
+    "exclude.quality.patient": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0086,
+        "no": 0.9914
+      },
+      "confidence": 0.9659
+    },
+    "exclude.quality.curious": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0193,
+        "no": 0.9807
+      },
+      "confidence": 0.9244
+    },
+    "exclude.quality.calm": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0116,
+        "no": 0.9884
+      },
+      "confidence": 0.9542
+    },
+    "exclude.quality.direct": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0386,
+        "no": 0.9614
+      },
+      "confidence": 0.8517
+    },
+    "exclude.quality.organized": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.017,
+        "no": 0.983
+      },
+      "confidence": 0.9332
+    },
+    "exclude.quality.spontaneous": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0659,
+        "no": 0.9341
+      },
+      "confidence": 0.7539
+    },
+    "exclude.quality.reflective": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0087,
+        "no": 0.9913
+      },
+      "confidence": 0.9656
+    },
+    "exclude.quality.playful": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0143,
+        "no": 0.9857
+      },
+      "confidence": 0.9438
+    },
+    "exclude.quality.generous": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0068,
+        "no": 0.9932
+      },
+      "confidence": 0.9729
+    },
+    "exclude.quality.independent": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0439,
+        "no": 0.9561
+      },
+      "confidence": 0.8322
+    },
+    "exclude.quality.collaborative": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0324,
+        "no": 0.9676
+      },
+      "confidence": 0.8747
+    },
+    "exclude.context.local": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0556,
+        "no": 0.9444
+      },
+      "confidence": 0.7899
+    },
+    "exclude.context.online": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0346,
+        "no": 0.9654
+      },
+      "confidence": 0.8664
+    },
+    "exclude.context.video_first": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0199,
+        "no": 0.9801
+      },
+      "confidence": 0.9221
+    },
+    "exclude.context.public_first": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0575,
+        "no": 0.9425
+      },
+      "confidence": 0.7832
+    },
+    "exclude.context.weekends": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0441,
+        "no": 0.9559
+      },
+      "confidence": 0.8312
+    },
+    "exclude.context.evenings": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.1495,
+        "no": 0.8505
+      },
+      "confidence": 0.4914
+    },
+    "exclude.context.short_visits": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0239,
+        "no": 0.9761
+      },
+      "confidence": 0.9068
+    },
+    "exclude.context.frequent_travel": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0144,
+        "no": 0.9856
+      },
+      "confidence": 0.9433
+    }
+  },
+  "input_tokens": 40221,
+  "request_seconds": 4.044882249989314,
+  "request_hashes": [
+    "8807bb18fafdfe09b3f9340fb236cc36ee9bf53eea6ff0d5a7ef6393544b0c7f",
+    "9fc5f05cb0094ff93fb2772268baad7d45ff38c1d6f15ec07c4940f42e64c8b3",
+    "c9bbff83ed3a1e67ed3828c647713aaf5494107d109710da7fa7464bad2c20d3",
+    "e573dee7b26fd0ba4941b9ae9d80161ade0095f9b4babfc6ca107e02e4b46192"
+  ],
+  "input_hash": "72e46951e425fe543dc39a6068cb7110d053e5a55a6f9990d68b02b03e995a51"
+}

@@ -1,0 +1,24 @@
+{
+  "version": "reciprocal-1.2",
+  "schema_hash": "2bf08def415919ee7000a28d30974fa064fc66e16eb0db3b356fff0e24e21e62",
+  "seed": 73021,
+  "data_hash": "4eed2cc22d4660b015a7c9d27c509ad57b6309bbc6e3816174026c7291a2d437",
+  "people": 164,
+  "pairs": 16,
+  "query_count": 36,
+  "self_thresholds": [
+    0.3,
+    0.7
+  ],
+  "required_known_mass": 0.6,
+  "ranking": "Both directions must satisfy hard requirements; mean directional optional-preference coverage. Unknown required evidence rejects.",
+  "primary_metrics": [
+    "designated partner top1",
+    "designated partner recall5",
+    "oracle best top1",
+    "ground-truth hard violations",
+    "abstentions",
+    "both-direction pair top1"
+  ],
+  "tuning": "Development fixture. Prompts and input contract revised after pilot errors. Thresholds fixed; no held-out performance claim."
+}

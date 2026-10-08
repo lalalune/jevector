@@ -1,0 +1,293 @@
+{
+  "model": "@cf/baai/bge-small-en-v1.5",
+  "dimensions": 384,
+  "pooling": "cls",
+  "query_prefix": "Represent this sentence for searching relevant passages: ",
+  "metrics": {
+    "top1": 0.85,
+    "recall_at_3": 1.0,
+    "mrr_at_5": 0.925
+  },
+  "rows": [
+    {
+      "id": "q01",
+      "text": "My old phone fell into the sea. I know my password, but the login screen wants a code from that phone. How can I get back in?",
+      "relevant": [
+        "lost_device"
+      ],
+      "bge": [
+        "lost_device",
+        "email",
+        "password",
+        "disable_mfa",
+        "erase"
+      ]
+    },
+    {
+      "id": "q02",
+      "text": "I still have my authentication app, but I cannot remember the secret I type before the code. What should I do?",
+      "relevant": [
+        "password"
+      ],
+      "bge": [
+        "lost_device",
+        "password",
+        "disable_mfa",
+        "email",
+        "credentials"
+      ]
+    },
+    {
+      "id": "q03",
+      "text": "I am leaving my employer and losing that mailbox. Can I keep my account but use my personal email for login?",
+      "relevant": [
+        "email"
+      ],
+      "bge": [
+        "email",
+        "erase",
+        "password",
+        "lost_device",
+        "disable_mfa"
+      ]
+    },
+    {
+      "id": "q04",
+      "text": "I can sign in normally. How do I stop being asked for an extra code on future logins?",
+      "relevant": [
+        "disable_mfa"
+      ],
+      "bge": [
+        "disable_mfa",
+        "lost_device",
+        "password",
+        "cancel",
+        "email"
+      ]
+    },
+    {
+      "id": "q05",
+      "text": "Keep what I already paid for, but make sure you do not bill me again next month. Where do I do that?",
+      "relevant": [
+        "cancel"
+      ],
+      "bge": [
+        "cancel",
+        "annual",
+        "refund",
+        "rate_limit",
+        "erase"
+      ]
+    },
+    {
+      "id": "q06",
+      "text": "I want last week\u2019s payment returned to my card. I am not asking to stop the subscription. How do I submit that?",
+      "relevant": [
+        "refund"
+      ],
+      "bge": [
+        "refund",
+        "cancel",
+        "annual",
+        "rate_limit",
+        "invoice"
+      ]
+    },
+    {
+      "id": "q07",
+      "text": "Can I pay for a year at a time instead of getting a bill every month?",
+      "relevant": [
+        "annual"
+      ],
+      "bge": [
+        "annual",
+        "cancel",
+        "refund",
+        "invoice",
+        "rate_limit"
+      ]
+    },
+    {
+      "id": "q08",
+      "text": "Our bookkeeper needs the PDF showing what we paid and the tax on it. Where is it?",
+      "relevant": [
+        "invoice"
+      ],
+      "bge": [
+        "invoice",
+        "export",
+        "signature",
+        "credentials",
+        "refund"
+      ]
+    },
+    {
+      "id": "q09",
+      "text": "My integration works for small batches but gets 429 when I launch many requests together. How should I change the client?",
+      "relevant": [
+        "rate_limit"
+      ],
+      "bge": [
+        "rate_limit",
+        "timeout",
+        "duplicates",
+        "credentials",
+        "signature"
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "Sometimes a request just waits until my 30-second deadline expires. There is no 429. How do I diagnose it?",
+      "relevant": [
+        "timeout"
+      ],
+      "bge": [
+        "rate_limit",
+        "timeout",
+        "signature",
+        "credentials",
+        "refund"
+      ]
+    },
+    {
+      "id": "q11",
+      "text": "Every request says 401 even when I send only one. Which part of authentication should I check?",
+      "relevant": [
+        "credentials"
+      ],
+      "bge": [
+        "credentials",
+        "signature",
+        "rate_limit",
+        "disable_mfa",
+        "lost_device"
+      ]
+    },
+    {
+      "id": "q12",
+      "text": "One customer action sometimes makes my webhook handler create two orders. How do I prevent the second side effect?",
+      "relevant": [
+        "duplicates"
+      ],
+      "bge": [
+        "duplicates",
+        "rate_limit",
+        "signature",
+        "cancel",
+        "timeout"
+      ]
+    },
+    {
+      "id": "q13",
+      "text": "How can my endpoint tell whether an event really came from your service rather than somebody faking a POST?",
+      "relevant": [
+        "signature"
+      ],
+      "bge": [
+        "signature",
+        "duplicates",
+        "timeout",
+        "credentials",
+        "rate_limit"
+      ]
+    },
+    {
+      "id": "q14",
+      "text": "I need a copy of all our records for analysis elsewhere, but leave the originals where they are. What is the process?",
+      "relevant": [
+        "export"
+      ],
+      "bge": [
+        "export",
+        "erase",
+        "restore",
+        "email",
+        "invoice"
+      ]
+    },
+    {
+      "id": "q15",
+      "text": "I want the account and its stored records gone permanently, not just a downloaded copy. Where do I request that?",
+      "relevant": [
+        "erase"
+      ],
+      "bge": [
+        "erase",
+        "export",
+        "restore",
+        "email",
+        "rate_limit"
+      ]
+    },
+    {
+      "id": "q16",
+      "text": "I accidentally removed a file yesterday. Can I bring it back instead of recreating it?",
+      "relevant": [
+        "restore"
+      ],
+      "bge": [
+        "restore",
+        "erase",
+        "export",
+        "lost_device",
+        "rate_limit"
+      ]
+    },
+    {
+      "id": "q17",
+      "text": "How do I undo an accidental removal from the file list?",
+      "relevant": [
+        "restore"
+      ],
+      "bge": [
+        "restore",
+        "erase",
+        "lost_device",
+        "disable_mfa",
+        "export"
+      ]
+    },
+    {
+      "id": "q18",
+      "text": "Where can finance get proof of a completed payment?",
+      "relevant": [
+        "invoice"
+      ],
+      "bge": [
+        "refund",
+        "invoice",
+        "export",
+        "lost_device",
+        "signature"
+      ]
+    },
+    {
+      "id": "q19",
+      "text": "What prevents repeated notifications from causing repeated purchases?",
+      "relevant": [
+        "duplicates"
+      ],
+      "bge": [
+        "duplicates",
+        "rate_limit",
+        "cancel",
+        "disable_mfa",
+        "refund"
+      ]
+    },
+    {
+      "id": "q20",
+      "text": "Can I keep access until the end of this month without extending the plan?",
+      "relevant": [
+        "cancel"
+      ],
+      "bge": [
+        "cancel",
+        "annual",
+        "rate_limit",
+        "disable_mfa",
+        "timeout"
+      ]
+    }
+  ]
+}

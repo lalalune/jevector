@@ -1,0 +1,2839 @@
+{
+  "schema_version": "support-search-1.0",
+  "role": "query",
+  "provider": "clef",
+  "models": [
+    "clef-flash"
+  ],
+  "dimension_ids": [
+    "account.0.goal",
+    "account.0.steps",
+    "account.0.policy",
+    "account.0.diagnosis",
+    "account.1.goal",
+    "account.1.steps",
+    "account.1.policy",
+    "account.1.diagnosis",
+    "account.2.goal",
+    "account.2.steps",
+    "account.2.policy",
+    "account.2.diagnosis",
+    "account.3.goal",
+    "account.3.steps",
+    "account.3.policy",
+    "account.3.diagnosis",
+    "account.4.goal",
+    "account.4.steps",
+    "account.4.policy",
+    "account.4.diagnosis",
+    "account.5.goal",
+    "account.5.steps",
+    "account.5.policy",
+    "account.5.diagnosis",
+    "account.6.goal",
+    "account.6.steps",
+    "account.6.policy",
+    "account.6.diagnosis",
+    "account.7.goal",
+    "account.7.steps",
+    "account.7.policy",
+    "account.7.diagnosis",
+    "billing.0.goal",
+    "billing.0.steps",
+    "billing.0.policy",
+    "billing.0.diagnosis",
+    "billing.1.goal",
+    "billing.1.steps",
+    "billing.1.policy",
+    "billing.1.diagnosis",
+    "billing.2.goal",
+    "billing.2.steps",
+    "billing.2.policy",
+    "billing.2.diagnosis",
+    "billing.3.goal",
+    "billing.3.steps",
+    "billing.3.policy",
+    "billing.3.diagnosis",
+    "billing.4.goal",
+    "billing.4.steps",
+    "billing.4.policy",
+    "billing.4.diagnosis",
+    "billing.5.goal",
+    "billing.5.steps",
+    "billing.5.policy",
+    "billing.5.diagnosis",
+    "billing.6.goal",
+    "billing.6.steps",
+    "billing.6.policy",
+    "billing.6.diagnosis",
+    "billing.7.goal",
+    "billing.7.steps",
+    "billing.7.policy",
+    "billing.7.diagnosis",
+    "api.0.goal",
+    "api.0.steps",
+    "api.0.policy",
+    "api.0.diagnosis",
+    "api.1.goal",
+    "api.1.steps",
+    "api.1.policy",
+    "api.1.diagnosis",
+    "api.2.goal",
+    "api.2.steps",
+    "api.2.policy",
+    "api.2.diagnosis",
+    "api.3.goal",
+    "api.3.steps",
+    "api.3.policy",
+    "api.3.diagnosis",
+    "api.4.goal",
+    "api.4.steps",
+    "api.4.policy",
+    "api.4.diagnosis",
+    "api.5.goal",
+    "api.5.steps",
+    "api.5.policy",
+    "api.5.diagnosis",
+    "api.6.goal",
+    "api.6.steps",
+    "api.6.policy",
+    "api.6.diagnosis",
+    "api.7.goal",
+    "api.7.steps",
+    "api.7.policy",
+    "api.7.diagnosis",
+    "webhooks.0.goal",
+    "webhooks.0.steps",
+    "webhooks.0.policy",
+    "webhooks.0.diagnosis",
+    "webhooks.1.goal",
+    "webhooks.1.steps",
+    "webhooks.1.policy",
+    "webhooks.1.diagnosis",
+    "webhooks.2.goal",
+    "webhooks.2.steps",
+    "webhooks.2.policy",
+    "webhooks.2.diagnosis",
+    "webhooks.3.goal",
+    "webhooks.3.steps",
+    "webhooks.3.policy",
+    "webhooks.3.diagnosis",
+    "webhooks.4.goal",
+    "webhooks.4.steps",
+    "webhooks.4.policy",
+    "webhooks.4.diagnosis",
+    "webhooks.5.goal",
+    "webhooks.5.steps",
+    "webhooks.5.policy",
+    "webhooks.5.diagnosis",
+    "webhooks.6.goal",
+    "webhooks.6.steps",
+    "webhooks.6.policy",
+    "webhooks.6.diagnosis",
+    "webhooks.7.goal",
+    "webhooks.7.steps",
+    "webhooks.7.policy",
+    "webhooks.7.diagnosis",
+    "data.0.goal",
+    "data.0.steps",
+    "data.0.policy",
+    "data.0.diagnosis",
+    "data.1.goal",
+    "data.1.steps",
+    "data.1.policy",
+    "data.1.diagnosis",
+    "data.2.goal",
+    "data.2.steps",
+    "data.2.policy",
+    "data.2.diagnosis",
+    "data.3.goal",
+    "data.3.steps",
+    "data.3.policy",
+    "data.3.diagnosis",
+    "data.4.goal",
+    "data.4.steps",
+    "data.4.policy",
+    "data.4.diagnosis",
+    "data.5.goal",
+    "data.5.steps",
+    "data.5.policy",
+    "data.5.diagnosis",
+    "data.6.goal",
+    "data.6.steps",
+    "data.6.policy",
+    "data.6.diagnosis",
+    "data.7.goal",
+    "data.7.steps",
+    "data.7.policy",
+    "data.7.diagnosis",
+    "permissions.0.goal",
+    "permissions.0.steps",
+    "permissions.0.policy",
+    "permissions.0.diagnosis",
+    "permissions.1.goal",
+    "permissions.1.steps",
+    "permissions.1.policy",
+    "permissions.1.diagnosis",
+    "permissions.2.goal",
+    "permissions.2.steps",
+    "permissions.2.policy",
+    "permissions.2.diagnosis",
+    "permissions.3.goal",
+    "permissions.3.steps",
+    "permissions.3.policy",
+    "permissions.3.diagnosis",
+    "permissions.4.goal",
+    "permissions.4.steps",
+    "permissions.4.policy",
+    "permissions.4.diagnosis",
+    "permissions.5.goal",
+    "permissions.5.steps",
+    "permissions.5.policy",
+    "permissions.5.diagnosis",
+    "permissions.6.goal",
+    "permissions.6.steps",
+    "permissions.6.policy",
+    "permissions.6.diagnosis",
+    "permissions.7.goal",
+    "permissions.7.steps",
+    "permissions.7.policy",
+    "permissions.7.diagnosis",
+    "files.0.goal",
+    "files.0.steps",
+    "files.0.policy",
+    "files.0.diagnosis",
+    "files.1.goal",
+    "files.1.steps",
+    "files.1.policy",
+    "files.1.diagnosis",
+    "files.2.goal",
+    "files.2.steps",
+    "files.2.policy",
+    "files.2.diagnosis",
+    "files.3.goal",
+    "files.3.steps",
+    "files.3.policy",
+    "files.3.diagnosis",
+    "files.4.goal",
+    "files.4.steps",
+    "files.4.policy",
+    "files.4.diagnosis",
+    "files.5.goal",
+    "files.5.steps",
+    "files.5.policy",
+    "files.5.diagnosis",
+    "files.6.goal",
+    "files.6.steps",
+    "files.6.policy",
+    "files.6.diagnosis",
+    "files.7.goal",
+    "files.7.steps",
+    "files.7.policy",
+    "files.7.diagnosis",
+    "notifications.0.goal",
+    "notifications.0.steps",
+    "notifications.0.policy",
+    "notifications.0.diagnosis",
+    "notifications.1.goal",
+    "notifications.1.steps",
+    "notifications.1.policy",
+    "notifications.1.diagnosis",
+    "notifications.2.goal",
+    "notifications.2.steps",
+    "notifications.2.policy",
+    "notifications.2.diagnosis",
+    "notifications.3.goal",
+    "notifications.3.steps",
+    "notifications.3.policy",
+    "notifications.3.diagnosis",
+    "notifications.4.goal",
+    "notifications.4.steps",
+    "notifications.4.policy",
+    "notifications.4.diagnosis",
+    "notifications.5.goal",
+    "notifications.5.steps",
+    "notifications.5.policy",
+    "notifications.5.diagnosis",
+    "notifications.6.goal",
+    "notifications.6.steps",
+    "notifications.6.policy",
+    "notifications.6.diagnosis",
+    "notifications.7.goal",
+    "notifications.7.steps",
+    "notifications.7.policy",
+    "notifications.7.diagnosis"
+  ],
+  "values": [
+    0.1568,
+    0.0678,
+    0.039,
+    0.0477,
+    0.0225,
+    0.018,
+    0.022,
+    0.0195,
+    0.0284,
+    0.0311,
+    0.048,
+    0.0295,
+    0.9721,
+    0.9576,
+    0.4821,
+    0.2103,
+    0.1042,
+    0.0492,
+    0.0403,
+    0.0562,
+    0.0229,
+    0.009,
+    0.0318,
+    0.0386,
+    0.0339,
+    0.0354,
+    0.0412,
+    0.0433,
+    0.3769,
+    0.3968,
+    0.2243,
+    0.2213,
+    0.0053,
+    0.0102,
+    0.0304,
+    0.0092,
+    0.0059,
+    0.0082,
+    0.032,
+    0.0323,
+    0.0066,
+    0.0094,
+    0.0373,
+    0.0136,
+    0.0156,
+    0.0503,
+    0.0552,
+    0.0544,
+    0.0073,
+    0.0106,
+    0.0363,
+    0.0376,
+    0.0101,
+    0.0148,
+    0.0481,
+    0.0389,
+    0.0199,
+    0.0161,
+    0.0477,
+    0.0397,
+    0.0073,
+    0.0225,
+    0.0622,
+    0.0442,
+    0.0619,
+    0.0129,
+    0.0063,
+    0.0109,
+    0.0046,
+    0.0065,
+    0.007,
+    0.0097,
+    0.0265,
+    0.0253,
+    0.0153,
+    0.0391,
+    0.0167,
+    0.0143,
+    0.0162,
+    0.0178,
+    0.0056,
+    0.0085,
+    0.0082,
+    0.0081,
+    0.0066,
+    0.0102,
+    0.0108,
+    0.0135,
+    0.0057,
+    0.0135,
+    0.0159,
+    0.0158,
+    0.0072,
+    0.0154,
+    0.0165,
+    0.0152,
+    0.0132,
+    0.0199,
+    0.0192,
+    0.0226,
+    0.0428,
+    0.0279,
+    0.0269,
+    0.0302,
+    0.0081,
+    0.0092,
+    0.0113,
+    0.0124,
+    0.0139,
+    0.0158,
+    0.0149,
+    0.0158,
+    0.0124,
+    0.0169,
+    0.0186,
+    0.0193,
+    0.0117,
+    0.013,
+    0.018,
+    0.0184,
+    0.0133,
+    0.0138,
+    0.0141,
+    0.012,
+    0.0815,
+    0.0794,
+    0.0389,
+    0.0295,
+    0.0312,
+    0.0056,
+    0.0048,
+    0.0077,
+    0.0045,
+    0.006,
+    0.0086,
+    0.0076,
+    0.0031,
+    0.0047,
+    0.0079,
+    0.0073,
+    0.0063,
+    0.0084,
+    0.0108,
+    0.0154,
+    0.0043,
+    0.0078,
+    0.0097,
+    0.0141,
+    0.0062,
+    0.0127,
+    0.0114,
+    0.0232,
+    0.0068,
+    0.0107,
+    0.0173,
+    0.0164,
+    0.0085,
+    0.0121,
+    0.0148,
+    0.0246,
+    0.0061,
+    0.0099,
+    0.0109,
+    0.0152,
+    0.0097,
+    0.011,
+    0.0104,
+    0.0119,
+    0.0086,
+    0.013,
+    0.0127,
+    0.0199,
+    0.0187,
+    0.0197,
+    0.0204,
+    0.022,
+    0.0281,
+    0.0211,
+    0.0194,
+    0.0238,
+    0.0111,
+    0.0123,
+    0.0168,
+    0.0202,
+    0.0086,
+    0.0147,
+    0.0162,
+    0.0172,
+    0.0123,
+    0.0133,
+    0.0127,
+    0.0197,
+    0.0632,
+    0.0076,
+    0.0053,
+    0.0131,
+    0.0045,
+    0.0101,
+    0.0079,
+    0.0151,
+    0.0063,
+    0.0122,
+    0.0102,
+    0.0195,
+    0.0039,
+    0.0129,
+    0.0144,
+    0.0159,
+    0.0052,
+    0.0107,
+    0.0099,
+    0.0117,
+    0.0071,
+    0.0169,
+    0.0135,
+    0.0277,
+    0.0038,
+    0.013,
+    0.0163,
+    0.0099,
+    0.0056,
+    0.0132,
+    0.0102,
+    0.018,
+    0.0149,
+    0.0207,
+    0.0198,
+    0.0308,
+    0.5001,
+    0.4058,
+    0.3042,
+    0.3603,
+    0.0604,
+    0.0638,
+    0.0333,
+    0.0465,
+    0.0121,
+    0.0172,
+    0.0216,
+    0.0276,
+    0.0231,
+    0.0244,
+    0.0207,
+    0.0216,
+    0.02,
+    0.0177,
+    0.0371,
+    0.0351,
+    0.0106,
+    0.0223,
+    0.0218,
+    0.0273,
+    0.0157,
+    0.0266,
+    0.0248,
+    0.0353
+  ],
+  "answers": {
+    "account.0.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.1568,
+        "no": 0.8432
+      },
+      "confidence": 0.4712
+    },
+    "account.0.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0678,
+        "no": 0.9322
+      },
+      "confidence": 0.7474
+    },
+    "account.0.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.039,
+        "no": 0.961
+      },
+      "confidence": 0.8503
+    },
+    "account.0.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0477,
+        "no": 0.9523
+      },
+      "confidence": 0.8181
+    },
+    "account.1.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0225,
+        "no": 0.9775
+      },
+      "confidence": 0.9121
+    },
+    "account.1.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.018,
+        "no": 0.982
+      },
+      "confidence": 0.9293
+    },
+    "account.1.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.022,
+        "no": 0.978
+      },
+      "confidence": 0.9138
+    },
+    "account.1.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0195,
+        "no": 0.9805
+      },
+      "confidence": 0.9235
+    },
+    "account.2.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0284,
+        "no": 0.9716
+      },
+      "confidence": 0.8897
+    },
+    "account.2.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0311,
+        "no": 0.9689
+      },
+      "confidence": 0.8796
+    },
+    "account.2.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.048,
+        "no": 0.952
+      },
+      "confidence": 0.8171
+    },
+    "account.2.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0295,
+        "no": 0.9705
+      },
+      "confidence": 0.8854
+    },
+    "account.3.goal": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9721,
+        "no": 0.0279
+      },
+      "confidence": 0.8913
+    },
+    "account.3.steps": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.9576,
+        "no": 0.0424
+      },
+      "confidence": 0.8376
+    },
+    "account.3.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.4821,
+        "no": 0.5179
+      },
+      "confidence": 0.0013
+    },
+    "account.3.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.2103,
+        "no": 0.7897
+      },
+      "confidence": 0.3356
+    },
+    "account.4.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.1042,
+        "no": 0.8958
+      },
+      "confidence": 0.6265
+    },
+    "account.4.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0492,
+        "no": 0.9508
+      },
+      "confidence": 0.8129
+    },
+    "account.4.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0403,
+        "no": 0.9597
+      },
+      "confidence": 0.8453
+    },
+    "account.4.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0562,
+        "no": 0.9438
+      },
+      "confidence": 0.7877
+    },
+    "account.5.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0229,
+        "no": 0.9771
+      },
+      "confidence": 0.9105
+    },
+    "account.5.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.009,
+        "no": 0.991
+      },
+      "confidence": 0.9644
+    },
+    "account.5.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0318,
+        "no": 0.9682
+      },
+      "confidence": 0.8767
+    },
+    "account.5.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0386,
+        "no": 0.9614
+      },
+      "confidence": 0.8514
+    },
+    "account.6.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0339,
+        "no": 0.9661
+      },
+      "confidence": 0.8689
+    },
+    "account.6.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0354,
+        "no": 0.9646
+      },
+      "confidence": 0.8635
+    },
+    "account.6.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0412,
+        "no": 0.9588
+      },
+      "confidence": 0.8418
+    },
+    "account.6.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0433,
+        "no": 0.9567
+      },
+      "confidence": 0.8342
+    },
+    "account.7.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.3769,
+        "no": 0.6231
+      },
+      "confidence": 0.0606
+    },
+    "account.7.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.3968,
+        "no": 0.6032
+      },
+      "confidence": 0.0426
+    },
+    "account.7.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.2243,
+        "no": 0.7757
+      },
+      "confidence": 0.304
+    },
+    "account.7.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.2213,
+        "no": 0.7787
+      },
+      "confidence": 0.3108
+    },
+    "billing.0.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0053,
+        "no": 0.9947
+      },
+      "confidence": 0.9789
+    },
+    "billing.0.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0102,
+        "no": 0.9898
+      },
+      "confidence": 0.9596
+    },
+    "billing.0.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0304,
+        "no": 0.9696
+      },
+      "confidence": 0.882
+    },
+    "billing.0.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0092,
+        "no": 0.9908
+      },
+      "confidence": 0.9636
+    },
+    "billing.1.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0059,
+        "no": 0.9941
+      },
+      "confidence": 0.9765
+    },
+    "billing.1.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0082,
+        "no": 0.9918
+      },
+      "confidence": 0.9675
+    },
+    "billing.1.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.032,
+        "no": 0.968
+      },
+      "confidence": 0.8763
+    },
+    "billing.1.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0323,
+        "no": 0.9677
+      },
+      "confidence": 0.875
+    },
+    "billing.2.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0066,
+        "no": 0.9934
+      },
+      "confidence": 0.9739
+    },
+    "billing.2.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0094,
+        "no": 0.9906
+      },
+      "confidence": 0.9629
+    },
+    "billing.2.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0373,
+        "no": 0.9627
+      },
+      "confidence": 0.8564
+    },
+    "billing.2.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0136,
+        "no": 0.9864
+      },
+      "confidence": 0.9464
+    },
+    "billing.3.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0156,
+        "no": 0.9844
+      },
+      "confidence": 0.9385
+    },
+    "billing.3.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0503,
+        "no": 0.9497
+      },
+      "confidence": 0.809
+    },
+    "billing.3.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0552,
+        "no": 0.9448
+      },
+      "confidence": 0.7913
+    },
+    "billing.3.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0544,
+        "no": 0.9456
+      },
+      "confidence": 0.7941
+    },
+    "billing.4.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0073,
+        "no": 0.9927
+      },
+      "confidence": 0.971
+    },
+    "billing.4.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0106,
+        "no": 0.9894
+      },
+      "confidence": 0.958
+    },
+    "billing.4.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0363,
+        "no": 0.9637
+      },
+      "confidence": 0.8602
+    },
+    "billing.4.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0376,
+        "no": 0.9624
+      },
+      "confidence": 0.8553
+    },
+    "billing.5.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0101,
+        "no": 0.9899
+      },
+      "confidence": 0.9602
+    },
+    "billing.5.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0148,
+        "no": 0.9852
+      },
+      "confidence": 0.9416
+    },
+    "billing.5.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0481,
+        "no": 0.9519
+      },
+      "confidence": 0.8169
+    },
+    "billing.5.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0389,
+        "no": 0.9611
+      },
+      "confidence": 0.8503
+    },
+    "billing.6.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0199,
+        "no": 0.9801
+      },
+      "confidence": 0.9219
+    },
+    "billing.6.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0161,
+        "no": 0.9839
+      },
+      "confidence": 0.9367
+    },
+    "billing.6.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0477,
+        "no": 0.9523
+      },
+      "confidence": 0.8184
+    },
+    "billing.6.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0397,
+        "no": 0.9603
+      },
+      "confidence": 0.8474
+    },
+    "billing.7.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0073,
+        "no": 0.9927
+      },
+      "confidence": 0.9709
+    },
+    "billing.7.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0225,
+        "no": 0.9775
+      },
+      "confidence": 0.9121
+    },
+    "billing.7.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0622,
+        "no": 0.9378
+      },
+      "confidence": 0.7667
+    },
+    "billing.7.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0442,
+        "no": 0.9558
+      },
+      "confidence": 0.8308
+    },
+    "api.0.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0619,
+        "no": 0.9381
+      },
+      "confidence": 0.7677
+    },
+    "api.0.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0129,
+        "no": 0.9871
+      },
+      "confidence": 0.9489
+    },
+    "api.0.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0063,
+        "no": 0.9937
+      },
+      "confidence": 0.9749
+    },
+    "api.0.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0109,
+        "no": 0.9891
+      },
+      "confidence": 0.9567
+    },
+    "api.1.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0046,
+        "no": 0.9954
+      },
+      "confidence": 0.9817
+    },
+    "api.1.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0065,
+        "no": 0.9935
+      },
+      "confidence": 0.9744
+    },
+    "api.1.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.007,
+        "no": 0.993
+      },
+      "confidence": 0.9722
+    },
+    "api.1.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0097,
+        "no": 0.9903
+      },
+      "confidence": 0.9615
+    },
+    "api.2.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0265,
+        "no": 0.9735
+      },
+      "confidence": 0.8969
+    },
+    "api.2.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0253,
+        "no": 0.9747
+      },
+      "confidence": 0.9014
+    },
+    "api.2.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0153,
+        "no": 0.9847
+      },
+      "confidence": 0.9397
+    },
+    "api.2.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0391,
+        "no": 0.9609
+      },
+      "confidence": 0.8498
+    },
+    "api.3.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0167,
+        "no": 0.9833
+      },
+      "confidence": 0.9344
+    },
+    "api.3.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0143,
+        "no": 0.9857
+      },
+      "confidence": 0.9436
+    },
+    "api.3.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0162,
+        "no": 0.9838
+      },
+      "confidence": 0.9361
+    },
+    "api.3.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0178,
+        "no": 0.9822
+      },
+      "confidence": 0.9299
+    },
+    "api.4.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0056,
+        "no": 0.9944
+      },
+      "confidence": 0.9779
+    },
+    "api.4.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0085,
+        "no": 0.9915
+      },
+      "confidence": 0.9664
+    },
+    "api.4.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0082,
+        "no": 0.9918
+      },
+      "confidence": 0.9676
+    },
+    "api.4.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0081,
+        "no": 0.9919
+      },
+      "confidence": 0.968
+    },
+    "api.5.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0066,
+        "no": 0.9934
+      },
+      "confidence": 0.974
+    },
+    "api.5.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0102,
+        "no": 0.9898
+      },
+      "confidence": 0.9597
+    },
+    "api.5.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0108,
+        "no": 0.9892
+      },
+      "confidence": 0.9574
+    },
+    "api.5.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0135,
+        "no": 0.9865
+      },
+      "confidence": 0.9469
+    },
+    "api.6.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0057,
+        "no": 0.9943
+      },
+      "confidence": 0.9772
+    },
+    "api.6.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0135,
+        "no": 0.9865
+      },
+      "confidence": 0.9466
+    },
+    "api.6.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0159,
+        "no": 0.9841
+      },
+      "confidence": 0.9373
+    },
+    "api.6.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0158,
+        "no": 0.9842
+      },
+      "confidence": 0.9379
+    },
+    "api.7.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0072,
+        "no": 0.9928
+      },
+      "confidence": 0.9716
+    },
+    "api.7.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0154,
+        "no": 0.9846
+      },
+      "confidence": 0.9394
+    },
+    "api.7.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0165,
+        "no": 0.9835
+      },
+      "confidence": 0.9351
+    },
+    "api.7.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0152,
+        "no": 0.9848
+      },
+      "confidence": 0.9403
+    },
+    "webhooks.0.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0132,
+        "no": 0.9868
+      },
+      "confidence": 0.9478
+    },
+    "webhooks.0.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0199,
+        "no": 0.9801
+      },
+      "confidence": 0.922
+    },
+    "webhooks.0.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0192,
+        "no": 0.9808
+      },
+      "confidence": 0.9248
+    },
+    "webhooks.0.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0226,
+        "no": 0.9774
+      },
+      "confidence": 0.9118
+    },
+    "webhooks.1.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0428,
+        "no": 0.9572
+      },
+      "confidence": 0.8362
+    },
+    "webhooks.1.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0279,
+        "no": 0.9721
+      },
+      "confidence": 0.8914
+    },
+    "webhooks.1.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0269,
+        "no": 0.9731
+      },
+      "confidence": 0.8953
+    },
+    "webhooks.1.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0302,
+        "no": 0.9698
+      },
+      "confidence": 0.8828
+    },
+    "webhooks.2.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0081,
+        "no": 0.9919
+      },
+      "confidence": 0.9678
+    },
+    "webhooks.2.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0092,
+        "no": 0.9908
+      },
+      "confidence": 0.9636
+    },
+    "webhooks.2.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0113,
+        "no": 0.9887
+      },
+      "confidence": 0.9553
+    },
+    "webhooks.2.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0124,
+        "no": 0.9876
+      },
+      "confidence": 0.9511
+    },
+    "webhooks.3.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0139,
+        "no": 0.9861
+      },
+      "confidence": 0.9452
+    },
+    "webhooks.3.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0158,
+        "no": 0.9842
+      },
+      "confidence": 0.9377
+    },
+    "webhooks.3.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0149,
+        "no": 0.9851
+      },
+      "confidence": 0.9413
+    },
+    "webhooks.3.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0158,
+        "no": 0.9842
+      },
+      "confidence": 0.9379
+    },
+    "webhooks.4.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0124,
+        "no": 0.9876
+      },
+      "confidence": 0.9511
+    },
+    "webhooks.4.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0169,
+        "no": 0.9831
+      },
+      "confidence": 0.9336
+    },
+    "webhooks.4.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0186,
+        "no": 0.9814
+      },
+      "confidence": 0.9271
+    },
+    "webhooks.4.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0193,
+        "no": 0.9807
+      },
+      "confidence": 0.9243
+    },
+    "webhooks.5.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0117,
+        "no": 0.9883
+      },
+      "confidence": 0.9537
+    },
+    "webhooks.5.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.013,
+        "no": 0.987
+      },
+      "confidence": 0.9488
+    },
+    "webhooks.5.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.018,
+        "no": 0.982
+      },
+      "confidence": 0.9294
+    },
+    "webhooks.5.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0184,
+        "no": 0.9816
+      },
+      "confidence": 0.9279
+    },
+    "webhooks.6.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0133,
+        "no": 0.9867
+      },
+      "confidence": 0.9475
+    },
+    "webhooks.6.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0138,
+        "no": 0.9862
+      },
+      "confidence": 0.9457
+    },
+    "webhooks.6.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0141,
+        "no": 0.9859
+      },
+      "confidence": 0.9445
+    },
+    "webhooks.6.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.012,
+        "no": 0.988
+      },
+      "confidence": 0.9527
+    },
+    "webhooks.7.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0815,
+        "no": 0.9185
+      },
+      "confidence": 0.7006
+    },
+    "webhooks.7.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0794,
+        "no": 0.9206
+      },
+      "confidence": 0.7077
+    },
+    "webhooks.7.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0389,
+        "no": 0.9611
+      },
+      "confidence": 0.8504
+    },
+    "webhooks.7.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0295,
+        "no": 0.9705
+      },
+      "confidence": 0.8855
+    },
+    "data.0.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0312,
+        "no": 0.9688
+      },
+      "confidence": 0.8789
+    },
+    "data.0.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0056,
+        "no": 0.9944
+      },
+      "confidence": 0.9776
+    },
+    "data.0.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0048,
+        "no": 0.9952
+      },
+      "confidence": 0.9809
+    },
+    "data.0.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0077,
+        "no": 0.9923
+      },
+      "confidence": 0.9695
+    },
+    "data.1.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0045,
+        "no": 0.9955
+      },
+      "confidence": 0.9819
+    },
+    "data.1.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.006,
+        "no": 0.994
+      },
+      "confidence": 0.9761
+    },
+    "data.1.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0086,
+        "no": 0.9914
+      },
+      "confidence": 0.966
+    },
+    "data.1.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0076,
+        "no": 0.9924
+      },
+      "confidence": 0.9698
+    },
+    "data.2.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0031,
+        "no": 0.9969
+      },
+      "confidence": 0.9876
+    },
+    "data.2.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0047,
+        "no": 0.9953
+      },
+      "confidence": 0.9812
+    },
+    "data.2.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0079,
+        "no": 0.9921
+      },
+      "confidence": 0.9686
+    },
+    "data.2.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0073,
+        "no": 0.9927
+      },
+      "confidence": 0.9711
+    },
+    "data.3.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0063,
+        "no": 0.9937
+      },
+      "confidence": 0.9749
+    },
+    "data.3.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0084,
+        "no": 0.9916
+      },
+      "confidence": 0.9667
+    },
+    "data.3.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0108,
+        "no": 0.9892
+      },
+      "confidence": 0.9571
+    },
+    "data.3.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0154,
+        "no": 0.9846
+      },
+      "confidence": 0.9394
+    },
+    "data.4.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0043,
+        "no": 0.9957
+      },
+      "confidence": 0.9829
+    },
+    "data.4.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0078,
+        "no": 0.9922
+      },
+      "confidence": 0.9691
+    },
+    "data.4.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0097,
+        "no": 0.9903
+      },
+      "confidence": 0.9615
+    },
+    "data.4.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0141,
+        "no": 0.9859
+      },
+      "confidence": 0.9443
+    },
+    "data.5.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0062,
+        "no": 0.9938
+      },
+      "confidence": 0.9752
+    },
+    "data.5.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0127,
+        "no": 0.9873
+      },
+      "confidence": 0.95
+    },
+    "data.5.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0114,
+        "no": 0.9886
+      },
+      "confidence": 0.955
+    },
+    "data.5.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0232,
+        "no": 0.9768
+      },
+      "confidence": 0.9092
+    },
+    "data.6.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0068,
+        "no": 0.9932
+      },
+      "confidence": 0.9729
+    },
+    "data.6.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0107,
+        "no": 0.9893
+      },
+      "confidence": 0.9578
+    },
+    "data.6.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0173,
+        "no": 0.9827
+      },
+      "confidence": 0.9319
+    },
+    "data.6.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0164,
+        "no": 0.9836
+      },
+      "confidence": 0.9354
+    },
+    "data.7.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0085,
+        "no": 0.9915
+      },
+      "confidence": 0.9664
+    },
+    "data.7.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0121,
+        "no": 0.9879
+      },
+      "confidence": 0.9523
+    },
+    "data.7.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0148,
+        "no": 0.9852
+      },
+      "confidence": 0.9416
+    },
+    "data.7.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0246,
+        "no": 0.9754
+      },
+      "confidence": 0.9042
+    },
+    "permissions.0.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0061,
+        "no": 0.9939
+      },
+      "confidence": 0.9757
+    },
+    "permissions.0.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0099,
+        "no": 0.9901
+      },
+      "confidence": 0.9607
+    },
+    "permissions.0.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0109,
+        "no": 0.9891
+      },
+      "confidence": 0.9569
+    },
+    "permissions.0.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0152,
+        "no": 0.9848
+      },
+      "confidence": 0.9401
+    },
+    "permissions.1.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0097,
+        "no": 0.9903
+      },
+      "confidence": 0.9614
+    },
+    "permissions.1.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.011,
+        "no": 0.989
+      },
+      "confidence": 0.9566
+    },
+    "permissions.1.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0104,
+        "no": 0.9896
+      },
+      "confidence": 0.959
+    },
+    "permissions.1.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0119,
+        "no": 0.9881
+      },
+      "confidence": 0.9529
+    },
+    "permissions.2.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0086,
+        "no": 0.9914
+      },
+      "confidence": 0.9658
+    },
+    "permissions.2.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.013,
+        "no": 0.987
+      },
+      "confidence": 0.9487
+    },
+    "permissions.2.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0127,
+        "no": 0.9873
+      },
+      "confidence": 0.95
+    },
+    "permissions.2.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0199,
+        "no": 0.9801
+      },
+      "confidence": 0.9219
+    },
+    "permissions.3.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0187,
+        "no": 0.9813
+      },
+      "confidence": 0.9266
+    },
+    "permissions.3.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0197,
+        "no": 0.9803
+      },
+      "confidence": 0.9228
+    },
+    "permissions.3.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0204,
+        "no": 0.9796
+      },
+      "confidence": 0.9202
+    },
+    "permissions.3.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.022,
+        "no": 0.978
+      },
+      "confidence": 0.9139
+    },
+    "permissions.4.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0281,
+        "no": 0.9719
+      },
+      "confidence": 0.8908
+    },
+    "permissions.4.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0211,
+        "no": 0.9789
+      },
+      "confidence": 0.9175
+    },
+    "permissions.4.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0194,
+        "no": 0.9806
+      },
+      "confidence": 0.9238
+    },
+    "permissions.4.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0238,
+        "no": 0.9762
+      },
+      "confidence": 0.9071
+    },
+    "permissions.5.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0111,
+        "no": 0.9889
+      },
+      "confidence": 0.9561
+    },
+    "permissions.5.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0123,
+        "no": 0.9877
+      },
+      "confidence": 0.9513
+    },
+    "permissions.5.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0168,
+        "no": 0.9832
+      },
+      "confidence": 0.9338
+    },
+    "permissions.5.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0202,
+        "no": 0.9798
+      },
+      "confidence": 0.921
+    },
+    "permissions.6.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0086,
+        "no": 0.9914
+      },
+      "confidence": 0.966
+    },
+    "permissions.6.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0147,
+        "no": 0.9853
+      },
+      "confidence": 0.9421
+    },
+    "permissions.6.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0162,
+        "no": 0.9838
+      },
+      "confidence": 0.9362
+    },
+    "permissions.6.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0172,
+        "no": 0.9828
+      },
+      "confidence": 0.9325
+    },
+    "permissions.7.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0123,
+        "no": 0.9877
+      },
+      "confidence": 0.9514
+    },
+    "permissions.7.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0133,
+        "no": 0.9867
+      },
+      "confidence": 0.9474
+    },
+    "permissions.7.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0127,
+        "no": 0.9873
+      },
+      "confidence": 0.95
+    },
+    "permissions.7.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0197,
+        "no": 0.9803
+      },
+      "confidence": 0.9228
+    },
+    "files.0.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0632,
+        "no": 0.9368
+      },
+      "confidence": 0.763
+    },
+    "files.0.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0076,
+        "no": 0.9924
+      },
+      "confidence": 0.9697
+    },
+    "files.0.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0053,
+        "no": 0.9947
+      },
+      "confidence": 0.9787
+    },
+    "files.0.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0131,
+        "no": 0.9869
+      },
+      "confidence": 0.9482
+    },
+    "files.1.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0045,
+        "no": 0.9955
+      },
+      "confidence": 0.9822
+    },
+    "files.1.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0101,
+        "no": 0.9899
+      },
+      "confidence": 0.96
+    },
+    "files.1.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0079,
+        "no": 0.9921
+      },
+      "confidence": 0.9688
+    },
+    "files.1.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0151,
+        "no": 0.9849
+      },
+      "confidence": 0.9405
+    },
+    "files.2.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0063,
+        "no": 0.9937
+      },
+      "confidence": 0.975
+    },
+    "files.2.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0122,
+        "no": 0.9878
+      },
+      "confidence": 0.9517
+    },
+    "files.2.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0102,
+        "no": 0.9898
+      },
+      "confidence": 0.9595
+    },
+    "files.2.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0195,
+        "no": 0.9805
+      },
+      "confidence": 0.9236
+    },
+    "files.3.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0039,
+        "no": 0.9961
+      },
+      "confidence": 0.9843
+    },
+    "files.3.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0129,
+        "no": 0.9871
+      },
+      "confidence": 0.9491
+    },
+    "files.3.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0144,
+        "no": 0.9856
+      },
+      "confidence": 0.9431
+    },
+    "files.3.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0159,
+        "no": 0.9841
+      },
+      "confidence": 0.9375
+    },
+    "files.4.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0052,
+        "no": 0.9948
+      },
+      "confidence": 0.9794
+    },
+    "files.4.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0107,
+        "no": 0.9893
+      },
+      "confidence": 0.9577
+    },
+    "files.4.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0099,
+        "no": 0.9901
+      },
+      "confidence": 0.9607
+    },
+    "files.4.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0117,
+        "no": 0.9883
+      },
+      "confidence": 0.9537
+    },
+    "files.5.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0071,
+        "no": 0.9929
+      },
+      "confidence": 0.9717
+    },
+    "files.5.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0169,
+        "no": 0.9831
+      },
+      "confidence": 0.9334
+    },
+    "files.5.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0135,
+        "no": 0.9865
+      },
+      "confidence": 0.9468
+    },
+    "files.5.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0277,
+        "no": 0.9723
+      },
+      "confidence": 0.8921
+    },
+    "files.6.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0038,
+        "no": 0.9962
+      },
+      "confidence": 0.9849
+    },
+    "files.6.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.013,
+        "no": 0.987
+      },
+      "confidence": 0.9489
+    },
+    "files.6.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0163,
+        "no": 0.9837
+      },
+      "confidence": 0.936
+    },
+    "files.6.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0099,
+        "no": 0.9901
+      },
+      "confidence": 0.9609
+    },
+    "files.7.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0056,
+        "no": 0.9944
+      },
+      "confidence": 0.9776
+    },
+    "files.7.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0132,
+        "no": 0.9868
+      },
+      "confidence": 0.9479
+    },
+    "files.7.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0102,
+        "no": 0.9898
+      },
+      "confidence": 0.9596
+    },
+    "files.7.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.018,
+        "no": 0.982
+      },
+      "confidence": 0.9292
+    },
+    "notifications.0.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0149,
+        "no": 0.9851
+      },
+      "confidence": 0.9412
+    },
+    "notifications.0.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0207,
+        "no": 0.9793
+      },
+      "confidence": 0.9188
+    },
+    "notifications.0.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0198,
+        "no": 0.9802
+      },
+      "confidence": 0.9222
+    },
+    "notifications.0.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0308,
+        "no": 0.9692
+      },
+      "confidence": 0.8806
+    },
+    "notifications.1.goal": {
+      "type": "choice",
+      "choice": "yes",
+      "probabilities": {
+        "yes": 0.5001,
+        "no": 0.4999
+      },
+      "confidence": 0
+    },
+    "notifications.1.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.4058,
+        "no": 0.5942
+      },
+      "confidence": 0.0355
+    },
+    "notifications.1.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.3042,
+        "no": 0.6958
+      },
+      "confidence": 0.1534
+    },
+    "notifications.1.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.3603,
+        "no": 0.6397
+      },
+      "confidence": 0.0781
+    },
+    "notifications.2.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0604,
+        "no": 0.9396
+      },
+      "confidence": 0.7729
+    },
+    "notifications.2.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0638,
+        "no": 0.9362
+      },
+      "confidence": 0.7612
+    },
+    "notifications.2.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0333,
+        "no": 0.9667
+      },
+      "confidence": 0.8712
+    },
+    "notifications.2.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0465,
+        "no": 0.9535
+      },
+      "confidence": 0.8225
+    },
+    "notifications.3.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0121,
+        "no": 0.9879
+      },
+      "confidence": 0.9523
+    },
+    "notifications.3.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0172,
+        "no": 0.9828
+      },
+      "confidence": 0.9324
+    },
+    "notifications.3.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0216,
+        "no": 0.9784
+      },
+      "confidence": 0.9156
+    },
+    "notifications.3.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0276,
+        "no": 0.9724
+      },
+      "confidence": 0.8925
+    },
+    "notifications.4.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0231,
+        "no": 0.9769
+      },
+      "confidence": 0.9098
+    },
+    "notifications.4.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0244,
+        "no": 0.9756
+      },
+      "confidence": 0.9049
+    },
+    "notifications.4.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0207,
+        "no": 0.9793
+      },
+      "confidence": 0.9188
+    },
+    "notifications.4.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0216,
+        "no": 0.9784
+      },
+      "confidence": 0.9154
+    },
+    "notifications.5.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.02,
+        "no": 0.98
+      },
+      "confidence": 0.9216
+    },
+    "notifications.5.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0177,
+        "no": 0.9823
+      },
+      "confidence": 0.9305
+    },
+    "notifications.5.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0371,
+        "no": 0.9629
+      },
+      "confidence": 0.8571
+    },
+    "notifications.5.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0351,
+        "no": 0.9649
+      },
+      "confidence": 0.8646
+    },
+    "notifications.6.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0106,
+        "no": 0.9894
+      },
+      "confidence": 0.958
+    },
+    "notifications.6.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0223,
+        "no": 0.9777
+      },
+      "confidence": 0.9127
+    },
+    "notifications.6.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0218,
+        "no": 0.9782
+      },
+      "confidence": 0.9145
+    },
+    "notifications.6.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0273,
+        "no": 0.9727
+      },
+      "confidence": 0.8938
+    },
+    "notifications.7.goal": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0157,
+        "no": 0.9843
+      },
+      "confidence": 0.938
+    },
+    "notifications.7.steps": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0266,
+        "no": 0.9734
+      },
+      "confidence": 0.8963
+    },
+    "notifications.7.policy": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0248,
+        "no": 0.9752
+      },
+      "confidence": 0.9034
+    },
+    "notifications.7.diagnosis": {
+      "type": "choice",
+      "choice": "no",
+      "probabilities": {
+        "yes": 0.0353,
+        "no": 0.9647
+      },
+      "confidence": 0.8637
+    }
+  },
+  "input_hash": "b48ca1f364aa96c13741420efd099f97178d588c7713ef06583489f31895eb81",
+  "request_hashes": [
+    "e347cd985b3a8ecd902fa107a44f96c51f33aa22ebc39c165e266193e6e301ca",
+    "044811e176a44fe1625e9de42276062a72b52ab0d1c63181a1be1a4f69ccb052",
+    "23b6c07142deaaeb8240d99fc2217be777aee3bd8f840bb13333f86258fd69a3",
+    "5d9177bba6edda317664b6675963701e98a164f80c9c2eeffcd9d1edc65b2e77"
+  ],
+  "input_tokens": 39500,
+  "elapsed_seconds": 3.1515822500223294
+}

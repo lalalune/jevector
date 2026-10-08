@@ -1,0 +1,162 @@
+{
+  "provider": "jev",
+  "models": [
+    "jev-1.13.0"
+  ],
+  "schema_version": "support-search-1.0",
+  "dimension_ids": [
+    "account.0.goal",
+    "account.1.goal",
+    "account.2.goal",
+    "account.3.goal",
+    "account.4.goal",
+    "account.5.goal",
+    "account.6.goal",
+    "account.7.goal",
+    "billing.0.goal",
+    "billing.1.goal",
+    "billing.2.goal",
+    "billing.3.goal",
+    "billing.4.goal",
+    "billing.5.goal",
+    "billing.6.goal",
+    "billing.7.goal",
+    "api.0.goal",
+    "api.1.goal",
+    "api.2.goal",
+    "api.3.goal",
+    "api.4.goal",
+    "api.5.goal",
+    "api.6.goal",
+    "api.7.goal",
+    "webhooks.0.goal",
+    "webhooks.1.goal",
+    "webhooks.2.goal",
+    "webhooks.3.goal",
+    "webhooks.4.goal",
+    "webhooks.5.goal",
+    "webhooks.6.goal",
+    "webhooks.7.goal",
+    "data.0.goal",
+    "data.1.goal",
+    "data.2.goal",
+    "data.3.goal",
+    "data.4.goal",
+    "data.5.goal",
+    "data.6.goal",
+    "data.7.goal",
+    "permissions.0.goal",
+    "permissions.1.goal",
+    "permissions.2.goal",
+    "permissions.3.goal",
+    "permissions.4.goal",
+    "permissions.5.goal",
+    "permissions.6.goal",
+    "permissions.7.goal",
+    "files.0.goal",
+    "files.1.goal",
+    "files.2.goal",
+    "files.3.goal",
+    "files.4.goal",
+    "files.5.goal",
+    "files.6.goal",
+    "files.7.goal",
+    "notifications.0.goal",
+    "notifications.1.goal",
+    "notifications.2.goal",
+    "notifications.3.goal",
+    "notifications.4.goal",
+    "notifications.5.goal",
+    "notifications.6.goal",
+    "notifications.7.goal"
+  ],
+  "documents": [
+    {
+      "id": "lost_device",
+      "title": "Recover access after a missing second factor",
+      "body": "On the sign-in screen choose Use a recovery code and enter one of the one-time codes saved during enrollment. If none remain, start identity recovery and ask a workspace administrator to verify ownership. After verification, enroll a replacement authenticator and invalidate the missing device. Resetting the password alone does not remove the second-factor requirement."
+    },
+    {
+      "id": "password",
+      "title": "Replace a forgotten password",
+      "body": "Select Forgot password on the sign-in page. Enter the account email and open the reset link within fifteen minutes. Set a new password, then sign in. This changes the password only; a configured second factor is still required."
+    },
+    {
+      "id": "email",
+      "title": "Move your login address",
+      "body": "While signed in, open Account, Email, Change address. Verify the new mailbox and confirm with your current password. Existing workspace memberships are preserved. This procedure does not recover a locked-out account."
+    },
+    {
+      "id": "disable_mfa",
+      "title": "Turn off the extra sign-in factor",
+      "body": "While signed in, open Security, Multi-factor authentication, Disable. Confirm using the current authenticator or a recovery code. Administrators may forbid disabling this setting. This procedure assumes you can already access account settings; it is not a lost-device recovery workflow."
+    },
+    {
+      "id": "cancel",
+      "title": "Stop the next renewal",
+      "body": "A billing administrator can open Billing, Subscription, Cancel renewal. Access continues until the prepaid term ends and no future renewal is scheduled. Cancellation does not return previous payments. Refund requests use a separate review process."
+    },
+    {
+      "id": "refund",
+      "title": "Ask for a payment reversal",
+      "body": "Open Billing, Payment history, select the charge and choose Request refund. Explain the reason and attach supporting details. A billing reviewer checks eligibility within five business days. Approval reverses that charge to the original payment method. This request does not cancel future subscription renewals."
+    },
+    {
+      "id": "annual",
+      "title": "Change the billing interval",
+      "body": "Open Billing, Plan, Billing interval and select Monthly or Annual. Review the effective date and prorated amount before confirming. The screen shows whether the change begins immediately or at the next renewal."
+    },
+    {
+      "id": "invoice",
+      "title": "Retrieve an accounting receipt",
+      "body": "A billing administrator opens Billing, Documents, chooses a payment date, and downloads the invoice PDF. The document includes the billed entity, tax lines and transaction reference."
+    },
+    {
+      "id": "rate_limit",
+      "title": "Back off after too many requests",
+      "body": "HTTP 429 means the request rate exceeded the account allowance. Read Retry-After, pause new calls for that interval, and add exponential backoff with jitter. Limit concurrent workers and avoid retry storms. A retry does not need a new API key."
+    },
+    {
+      "id": "timeout",
+      "title": "Investigate calls that wait too long",
+      "body": "For requests that exceed the client deadline, log elapsed time and request ID, check service availability, and retry only idempotent operations. Increase the deadline for legitimately long jobs or move them to the asynchronous endpoint. A timeout is distinct from the server explicitly rejecting a request for rate limits."
+    },
+    {
+      "id": "credentials",
+      "title": "Fix unauthorized API requests",
+      "body": "HTTP 401 indicates missing or invalid credentials. Send the bearer token in the Authorization header, verify the intended environment, and replace revoked or expired tokens. Never place a secret in a query string. A 403 instead concerns authorization to a resource."
+    },
+    {
+      "id": "duplicates",
+      "title": "Make webhook consumption idempotent",
+      "body": "Store each incoming event ID in a durable table before applying side effects. If the ID already exists, acknowledge the event without applying it again. Return a successful response promptly. Delivery retries can send the same event more than once, so idempotency is required."
+    },
+    {
+      "id": "signature",
+      "title": "Check who sent a webhook",
+      "body": "Read the raw HTTP request bytes and the timestamped signature header. Recompute the HMAC using the endpoint secret and compare it in constant time. Reject mismatches and stale timestamps. Parsing and reserializing JSON before verification changes the signed bytes."
+    },
+    {
+      "id": "export",
+      "title": "Take a portable copy of workspace records",
+      "body": "A workspace owner opens Settings, Data, Export. Choose JSON or CSV and wait for the archive notification. Download the signed link before it expires. Exporting leaves the original workspace and records intact."
+    },
+    {
+      "id": "erase",
+      "title": "Erase the account permanently",
+      "body": "The account owner opens Settings, Privacy, Erase account and confirms the irreversible request. Sessions are ended and the deletion queue removes records subject to the stated retention policy. Export needed information first; erasure is not a backup operation."
+    },
+    {
+      "id": "restore",
+      "title": "Recover a file from the trash",
+      "body": "Open Files, Trash, select the deleted item, and choose Restore. Files remain recoverable for thirty days unless the trash was permanently emptied. Restored files return to their original folder when it still exists."
+    }
+  ],
+  "count": 16,
+  "metric": "cosine",
+  "M": 16,
+  "ef_construction": 200,
+  "ef_search": 64,
+  "hnsw_sha256": "2e7fac6f7bb5dba6d863ec6812ac846e1c23811afded0bd9aa1bffcbff4b2a10",
+  "matrix_sha256": "62f18b624669af3a9eddbe7cd82fb7c714b34f44dfe200c5353156879e265898"
+}

@@ -1,0 +1,872 @@
+{
+  "query": "My phone was stolen and I cannot obtain the extra sign-in code. How can I recover access?",
+  "max_dimension_value": 0.9793,
+  "low_schema_activation": false,
+  "results": [
+    {
+      "document_id": "lost_device",
+      "title": "Recover access after a missing second factor",
+      "cosine_similarity": 0.9485987424850464,
+      "dimensions": [
+        {
+          "id": "account.0.goal",
+          "goal": "recover access after losing an MFA device",
+          "facet": "goal",
+          "query_value": 0.9793000221252441,
+          "document_value": 0.9599000215530396,
+          "cosine_contribution": 0.6695440411567688
+        },
+        {
+          "id": "account.4.goal",
+          "goal": "enroll a new authentication device",
+          "facet": "goal",
+          "query_value": 0.6735000014305115,
+          "document_value": 0.5103999972343445,
+          "cosine_contribution": 0.24484185874462128
+        },
+        {
+          "id": "account.3.goal",
+          "goal": "disable multi-factor authentication",
+          "facet": "goal",
+          "query_value": 0.46720001101493835,
+          "document_value": 0.08709999918937683,
+          "cosine_contribution": 0.028984004631638527
+        },
+        {
+          "id": "account.1.goal",
+          "goal": "reset a forgotten password",
+          "facet": "goal",
+          "query_value": 0.03909999877214432,
+          "document_value": 0.039799999445676804,
+          "cosine_contribution": 0.0011084018042311072
+        },
+        {
+          "id": "account.5.goal",
+          "goal": "unlock a suspended account",
+          "facet": "goal",
+          "query_value": 0.019600000232458115,
+          "document_value": 0.06310000270605087,
+          "cosine_contribution": 0.000880892388522625
+        }
+      ]
+    },
+    {
+      "document_id": "disable_mfa",
+      "title": "Turn off the extra sign-in factor",
+      "cosine_similarity": 0.6317330002784729,
+      "dimensions": [
+        {
+          "id": "account.3.goal",
+          "goal": "disable multi-factor authentication",
+          "facet": "goal",
+          "query_value": 0.46720001101493835,
+          "document_value": 0.9707000255584717,
+          "cosine_contribution": 0.3063936233520508
+        },
+        {
+          "id": "account.0.goal",
+          "goal": "recover access after losing an MFA device",
+          "facet": "goal",
+          "query_value": 0.9793000221252441,
+          "document_value": 0.43950000405311584,
+          "cosine_contribution": 0.29078131914138794
+        },
+        {
+          "id": "account.4.goal",
+          "goal": "enroll a new authentication device",
+          "facet": "goal",
+          "query_value": 0.6735000014305115,
+          "document_value": 0.03550000116229057,
+          "cosine_contribution": 0.01615317165851593
+        },
+        {
+          "id": "notifications.1.goal",
+          "goal": "configure security alerts",
+          "facet": "goal",
+          "query_value": 0.03500000014901161,
+          "document_value": 0.11069999635219574,
+          "cosine_contribution": 0.0026176252868026495
+        },
+        {
+          "id": "account.7.goal",
+          "goal": "configure single sign-on",
+          "facet": "goal",
+          "query_value": 0.016300000250339508,
+          "document_value": 0.14970000088214874,
+          "cosine_contribution": 0.0016485466621816158
+        }
+      ]
+    },
+    {
+      "document_id": "annual",
+      "title": "Change the billing interval",
+      "cosine_similarity": 0.2142951488494873,
+      "dimensions": [
+        {
+          "id": "account.0.goal",
+          "goal": "recover access after losing an MFA device",
+          "facet": "goal",
+          "query_value": 0.9793000221252441,
+          "document_value": 0.2809000015258789,
+          "cosine_contribution": 0.16254417598247528
+        },
+        {
+          "id": "account.4.goal",
+          "goal": "enroll a new authentication device",
+          "facet": "goal",
+          "query_value": 0.6735000014305115,
+          "document_value": 0.03310000151395798,
+          "cosine_contribution": 0.013172539882361889
+        },
+        {
+          "id": "account.3.goal",
+          "goal": "disable multi-factor authentication",
+          "facet": "goal",
+          "query_value": 0.46720001101493835,
+          "document_value": 0.040699999779462814,
+          "cosine_contribution": 0.011235726997256279
+        },
+        {
+          "id": "notifications.1.goal",
+          "goal": "configure security alerts",
+          "facet": "goal",
+          "query_value": 0.03500000014901161,
+          "document_value": 0.17810000479221344,
+          "cosine_contribution": 0.003683289512991905
+        },
+        {
+          "id": "files.2.goal",
+          "goal": "sync files across devices",
+          "facet": "goal",
+          "query_value": 0.02850000001490116,
+          "document_value": 0.12780000269412994,
+          "cosine_contribution": 0.0021521851886063814
+        }
+      ]
+    }
+  ],
+  "query_vector": {
+    "schema_version": "support-search-1.0",
+    "role": "query",
+    "provider": "clef",
+    "models": [
+      "clef-flash"
+    ],
+    "dimension_ids": [
+      "account.0.goal",
+      "account.1.goal",
+      "account.2.goal",
+      "account.3.goal",
+      "account.4.goal",
+      "account.5.goal",
+      "account.6.goal",
+      "account.7.goal",
+      "billing.0.goal",
+      "billing.1.goal",
+      "billing.2.goal",
+      "billing.3.goal",
+      "billing.4.goal",
+      "billing.5.goal",
+      "billing.6.goal",
+      "billing.7.goal",
+      "api.0.goal",
+      "api.1.goal",
+      "api.2.goal",
+      "api.3.goal",
+      "api.4.goal",
+      "api.5.goal",
+      "api.6.goal",
+      "api.7.goal",
+      "webhooks.0.goal",
+      "webhooks.1.goal",
+      "webhooks.2.goal",
+      "webhooks.3.goal",
+      "webhooks.4.goal",
+      "webhooks.5.goal",
+      "webhooks.6.goal",
+      "webhooks.7.goal",
+      "data.0.goal",
+      "data.1.goal",
+      "data.2.goal",
+      "data.3.goal",
+      "data.4.goal",
+      "data.5.goal",
+      "data.6.goal",
+      "data.7.goal",
+      "permissions.0.goal",
+      "permissions.1.goal",
+      "permissions.2.goal",
+      "permissions.3.goal",
+      "permissions.4.goal",
+      "permissions.5.goal",
+      "permissions.6.goal",
+      "permissions.7.goal",
+      "files.0.goal",
+      "files.1.goal",
+      "files.2.goal",
+      "files.3.goal",
+      "files.4.goal",
+      "files.5.goal",
+      "files.6.goal",
+      "files.7.goal",
+      "notifications.0.goal",
+      "notifications.1.goal",
+      "notifications.2.goal",
+      "notifications.3.goal",
+      "notifications.4.goal",
+      "notifications.5.goal",
+      "notifications.6.goal",
+      "notifications.7.goal"
+    ],
+    "values": [
+      0.9793,
+      0.0391,
+      0.0082,
+      0.4672,
+      0.6735,
+      0.0196,
+      0.0057,
+      0.0163,
+      0.0019,
+      0.0019,
+      0.0019,
+      0.0018,
+      0.002,
+      0.0026,
+      0.0021,
+      0.0023,
+      0.0025,
+      0.0025,
+      0.0238,
+      0.0073,
+      0.0024,
+      0.0024,
+      0.003,
+      0.0025,
+      0.0025,
+      0.0043,
+      0.0032,
+      0.004,
+      0.0052,
+      0.0029,
+      0.0047,
+      0.0049,
+      0.0025,
+      0.0032,
+      0.0046,
+      0.0036,
+      0.0039,
+      0.0029,
+      0.0047,
+      0.0074,
+      0.0036,
+      0.0061,
+      0.0048,
+      0.0136,
+      0.009,
+      0.0056,
+      0.0044,
+      0.0066,
+      0.0027,
+      0.006,
+      0.0285,
+      0.005,
+      0.0062,
+      0.0058,
+      0.0052,
+      0.0055,
+      0.0044,
+      0.035,
+      0.0081,
+      0.0094,
+      0.0089,
+      0.0157,
+      0.0101,
+      0.0095
+    ],
+    "answers": {
+      "account.0.goal": {
+        "type": "choice",
+        "choice": "yes",
+        "probabilities": {
+          "yes": 0.9793,
+          "no": 0.0207
+        },
+        "confidence": 0.9187
+      },
+      "account.1.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0391,
+          "no": 0.9609
+        },
+        "confidence": 0.8496
+      },
+      "account.2.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0082,
+          "no": 0.9918
+        },
+        "confidence": 0.9677
+      },
+      "account.3.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.4672,
+          "no": 0.5328
+        },
+        "confidence": 0.0043
+      },
+      "account.4.goal": {
+        "type": "choice",
+        "choice": "yes",
+        "probabilities": {
+          "yes": 0.6735,
+          "no": 0.3265
+        },
+        "confidence": 0.1204
+      },
+      "account.5.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0196,
+          "no": 0.9804
+        },
+        "confidence": 0.9232
+      },
+      "account.6.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0057,
+          "no": 0.9943
+        },
+        "confidence": 0.9775
+      },
+      "account.7.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0163,
+          "no": 0.9837
+        },
+        "confidence": 0.9357
+      },
+      "billing.0.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0019,
+          "no": 0.9981
+        },
+        "confidence": 0.9925
+      },
+      "billing.1.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0019,
+          "no": 0.9981
+        },
+        "confidence": 0.9926
+      },
+      "billing.2.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0019,
+          "no": 0.9981
+        },
+        "confidence": 0.9923
+      },
+      "billing.3.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0018,
+          "no": 0.9982
+        },
+        "confidence": 0.9927
+      },
+      "billing.4.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.002,
+          "no": 0.998
+        },
+        "confidence": 0.992
+      },
+      "billing.5.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0026,
+          "no": 0.9974
+        },
+        "confidence": 0.9896
+      },
+      "billing.6.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0021,
+          "no": 0.9979
+        },
+        "confidence": 0.9916
+      },
+      "billing.7.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0023,
+          "no": 0.9977
+        },
+        "confidence": 0.991
+      },
+      "api.0.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0025,
+          "no": 0.9975
+        },
+        "confidence": 0.9898
+      },
+      "api.1.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0025,
+          "no": 0.9975
+        },
+        "confidence": 0.9901
+      },
+      "api.2.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0238,
+          "no": 0.9762
+        },
+        "confidence": 0.907
+      },
+      "api.3.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0073,
+          "no": 0.9927
+        },
+        "confidence": 0.971
+      },
+      "api.4.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0024,
+          "no": 0.9976
+        },
+        "confidence": 0.9906
+      },
+      "api.5.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0024,
+          "no": 0.9976
+        },
+        "confidence": 0.9904
+      },
+      "api.6.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.003,
+          "no": 0.997
+        },
+        "confidence": 0.9881
+      },
+      "api.7.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0025,
+          "no": 0.9975
+        },
+        "confidence": 0.9901
+      },
+      "webhooks.0.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0025,
+          "no": 0.9975
+        },
+        "confidence": 0.9899
+      },
+      "webhooks.1.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0043,
+          "no": 0.9957
+        },
+        "confidence": 0.9827
+      },
+      "webhooks.2.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0032,
+          "no": 0.9968
+        },
+        "confidence": 0.9871
+      },
+      "webhooks.3.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.004,
+          "no": 0.996
+        },
+        "confidence": 0.9842
+      },
+      "webhooks.4.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0052,
+          "no": 0.9948
+        },
+        "confidence": 0.9795
+      },
+      "webhooks.5.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0029,
+          "no": 0.9971
+        },
+        "confidence": 0.9883
+      },
+      "webhooks.6.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0047,
+          "no": 0.9953
+        },
+        "confidence": 0.9815
+      },
+      "webhooks.7.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0049,
+          "no": 0.9951
+        },
+        "confidence": 0.9805
+      },
+      "data.0.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0025,
+          "no": 0.9975
+        },
+        "confidence": 0.9901
+      },
+      "data.1.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0032,
+          "no": 0.9968
+        },
+        "confidence": 0.9872
+      },
+      "data.2.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0046,
+          "no": 0.9954
+        },
+        "confidence": 0.9817
+      },
+      "data.3.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0036,
+          "no": 0.9964
+        },
+        "confidence": 0.9857
+      },
+      "data.4.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0039,
+          "no": 0.9961
+        },
+        "confidence": 0.9844
+      },
+      "data.5.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0029,
+          "no": 0.9971
+        },
+        "confidence": 0.9882
+      },
+      "data.6.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0047,
+          "no": 0.9953
+        },
+        "confidence": 0.9815
+      },
+      "data.7.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0074,
+          "no": 0.9926
+        },
+        "confidence": 0.9707
+      },
+      "permissions.0.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0036,
+          "no": 0.9964
+        },
+        "confidence": 0.9858
+      },
+      "permissions.1.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0061,
+          "no": 0.9939
+        },
+        "confidence": 0.9758
+      },
+      "permissions.2.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0048,
+          "no": 0.9952
+        },
+        "confidence": 0.9807
+      },
+      "permissions.3.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0136,
+          "no": 0.9864
+        },
+        "confidence": 0.9462
+      },
+      "permissions.4.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.009,
+          "no": 0.991
+        },
+        "confidence": 0.9641
+      },
+      "permissions.5.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0056,
+          "no": 0.9944
+        },
+        "confidence": 0.9776
+      },
+      "permissions.6.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0044,
+          "no": 0.9956
+        },
+        "confidence": 0.9826
+      },
+      "permissions.7.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0066,
+          "no": 0.9934
+        },
+        "confidence": 0.9739
+      },
+      "files.0.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0027,
+          "no": 0.9973
+        },
+        "confidence": 0.989
+      },
+      "files.1.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.006,
+          "no": 0.994
+        },
+        "confidence": 0.9761
+      },
+      "files.2.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0285,
+          "no": 0.9715
+        },
+        "confidence": 0.8894
+      },
+      "files.3.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.005,
+          "no": 0.995
+        },
+        "confidence": 0.9803
+      },
+      "files.4.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0062,
+          "no": 0.9938
+        },
+        "confidence": 0.9754
+      },
+      "files.5.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0058,
+          "no": 0.9942
+        },
+        "confidence": 0.977
+      },
+      "files.6.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0052,
+          "no": 0.9948
+        },
+        "confidence": 0.9793
+      },
+      "files.7.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0055,
+          "no": 0.9945
+        },
+        "confidence": 0.9782
+      },
+      "notifications.0.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0044,
+          "no": 0.9956
+        },
+        "confidence": 0.9826
+      },
+      "notifications.1.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.035,
+          "no": 0.965
+        },
+        "confidence": 0.8649
+      },
+      "notifications.2.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0081,
+          "no": 0.9919
+        },
+        "confidence": 0.9681
+      },
+      "notifications.3.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0094,
+          "no": 0.9906
+        },
+        "confidence": 0.9627
+      },
+      "notifications.4.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0089,
+          "no": 0.9911
+        },
+        "confidence": 0.9645
+      },
+      "notifications.5.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0157,
+          "no": 0.9843
+        },
+        "confidence": 0.9381
+      },
+      "notifications.6.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0101,
+          "no": 0.9899
+        },
+        "confidence": 0.9599
+      },
+      "notifications.7.goal": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.0095,
+          "no": 0.9905
+        },
+        "confidence": 0.9625
+      }
+    },
+    "input_hash": "370fd40830fada655cfa4e7bd90eb4f85c6b5ad2acf0f0adf093fdd76c969595",
+    "request_hashes": [
+      "6847cff17a9df438495bda85bb1bf819e90d3a98256d294255be2f8754573b32"
+    ],
+    "input_tokens": 9714,
+    "elapsed_seconds": 1.0070754999760538
+  }
+}
