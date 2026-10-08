@@ -48,8 +48,8 @@ python3 -m venv .venv-search312
 
 ```sh
 scripts/python -m matching.cli rank \
-  --query runs/matching-v2/jev-256/family0-persona.json \
-  --gallery runs/matching-v2/jev-256/*.json \
+  --query-id family0-persona \
+  --gallery benchmarks/vectors/jev-256.json \
   --method hnsw --candidates 32 --k 5
 ```
 
@@ -62,14 +62,14 @@ For Clef, set `CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_API_TOKEN`, or use an exis
 ```sh
 scripts/python -m matching.cli extract --provider clef --dimensions 256 \
   --account "$CLOUDFLARE_ACCOUNT_ID" \
-  --input matching/example-v2.json --output output/profile-clef.json
+  --input benchmarks/example.json --output output/profile-clef.json
 ```
 
 For Jev, enter the API key at the hidden prompt.
 
 ```sh
 scripts/python -m matching.cli extract --provider jev --dimensions 256 --prompt-key \
-  --input matching/example-v2.json --output output/profile-jev.json
+  --input benchmarks/example.json --output output/profile-jev.json
 ```
 
 Use `--dimensions 64` for the smaller vector. The example input has a profile ID, a description, and partner conditions. See [input and rule instructions](docs/usage.md).
@@ -77,9 +77,9 @@ Use `--dimensions 64` for the smaller vector. The example input has a profile ID
 **4. Run the benchmark.** This step needs both provider accounts and can incur API charges.
 
 ```sh
-scripts/python -m matching.qualification --account "$CLOUDFLARE_ACCOUNT_ID" --prompt-key
-scripts/python -m matching.comparison
-scripts/python -m matching.render
+scripts/python -m matching.benchmark.qualification --account "$CLOUDFLARE_ACCOUNT_ID" --prompt-key
+scripts/python -m matching.benchmark.comparison
+scripts/python -m matching.benchmark.render
 ```
 
 The first command obtains model outputs and fills the local cache. The next commands calculate metrics and update the reports.

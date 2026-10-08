@@ -1,7 +1,7 @@
 import collections, math, re, unittest
 import numpy as np
-from matching.embeddings import chunks, plain, rrf
-from matching.lexical import BM25
+from matching.benchmark.embeddings import chunks, plain, rrf
+from matching.benchmark.lexical import BM25
 
 
 def scalar_bm25(corpus, queries):

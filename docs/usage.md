@@ -61,6 +61,8 @@ Scores are coverage fractions, not probabilities of relationship success.
 ## Identity and compatibility
 
 File names do not identify people. `profile_id` does.
+A gallery file can contain one record or a map of profile IDs to records.
+Use `--query-id` to select a profile from a gallery bundle, or `--query` to supply a separate record.
 Repeated identical records with the same ID are deduplicated. Conflicting records for an ID are rejected.
 Provider, model, schema, decoding policy, and matching policy must agree across the gallery.
 Records include a content hash. Changes require regeneration rather than silent reuse.
@@ -70,8 +72,8 @@ These hashes detect inconsistency; they are not signatures proving that input fa
 
 ```sh
 scripts/python -m matching.cli rank \
-  --query runs/matching-v2/clef-256/family0-persona.json \
-  --gallery runs/matching-v2/clef-256/*.json \
+  --query-id family0-persona \
+  --gallery benchmarks/vectors/clef-256.json \
   --method hnsw --candidates 32 --ef 64 --k 5
 ```
 
@@ -97,14 +99,14 @@ The declared-attribute control intentionally supplies source attributes and is l
 ## Run
 
 ```sh
-scripts/python -m matching.qualification_data
-scripts/python -m matching.qualification --account "$CLOUDFLARE_ACCOUNT_ID" --prompt-key
-scripts/python -m matching.index_scale
-scripts/python -m matching.render
+scripts/python -m matching.benchmark.qualification_data
+scripts/python -m matching.benchmark.qualification --account "$CLOUDFLARE_ACCOUNT_ID" --prompt-key
+scripts/python -m matching.benchmark.index_scale
+scripts/python -m matching.benchmark.render
 ```
 
 Use `--providers clef` or `--providers jev` to select a provider.
 Use `--workers 2` to reduce concurrent requests. Use `--baselines-only` to rerun only the reference comparisons.
-Artifacts are under `runs/matching-v2/`.
+Artifacts are under `benchmarks/`.
 
 Run the tests with `scripts/python -m unittest discover -s tests`.

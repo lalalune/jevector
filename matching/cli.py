@@ -6,20 +6,32 @@ from matching.providers import Client, atomic_json
 from matching.engine import extract, rank_candidates, unpack
 
 
-def load_gallery(query, paths):
-    q = json.loads(Path(query).read_text())
-    unpack(q)
-    vectors = {q["profile_id"]: q}
+def load_gallery(query, paths, query_id=None):
+    vectors = {}
+
+    def add(record):
+        unpack(record)
+        key = record["profile_id"]
+        if key in vectors and vectors[key]["record_hash"] != record["record_hash"]:
+            raise ValueError("Conflicting records for profile ID: " + key)
+        vectors[key] = record
+
+    if query is not None:
+        record = json.loads(Path(query).read_text())
+        add(record)
+        query_id = record["profile_id"]
     for path in paths:
-        v = json.loads(Path(path).read_text())
-        unpack(v)
-        key = v["profile_id"]
-        if key in vectors:
-            if vectors[key]["record_hash"] != v["record_hash"]:
-                raise ValueError("Conflicting records for profile ID: " + key)
-            continue
-        vectors[key] = v
-    return q["profile_id"], vectors
+        value = json.loads(Path(path).read_text())
+        if "profile_id" in value:
+            add(value)
+        else:
+            for key, record in value.items():
+                if record.get("profile_id") != key:
+                    raise ValueError("Bundle key differs from profile ID: " + key)
+                add(record)
+    if query_id not in vectors:
+        raise ValueError("Query ID is absent from gallery: " + str(query_id))
+    return query_id, vectors
 
 
 def main():
@@ -33,7 +45,9 @@ def main():
     e.add_argument("--input", type=Path, required=True)
     e.add_argument("--output", type=Path, required=True)
     r = sub.add_parser("rank")
-    r.add_argument("--query", type=Path, required=True)
+    query = r.add_mutually_exclusive_group(required=True)
+    query.add_argument("--query", type=Path)
+    query.add_argument("--query-id")
     r.add_argument("--gallery", nargs="+", type=Path, required=True)
     r.add_argument("--k", type=int, default=5)
     r.add_argument("--method", choices=["hnsw", "exact"], default="hnsw")
@@ -58,7 +72,7 @@ def main():
     else:
         if args.k < 1:
             raise ValueError("k must be positive")
-        query, vectors = load_gallery(args.query, args.gallery)
+        query, vectors = load_gallery(args.query, args.gallery, args.query_id)
         if args.method == "exact":
             rows = rank_candidates(query, vectors)
             out = {

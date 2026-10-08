@@ -14,7 +14,7 @@ Explicit profile values, reciprocal requirements, and measured matching results.
 | BGE-small 384 | 0.0% | 12.5% | 12.5% | 0.042 | 0.062 | 0.0% |
 | BM25 + BGE-small | 0.0% | 0.0% | 12.5% | 0.018 | 0.042 | 0.0% |
 
-Same 52-profile gallery and eight validation queries from four held-out pair families. Each query has one intended partner. Self-matches are excluded. Four no-match queries are excluded from these ranking metrics. Development and full-set metrics and ranked IDs are saved in runs/matching-v2/comparison.json.
+Same 52-profile gallery and eight validation queries from four held-out pair families. Each query has one intended partner. Self-matches are excluded. Four no-match queries are excluded from these ranking metrics. Development and full-set metrics and ranked IDs are saved in benchmarks/comparison.json.
 Top-k is the fraction of queries with the intended partner in the first k results. With one relevant partner, this is also Recall@k. MRR@10 measures reciprocal partner rank; nDCG@10 discounts partner rank. Missing partners score zero. Higher is better for every column.
 Tie-adjusted top-1 is expected credit under random ordering of equal scores (absolute tolerance 0.0000001). Other columns use descending score, then stable profile ID. Small numeric differences can affect rank.
 No mandatory-condition filtering or preference-coverage reranking is used in this table. Clef and Jev use the existing decision-vector projection and HNSW with 32 candidates. BGE-small uses 384-dimensional cosine scores over the full gallery. BM25 uses lexical scores over the full gallery. Scores account for both profile-to-request directions.
@@ -34,7 +34,7 @@ On this synthetic validation set, decision vectors retrieve the intended partner
 | BGE-small 384 | 0.0% | 12.5% | 12.5% | 0.042 | 0.062 | 0.0% |
 | BM25 + BGE-small | 0.0% | 0.0% | 12.5% | 0.018 | 0.042 | 0.0% |
 
-Same 52-profile gallery and eight validation queries from four held-out pair families. Each query has one intended partner. Self-matches are excluded. Four no-match queries are excluded from these ranking metrics. Development and full-set metrics and ranked IDs are saved in runs/matching-v2/comparison.json.
+Same 52-profile gallery and eight validation queries from four held-out pair families. Each query has one intended partner. Self-matches are excluded. Four no-match queries are excluded from these ranking metrics. Development and full-set metrics and ranked IDs are saved in benchmarks/comparison.json.
 Top-k is the fraction of queries with the intended partner in the first k results. With one relevant partner, this is also Recall@k. MRR@10 measures reciprocal partner rank; nDCG@10 discounts partner rank. Missing partners score zero. Higher is better for every column.
 Tie-adjusted top-1 is expected credit under random ordering of equal scores (absolute tolerance 0.0000001). Other columns use descending score, then stable profile ID. Small numeric differences can affect rank.
 Clef and Jev now apply reciprocal mandatory checks and preference-coverage ranking after HNSW. The three reference methods keep their retrieval rankings. This table measures the complete configured systems; gains here cannot be attributed to vector encoding alone.

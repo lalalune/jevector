@@ -1,5 +1,5 @@
 import unittest
-from matching.comparison import metrics
+from matching.benchmark.comparison import metrics
 
 
 class ComparisonTests(unittest.TestCase):

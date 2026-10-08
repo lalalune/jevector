@@ -17,7 +17,7 @@ from matching.engine import (
 from matching.ann import ProfileIndex
 from matching.cli import load_gallery
 from matching.rules import validate, evaluate
-from matching.reference import match
+from matching.benchmark.reference import match
 
 
 def vector(
@@ -282,7 +282,7 @@ class ProductionTests(unittest.TestCase):
         self.assertEqual(fallback["results"], exact[:10])
 
     def test_qualification_families_and_extra_dimension_signal(self):
-        from matching.qualification_data import build
+        from matching.benchmark.qualification_data import build
 
         d = build()
         byid = {p["id"]: p for p in d["people"]}
