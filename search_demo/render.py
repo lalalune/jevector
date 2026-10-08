@@ -12,7 +12,7 @@ def main():
  Path('evaluation/REPORT.md').write_text(report)
  readme=Path('README.md');text=readme.read_text();start='<!-- benchmarks:start -->';end='<!-- benchmarks:end -->'
  if start in text:
-  a=text.index(start)+len(start);b=text.index(end);text=text[:a]+'\n\n'+markdown([section for section in data if section[0] in ('Retrieval comparison','Complete pipeline comparison')])+'\n'+text[b:];readme.write_text(text)
+  a=text.index(start)+len(start);b=text.index(end);text=text[:a]+'\n\n'+markdown([('', headers, rows, []) for title, headers, rows, notes in data if title == 'Retrieval comparison']).lstrip('# \n')+'\n'+text[b:];readme.write_text(text)
  page='''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>JEVECTOR / PROFILE MATCHING</title><style>
 body{font:16px system-ui;color:#172b42;background:#f4f6f9;max-width:1200px;margin:32px auto;padding:0 24px}h1{font-size:28px;letter-spacing:.04em}h2{font-size:21px}p,dd{line-height:1.5}.panel{background:white;border:1px solid #d9e1e9;border-radius:8px;padding:22px;margin:20px 0}.scroll{overflow:auto}table{width:100%;border-collapse:collapse;font-size:14px}td,th{padding:12px 9px;text-align:left;border-bottom:1px solid #dde4ea}th{font-size:13px;color:#52677b}td:not(:first-child){white-space:nowrap}dt{font-weight:650;margin-top:14px}dd{margin:5px 0}.muted{color:#52677b;font-size:14px}a{color:#245b93}summary{cursor:pointer;font-weight:600}</style></head><body>
 <h1>JEVECTOR / PROFILE MATCHING</h1><p>Decision-model vectors → HNSW candidates → reciprocal checks → ranked profiles.</p>
