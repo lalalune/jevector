@@ -1,1 +1,0 @@
-"""Reproducible retrieval evaluation."""

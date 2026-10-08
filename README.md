@@ -31,23 +31,23 @@ Clef and Jev use HNSW with 32 candidates. BM25 and BGE-small search all profiles
 
 Decision vectors perform better on this test. The profiles were built around the selected criteria, and the test is small. These results do not establish better performance on real profiles or general search.
 
-See the [full benchmark report](search_demo/RESULTS.md) for methods, rule-filtered results, and HNSW recall.
+See the [full benchmark report](docs/benchmarks.md) for methods, rule-filtered results, and HNSW recall.
 
 ## Run
 
-**1. Install.**
+**1. Install.** Use Python 3.11 or later.
 
 ```sh
 git clone https://github.com/lalalune/jevector.git
 cd jevector
 python3 -m venv .venv-search312
-.venv-search312/bin/python -m pip install -r search_demo/requirements.txt
+.venv-search312/bin/python -m pip install -r requirements.txt
 ```
 
 **2. Search the included profiles.** No API key is needed.
 
 ```sh
-search_demo/python -m matching.cli rank \
+scripts/python -m matching.cli rank \
   --query runs/matching-v2/jev-256/family0-persona.json \
   --gallery runs/matching-v2/jev-256/*.json \
   --method hnsw --candidates 32 --k 5
@@ -60,7 +60,7 @@ HNSW can miss candidates. Use `--method exact` to check all profiles.
 For Clef, set `CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_API_TOKEN`, or use an existing Wrangler login.
 
 ```sh
-search_demo/python -m matching.cli extract --provider clef --dimensions 256 \
+scripts/python -m matching.cli extract --provider clef --dimensions 256 \
   --account "$CLOUDFLARE_ACCOUNT_ID" \
   --input matching/example-v2.json --output output/profile-clef.json
 ```
@@ -68,18 +68,18 @@ search_demo/python -m matching.cli extract --provider clef --dimensions 256 \
 For Jev, enter the API key at the hidden prompt.
 
 ```sh
-search_demo/python -m matching.cli extract --provider jev --dimensions 256 --prompt-key \
+scripts/python -m matching.cli extract --provider jev --dimensions 256 --prompt-key \
   --input matching/example-v2.json --output output/profile-jev.json
 ```
 
-Use `--dimensions 64` for the smaller vector. The example input has a profile ID, a description, and partner conditions. See [input and rule instructions](matching/README.md).
+Use `--dimensions 64` for the smaller vector. The example input has a profile ID, a description, and partner conditions. See [input and rule instructions](docs/usage.md).
 
 **4. Run the benchmark.** This step needs both provider accounts and can incur API charges.
 
 ```sh
-search_demo/python -m matching.qualification --account "$CLOUDFLARE_ACCOUNT_ID" --prompt-key
-search_demo/python -m matching.comparison
-search_demo/python -m search_demo.render
+scripts/python -m matching.qualification --account "$CLOUDFLARE_ACCOUNT_ID" --prompt-key
+scripts/python -m matching.comparison
+scripts/python -m matching.render
 ```
 
 The first command obtains model outputs and fills the local cache. The next commands calculate metrics and update the reports.
