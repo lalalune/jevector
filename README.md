@@ -1,5 +1,7 @@
 # Jevector
 
+[MIT License](LICENSE)
+
 Profile matching needs specific criteria. Similar text alone does not show whether two people meet each other's preferences.
 
 Jevector uses Clef or Jev to encode these criteria as 64 or 256 numeric values. HNSW retrieves candidate profiles. The matcher checks mandatory conditions in both directions, then ranks the remaining profiles by preference coverage.
